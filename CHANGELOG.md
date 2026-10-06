@@ -1,5 +1,14 @@
 # Cambios / Changes
 
+## 2 · 2026-10-07
+
+90 fichas · 12 correcciones
+
+- Gangchun (316): ficha nueva
+- Mina (571): ficha nueva
+- Naomi (2.º despertar) (2360): ficha nueva
+- Tesarion (1122): ficha corregida
+
 ## 1 · 2026-10-06
 
 87 fichas · 12 correcciones

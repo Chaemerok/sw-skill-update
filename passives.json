@@ -1,7 +1,46 @@
 {
- "dataVersion": 1,
- "dataDate": "2026-10-06",
+ "dataVersion": 2,
+ "dataDate": "2026-10-07",
  "curated": {
+  "316": {
+   "monster": "Gangchun",
+   "print": "5d075597",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Freeze"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "targetNoBuffs"
+     ],
+     "effects": [
+      "Decrease DEF"
+     ]
+    }
+   ]
+  },
+  "571": {
+   "monster": "Mina",
+   "print": "ccd4c064",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "targetNoDebuffs"
+     ],
+     "effects": [
+      "Increase Attack Critical Chance"
+     ]
+    }
+   ]
+  },
   "722": {
    "monster": "Figaro",
    "print": "bedd075f",
@@ -224,7 +263,7 @@
     {
      "when": "whenAttacked",
      "if": [
-      "targetClean"
+      "targetNoDebuffs"
      ],
      "note": "si el atacante no tiene debuffs",
      "effects": [
@@ -727,6 +766,36 @@
        "chance": 30
       }
      }
+    }
+   ]
+  },
+  "2360": {
+   "monster": "Naomi (2.º despertar)",
+   "print": "865b33a4",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Increase Attack Critical Chance"
+     ],
+     "adjust": {
+      "Increase Attack Critical Chance": {
+       "chance": 100,
+       "quantity": 100
+      }
+     }
+    },
+    {
+     "when": "always",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Debuff Bonus Damage"
+     ]
     }
    ]
   },
