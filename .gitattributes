@@ -1,0 +1,2 @@
+# Los archivos de datos se publican byte a byte (la app comprueba su huella SHA-256).
+* -text
