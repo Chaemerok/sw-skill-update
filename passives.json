@@ -1,0 +1,2232 @@
+{
+ "dataVersion": 1,
+ "dataDate": "2026-10-06",
+ "curated": {
+  "722": {
+   "monster": "Figaro",
+   "print": "bedd075f",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Bomb"
+     ],
+     "added": [
+      {
+       "name": "Remove Buff",
+       "self": false,
+       "amount": 1,
+       "note": "al objetivo (a todos si la habilidad es a varios)"
+      }
+     ]
+    }
+   ]
+  },
+  "766": {
+   "monster": "Fuco",
+   "print": "16833dfc",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Shield"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Decrease ATK SPD"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "note": "si el enemigo le rompe el escudo",
+     "effects": [
+      "Counter"
+     ]
+    }
+   ]
+  },
+  "797": {
+   "monster": "Molly",
+   "print": "73d4e5de",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage",
+      "Increase Glancing Hit Chance"
+     ],
+     "adjust": {
+      "Increase Glancing Hit Chance": {
+       "chance": 100,
+       "quantity": 15
+      }
+     }
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Heal"
+     ]
+    }
+   ]
+  },
+  "1018": {
+   "monster": "Julianne",
+   "print": "327eedff",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Cleanse"
+     ]
+    },
+    {
+     "when": "ownDeath",
+     "if": [
+      "alliesAlive"
+     ],
+     "effects": [
+      "Self-Heal"
+     ]
+    }
+   ]
+  },
+  "1031": {
+   "monster": "Fermion",
+   "print": "2d3df266",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Provoke"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "alliesAlive"
+     ],
+     "effects": [
+      "Decrease Damage",
+      "Increase Damage"
+     ]
+    }
+   ]
+  },
+  "1068": {
+   "monster": "Zeratu",
+   "print": "ef408d15",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Remove Buff",
+      "Self-Heal"
+     ]
+    },
+    {
+     "when": "onCrit",
+     "if": [],
+     "effects": [
+      "Additional Attack"
+     ]
+    }
+   ]
+  },
+  "1097": {
+   "monster": "Jager",
+   "print": "60efd0a3",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immune to Inability Effects"
+     ]
+    },
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Accumulate ATK"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Counter",
+      "Increase Glancing Hit Chance",
+      "Threat"
+     ]
+    }
+   ]
+  },
+  "1098": {
+   "monster": "Ragdoll",
+   "print": "b99d46cb",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "note": "si el aliado recibe un crítico",
+     "effects": [
+      "Increase ATB"
+     ],
+     "adjust": {
+      "Increase ATB": {
+       "quantity": 10
+      }
+     }
+    }
+   ]
+  },
+  "1122": {
+   "monster": "Tesarion",
+   "print": "e50f1080",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Oblivion"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Debuff Bonus Damage"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "targetClean"
+     ],
+     "note": "si el atacante no tiene debuffs",
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "1123": {
+   "monster": "Theomars",
+   "print": "46511af3",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Elemental Advantage"
+     ]
+    },
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Endure",
+      "Increase ATK",
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "1138": {
+   "monster": "Xing Zhe",
+   "print": "3fe0756e",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Counter",
+      "Remove Buff"
+     ]
+    }
+   ]
+  },
+  "1181": {
+   "monster": "Teshar",
+   "print": "76264a11",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "en su turno: ataca otra vez a todos los enemigos y los aturde 1 turno",
+     "effects": [
+      "Stun"
+     ],
+     "added": [
+      {
+       "name": "Additional Attack",
+       "self": false,
+       "aoe": true,
+       "amount": 0
+      }
+     ]
+    },
+    {
+     "when": "anyDeath",
+     "if": [],
+     "effects": [
+      "Reduce Cooltime"
+     ]
+    }
+   ]
+  },
+  "1217": {
+   "monster": "Lydia",
+   "print": "bc2ea585",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Passive Reflect DMG"
+     ],
+     "added": [
+      {
+       "name": "Decrease Damage",
+       "self": true,
+       "amount": 40,
+       "note": "reducción de daño pasiva"
+      }
+     ]
+    }
+   ]
+  },
+  "1244": {
+   "monster": "Camilla",
+   "print": "68185a3d",
+   "rules": [
+    {
+     "when": "critReceived",
+     "if": [],
+     "effects": [
+      "Decrease Damage",
+      "Cleanse"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Self-Heal",
+      "Heal"
+     ]
+    }
+   ]
+  },
+  "1246": {
+   "monster": "Akroma",
+   "print": "ee8f6117",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immunity",
+      "Increase CRI Resist"
+     ]
+    },
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "1303": {
+   "monster": "Trevor",
+   "print": "d61bff94",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "hpBelow"
+     ],
+     "effects": [
+      "Increase Damage",
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "hpBelow"
+     ],
+     "effects": [
+      "Counter"
+     ]
+    }
+   ]
+  },
+  "1400": {
+   "monster": "Misty",
+   "print": "b7617f4b",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immune to Inability Effects"
+     ]
+    },
+    {
+     "when": "turnEnd",
+     "if": [],
+     "note": "al acabar el turno de un enemigo, hasta 150 %",
+     "effects": [
+      "Accumulate SPD"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "fasterThanEnemy"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "1467": {
+   "monster": "Mi Ying",
+   "print": "8a6d92a9",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "strongerThanEnemy"
+     ],
+     "effects": [
+      "Decrease Damage",
+      "Increase Damage"
+     ]
+    },
+    {
+     "when": "whenDebuffed",
+     "if": [],
+     "effects": [
+      "Cleanse"
+     ]
+    }
+   ]
+  },
+  "1468": {
+   "monster": "Feng Yan",
+   "print": "8cbc10a5",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "1635": {
+   "monster": "Ludo",
+   "print": "762518b7",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Increase Damage"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "1671": {
+   "monster": "Helena",
+   "print": "20af33db",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Heal",
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "enemyElement"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Decrease Damage",
+       "self": true,
+       "amount": 50,
+       "note": "solo contra monstruos de Agua"
+      }
+     ]
+    }
+   ]
+  },
+  "1672": {
+   "monster": "Diana",
+   "print": "5e488ae9",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ],
+     "adjust": {
+      "Increase ATB": {
+       "chance": 100,
+       "quantity": 15
+      }
+     }
+    }
+   ]
+  },
+  "1933": {
+   "monster": "Josephine",
+   "print": "664184de",
+   "rules": [
+    {
+     "when": "allyDisabled",
+     "if": [],
+     "effects": [
+      "Shield",
+      "Cleanse",
+      "Counter",
+      "Additional Turn"
+     ]
+    }
+   ]
+  },
+  "1937": {
+   "monster": "Leona",
+   "print": "e7f335ab",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Shield"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Increase Damage"
+     ]
+    }
+   ]
+  },
+  "2029": {
+   "monster": "Valantis",
+   "print": "960c15ff",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Counter"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "2087": {
+   "monster": "Bolverk",
+   "print": "ff4e4235",
+   "rules": [
+    {
+     "when": "enemyAction",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Knowledge"
+     ]
+    }
+   ]
+  },
+  "2090": {
+   "monster": "Geldnir",
+   "print": "81d9b35a",
+   "rules": [
+    {
+     "when": "enemyAction",
+     "if": [],
+     "effects": [
+      "Knowledge"
+     ]
+    },
+    {
+     "when": "allyAction",
+     "if": [],
+     "effects": [
+      "Knowledge"
+     ]
+    }
+   ]
+  },
+  "2130": {
+   "monster": "Christina",
+   "print": "674b39b5",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Accumulate ATK"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Cleanse"
+     ]
+    }
+   ]
+  },
+  "2192": {
+   "monster": "Gorgo",
+   "print": "00d1e14c",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Increase Attack Critical Chance"
+     ]
+    },
+    {
+     "when": "onCrit",
+     "if": [],
+     "effects": [
+      "Stun"
+     ]
+    }
+   ]
+  },
+  "2298": {
+   "monster": "Mephisto",
+   "print": "35801f8a",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Anti-Revive"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Shield"
+     ]
+    }
+   ]
+  },
+  "2316": {
+   "monster": "Onyx",
+   "print": "97950811",
+   "rules": [
+    {
+     "when": "battleStart",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Endure"
+     ],
+     "adjust": {
+      "Endure": {
+       "chance": 50
+      }
+     }
+    },
+    {
+     "when": "turnEnd",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Endure"
+     ],
+     "adjust": {
+      "Endure": {
+       "chance": 30
+      }
+     }
+    }
+   ]
+  },
+  "2415": {
+   "monster": "Narsha",
+   "print": "139dc6da",
+   "rules": [
+    {
+     "when": "enemyAction",
+     "if": [],
+     "note": "por cada turno enemigo, hasta 5 veces; se reinicia al acabar su turno",
+     "effects": [
+      "Increase ATK SPD#1"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Increase ATK SPD#2",
+      "Decrease DEF"
+     ]
+    }
+   ]
+  },
+  "2713": {
+   "monster": "Yeonhwa",
+   "print": "a6774b54",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "3025": {
+   "monster": "Sath",
+   "print": "79866731",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "aoe": true,
+       "amount": 100,
+       "note": "daño continuo recibido +100 % (todos los aliados)"
+      },
+      {
+       "name": "Increase Damage",
+       "self": false,
+       "aoe": true,
+       "amount": 100,
+       "note": "daño continuo recibido +100 % (todos los enemigos)"
+      }
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "targetDebuffed"
+     ],
+     "note": "si el enemigo tiene daño continuo",
+     "effects": [],
+     "added": [
+      {
+       "name": "Guaranteed Not Glance Hit",
+       "self": true
+      }
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Unrecoverable",
+      "Continuous DMG"
+     ]
+    }
+   ]
+  },
+  "3082": {
+   "monster": "Giou",
+   "print": "fbdc9bcd",
+   "rules": [
+    {
+     "when": "enemyAction",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Increase Damage",
+      "Increased Skill Activation Rate"
+     ]
+    }
+   ]
+  },
+  "3095": {
+   "monster": "Suiki",
+   "print": "284601cd",
+   "rules": [
+    {
+     "when": "allyAction",
+     "if": [],
+     "note": "cada vez que otro monstruo (aliado o enemigo) consigue turno, hasta 250 %",
+     "effects": [
+      "Accumulate ATK"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Cannot Critical Hit"
+     ]
+    }
+   ]
+  },
+  "3096": {
+   "monster": "Kaki",
+   "print": "86ca5c64",
+   "rules": [
+    {
+     "when": "battleStart",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase DEF",
+       "self": true,
+       "amount": 15,
+       "note": "DEF +15 % de su ATQ"
+      }
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "note": "daño extra proporcional a su DEF (sin valor)"
+      }
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Cannot Critical Hit"
+     ]
+    }
+   ]
+  },
+  "3097": {
+   "monster": "Fuuki",
+   "print": "f81ea450",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Self-Harm"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "daño extra del 15 % del HP que le falta",
+     "effects": [
+      "Increase Damage"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Cannot Critical Hit"
+     ]
+    }
+   ]
+  },
+  "3144": {
+   "monster": "Momo",
+   "print": "4759f50c",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "allyAction",
+     "if": [],
+     "note": "+10 % cada vez, hasta 200 % (máx. 70 % de golpe)",
+     "effects": [
+      "Increase Damage"
+     ]
+    },
+    {
+     "when": "allyAction",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Reduce Cooltime"
+     ]
+    }
+   ]
+  },
+  "3146": {
+   "monster": "Kiki",
+   "print": "92fbbbe3",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Decrease ATK SPD",
+      "Unrecoverable",
+      "Increase Glancing Hit Chance",
+      "Beneficial Effects Blocked"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Self-Heal"
+     ]
+    }
+   ]
+  },
+  "3172": {
+   "monster": "ROBO-R40",
+   "print": "845f0e33",
+   "rules": [
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Revive",
+      "Invincible"
+     ]
+    },
+    {
+     "when": "ownDeath",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Immunity",
+      "Self-Heal"
+     ]
+    }
+   ]
+  },
+  "3279": {
+   "monster": "Jubelle",
+   "print": "40400a07",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Decrease Critical Hit Chance",
+       "self": true,
+       "amount": 50,
+       "note": "−50 % de probabilidad de recibir críticos"
+      }
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Reduce Cooltime"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "note": "solo si el golpe recibido no es crítico",
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "3339": {
+   "monster": "Shun",
+   "print": "60bf9842",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Ignore DEF"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Steal Buff"
+     ]
+    }
+   ]
+  },
+  "3358": {
+   "monster": "Bombay",
+   "print": "780d303d",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Ignore DEF"
+     ]
+    },
+    {
+     "when": "anyDeath",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Anti-Revive"
+     ]
+    }
+   ]
+  },
+  "3374": {
+   "monster": "Amber",
+   "print": "46bf3b60",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Unrecoverable"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "attackerDebuffed"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Decrease Damage",
+       "self": true,
+       "amount": 5,
+       "note": "5 % por cada debuff del atacante"
+      }
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Debuff Bonus Damage",
+       "self": false,
+       "amount": 4,
+       "note": "4 % de la vida máx. del objetivo por debuff, hasta 12 %; no contra jefes"
+      }
+     ]
+    }
+   ]
+  },
+  "3600": {
+   "monster": "Bayek",
+   "print": "f39a3043",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Continuous DMG",
+      "Increase Damage"
+     ]
+    },
+    {
+     "when": "enemyAction",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "3628": {
+   "monster": "Eivor (Agua)",
+   "print": "d4af0a59",
+   "rules": [
+    {
+     "when": "battleStart",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Increase ATK",
+      "Decrease Damage",
+      "Remove Buff"
+     ]
+    }
+   ]
+  },
+  "3631": {
+   "monster": "Eivor (Luz)",
+   "print": "f8442832",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immunity",
+      "Immune to Inability Effects"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Remove Buff"
+     ]
+    },
+    {
+     "when": "allyAction",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "3692": {
+   "monster": "Evan",
+   "print": "4a47d3b8",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "enemyElement"
+     ],
+     "note": "solo contra Luz: ataque extra sin contraataque, siempre crítico y +100 % de daño",
+     "effects": [
+      "Additional Attack",
+      "Guaranteed Critical Hit",
+      "Increase Damage"
+     ],
+     "adjust": {
+      "Increase Damage": {
+       "quantity": 100
+      }
+     }
+    }
+   ]
+  },
+  "3705": {
+   "monster": "Shahat",
+   "print": "f39a3043",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Continuous DMG",
+      "Increase Damage"
+     ]
+    },
+    {
+     "when": "enemyAction",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "3733": {
+   "monster": "Brita",
+   "print": "3008c379",
+   "rules": [
+    {
+     "when": "battleStart",
+     "if": [
+      "statThreshold"
+     ],
+     "requires": {
+      "ATK": 628
+     },
+     "effects": [
+      "Increase Damage"
+     ]
+    },
+    {
+     "when": "battleStart",
+     "if": [
+      "statThreshold"
+     ],
+     "requires": {
+      "DEF": 720
+     },
+     "effects": [
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "battleStart",
+     "if": [
+      "statThreshold"
+     ],
+     "requires": {
+      "SPD": 111
+     },
+     "effects": [
+      "Remove Buff"
+     ]
+    }
+   ]
+  },
+  "3736": {
+   "monster": "Berghild",
+   "print": "0abded2b",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immunity",
+      "Immune to Inability Effects"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Remove Buff"
+     ]
+    },
+    {
+     "when": "allyAction",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "3807": {
+   "monster": "Vritra",
+   "print": "6b5aeac8",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [
+      "hpAbove"
+     ],
+     "effects": [
+      "Threat"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "note": "en el turno enemigo, tantas veces como golpes reciba",
+     "effects": [
+      "Counter",
+      "Decrease DEF"
+     ]
+    }
+   ]
+  },
+  "3856": {
+   "monster": "Iron",
+   "print": "f08285cb",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Ignore Damage Reduction"
+     ]
+    }
+   ]
+  },
+  "3887": {
+   "monster": "Tractor",
+   "print": "2720c809",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immune to Defense Decreasing Effects"
+     ]
+    },
+    {
+     "when": "critReceived",
+     "if": [],
+     "effects": [
+      "Increase ATB#1"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "note": "si el daño recibido es el 50 % o más de su HP máximo",
+     "effects": [
+      "Increase ATB#2"
+     ]
+    }
+   ]
+  },
+  "3889": {
+   "monster": "Crane",
+   "print": "dd45e767",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Increase DEF"
+     ]
+    },
+    {
+     "when": "whenDebuffed",
+     "if": [],
+     "note": "la barra también al recibir buffs (no los del inicio del combate)",
+     "effects": [
+      "Increase ATK SPD",
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "3891": {
+   "monster": "Crawler",
+   "print": "8725acac",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "note": "según los ataques recibidos; se reinicia al atacar",
+     "effects": [
+      "Increase Damage",
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "3949": {
+   "monster": "Jessica",
+   "print": "bc1fa8c2",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immune to Harmful Effects",
+      "Immune to Oblivion"
+     ]
+    },
+    {
+     "when": "whenDebuffed",
+     "if": [],
+     "note": "acumulable hasta 10 veces",
+     "effects": [
+      "Increase Damage",
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Transfer Debuff"
+     ]
+    }
+   ]
+  },
+  "4018": {
+   "monster": "Byungchul",
+   "print": "09f173c9",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Guaranteed Critical Hit"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "4020": {
+   "monster": "Gapsoo",
+   "print": "eac2aeb8",
+   "rules": [
+    {
+     "when": "enemyHealed",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Heal",
+      "Remove Buff"
+     ]
+    }
+   ]
+  },
+  "4046": {
+   "monster": "Minji and Sapsaree",
+   "print": "0d832b50",
+   "rules": [
+    {
+     "when": "whenDebuffed",
+     "if": [],
+     "note": "al conseguir turno estando incapacitada",
+     "effects": [
+      "Heal"
+     ]
+    },
+    {
+     "when": "allyDisabled",
+     "if": [],
+     "note": "al aliado incapacitado",
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "4050": {
+   "monster": "Damee and Sapsaree",
+   "print": "9ce428bf",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "note": "solo a los aliados incapacitados",
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "whenDebuffed",
+     "if": [],
+     "note": "mientras está incapacitado",
+     "effects": [
+      "Immune to ATB decreasing effects"
+     ]
+    }
+   ]
+  },
+  "4097": {
+   "monster": "Geralt (Viento)",
+   "print": "405db405",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Shield",
+      "Immunity",
+      "Counter"
+     ],
+     "adjust": {
+      "Shield": {
+       "chance": 100
+      },
+      "Immunity": {
+       "chance": 100
+      },
+      "Counter": {
+       "chance": 100
+      }
+     }
+    },
+    {
+     "when": "turnEnd",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Reduce Cooltime"
+     ]
+    }
+   ]
+  },
+  "4098": {
+   "monster": "Geralt (Luz)",
+   "print": "6efbf787",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "4112": {
+   "monster": "Ciri (Agua)",
+   "print": "c08d68e8",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "fasterThanEnemy"
+     ],
+     "effects": [
+      "Increase CRI Rate",
+      "Guaranteed Critical Hit"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "fasterThanEnemy"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Cannot be Critical Hit",
+       "self": true,
+       "amount": 0,
+       "note": "si le ataca un enemigo más lento"
+      }
+     ]
+    }
+   ]
+  },
+  "4145": {
+   "monster": "Triss",
+   "print": "1b0d9d7e",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Continuous DMG"
+     ]
+    },
+    {
+     "when": "enemyAction",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Reduce Enemy HP",
+       "self": false,
+       "amount": 50,
+       "note": "la mitad del daño continuo que recibe un enemigo, a los demás enemigos; no se acumula; no contra jefes"
+      }
+     ]
+    }
+   ]
+  },
+  "4175": {
+   "monster": "7R1X",
+   "print": "1007c471",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Remove Buff"
+     ]
+    },
+    {
+     "when": "enemyAction",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "HP reduction"
+     ]
+    }
+   ]
+  },
+  "4176": {
+   "monster": "570RM",
+   "print": "b618ac51",
+   "rules": [
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Offset Damage",
+      "Reflect DMG"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [
+      "Increase Damage"
+     ]
+    }
+   ]
+  },
+  "4189": {
+   "monster": "Lorenza",
+   "print": "5dd9e628",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Guaranteed Not Glance Hit"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "fasterThanEnemy"
+     ],
+     "effects": [
+      "Increase Cooltime"
+     ]
+    }
+   ]
+  },
+  "4210": {
+   "monster": "Henrik",
+   "print": "e7838333",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Shield",
+      "Immunity",
+      "Counter"
+     ],
+     "adjust": {
+      "Shield": {
+       "chance": 100
+      },
+      "Immunity": {
+       "chance": 100
+      },
+      "Counter": {
+       "chance": 100
+      }
+     }
+    },
+    {
+     "when": "turnEnd",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Reduce Cooltime"
+     ]
+    }
+   ]
+  },
+  "4211": {
+   "monster": "Lars",
+   "print": "e0cc1418",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ]
+    }
+   ]
+  },
+  "4225": {
+   "monster": "Rigna",
+   "print": "c08d68e8",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "fasterThanEnemy"
+     ],
+     "effects": [
+      "Increase CRI Rate",
+      "Guaranteed Critical Hit"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "fasterThanEnemy"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Cannot be Critical Hit",
+       "self": true,
+       "amount": 0,
+       "note": "si le ataca un enemigo más lento"
+      }
+     ]
+    }
+   ]
+  },
+  "4258": {
+   "monster": "Groa",
+   "print": "1b0d9d7e",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Continuous DMG"
+     ]
+    },
+    {
+     "when": "enemyAction",
+     "if": [
+      "targetDebuffed"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Reduce Enemy HP",
+       "self": false,
+       "amount": 50,
+       "note": "la mitad del daño continuo que recibe un enemigo, a los demás enemigos; no se acumula; no contra jefes"
+      }
+     ]
+    }
+   ]
+  },
+  "4406": {
+   "monster": "Megumi Fushiguro",
+   "print": "85344a7d",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ],
+     "adjust": {
+      "Increase ATB": {
+       "chance": 100,
+       "quantity": 20
+      }
+     }
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Steal Buff"
+     ]
+    }
+   ]
+  },
+  "4482": {
+   "monster": "Deragron",
+   "print": "4f08ff24",
+   "rules": [
+    {
+     "when": "whenHealed",
+     "if": [],
+     "effects": [
+      "Increase ATB",
+      "Increase Damage"
+     ]
+    },
+    {
+     "when": "anyDeath",
+     "if": [],
+     "effects": [
+      "Recovery"
+     ]
+    }
+   ]
+  },
+  "4540": {
+   "monster": "Tetsuya",
+   "print": "85344a7d",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ],
+     "adjust": {
+      "Increase ATB": {
+       "chance": 100,
+       "quantity": 20
+      }
+     }
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Steal Buff"
+     ]
+    }
+   ]
+  },
+  "4571": {
+   "monster": "Orphina",
+   "print": "e1eea72d",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "alliesAlive"
+     ],
+     "note": "por cada aliado vivo",
+     "effects": [
+      "Decrease Damage"
+     ],
+     "adjust": {
+      "Decrease Damage": {
+       "chance": 0,
+       "quantity": 15
+      }
+     }
+    },
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Share ally damage"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [
+      "hpAbove"
+     ],
+     "effects": [
+      "Share MAX HP"
+     ]
+    }
+   ]
+  },
+  "4621": {
+   "monster": "Nezuko Kamado (Agua)",
+   "print": "02fed703",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "HP reduction",
+      "Shield"
+     ],
+     "adjust": {
+      "HP reduction": {
+       "quantity": 10
+      }
+     }
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Counter"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Immune to Inability Effects"
+     ]
+    }
+   ]
+  },
+  "4638": {
+   "monster": "Inosuke Hashibira",
+   "print": "1544923e",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Harmful Effect Chance"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "fewDebuffs"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "amount": 30
+      }
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Heal"
+     ]
+    }
+   ]
+  },
+  "4675": {
+   "monster": "Hyllus",
+   "print": "c1f6315f",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Decrease DEF"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Counter"
+     ]
+    }
+   ]
+  },
+  "4705": {
+   "monster": "Vermilion Bird Dancer",
+   "print": "3b97df69",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "HP reduction",
+      "Shield"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Counter"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "ownState"
+     ],
+     "effects": [
+      "Immune to Inability Effects"
+     ]
+    }
+   ]
+  },
+  "4722": {
+   "monster": "White Tiger Blade Master (Fuego)",
+   "print": "1544923e",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Harmful Effect Chance"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "fewDebuffs"
+     ],
+     "effects": [
+      "Decrease Damage"
+     ],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "amount": 30
+      }
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Heal"
+     ]
+    }
+   ]
+  },
+  "4890": {
+   "monster": "Cynthia",
+   "print": "2277036a",
+   "rules": [
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Offset Damage",
+      "Cleanse",
+      "Mechanical Frame State"
+     ]
+    },
+    {
+     "when": "ownDeath",
+     "if": [
+      "specialState"
+     ],
+     "effects": [
+      "Immune to Inability Effects",
+      "Immune to ATB decreasing effects",
+      "Increase Damage"
+     ]
+    }
+   ]
+  },
+  "4892": {
+   "monster": "Christine",
+   "print": "01f01b76",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Decrease ATB"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Heal"
+     ]
+    }
+   ]
+  },
+  "4893": {
+   "monster": "Elise",
+   "print": "128fd021",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "hpBelow"
+     ],
+     "effects": [
+      "Additional Attack"
+     ]
+    }
+   ]
+  },
+  "5221": {
+   "monster": "Dr. Albert",
+   "print": "dd25a92b",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immune to Inability Effects",
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Transfer Debuff"
+     ]
+    }
+   ]
+  },
+  "5319": {
+   "monster": "Fern",
+   "print": "05e15f2f",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "note": "a todos los aliados, 1 turno",
+     "effects": [
+      "Reflect Harmful Effect"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  }
+ }
+}

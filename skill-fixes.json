@@ -1,0 +1,124 @@
+{
+ "dataVersion": 1,
+ "dataDate": "2026-10-06",
+ "fixes": {
+  "789": {
+   "monster": "Platy",
+   "print": "7c96989e",
+   "effects": {
+    "Heal": {
+     "chance": 100,
+     "quantity": 40
+    },
+    "Increase ATB": {
+     "quantity": 40
+    }
+   }
+  },
+  "876": {
+   "monster": "Barque",
+   "print": "a51f6cde",
+   "effects": {
+    "Increase Damage": {
+     "chance": 100
+    }
+   }
+  },
+  "1075": {
+   "monster": "Zaiross",
+   "print": "be0463af",
+   "effects": {
+    "Increase Damage": {
+     "chance": 100,
+     "quantity": 50
+    }
+   }
+  },
+  "2826": {
+   "monster": "Karnal",
+   "print": "21046705",
+   "effects": {
+    "Increase ATB": {
+     "name": "Decrease ATB"
+    }
+   }
+  },
+  "3295": {
+   "monster": "Megan",
+   "print": "2a76cce9",
+   "effects": {
+    "Increase ATB": {
+     "chance": 100,
+     "quantity": 20
+    }
+   }
+  },
+  "3593": {
+   "monster": "Bayek (Agua)",
+   "print": "3039d6c4",
+   "effects": {
+    "Increase ATB": {
+     "self": true
+    }
+   }
+  },
+  "3596": {
+   "monster": "Bayek (Luz)",
+   "print": "3039d6c4",
+   "effects": {
+    "Increase ATB": {
+     "self": true
+    }
+   }
+  },
+  "4016": {
+   "monster": "Jeongnam",
+   "print": "9b77adad",
+   "effects": {
+    "Stun": {
+     "chance": 100
+    },
+    "Heal": {
+     "chance": 100,
+     "quantity": 30
+    }
+   }
+  },
+  "4124": {
+   "monster": "Yennefer (Viento)",
+   "print": "abf80058",
+   "effects": {
+    "Shield": {
+     "chance": 100
+    }
+   }
+  },
+  "4126": {
+   "monster": "Yennefer (Oscuridad)",
+   "print": "abf80058",
+   "effects": {
+    "Shield": {
+     "chance": 100
+    }
+   }
+  },
+  "4239": {
+   "monster": "Hilda",
+   "print": "abf80058",
+   "effects": {
+    "Shield": {
+     "chance": 100
+    }
+   }
+  },
+  "4557": {
+   "monster": "Aya",
+   "print": "74f186be",
+   "effects": {
+    "Heal": {
+     "chance": 100
+    }
+   }
+  }
+ }
+}

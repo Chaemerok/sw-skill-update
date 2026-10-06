@@ -1,0 +1,105 @@
+# Cambios / Changes
+
+## 1 · 2026-10-06
+
+87 fichas · 12 correcciones
+
+- 570RM (4176): ficha nueva
+- 7R1X (4175): ficha nueva
+- Akroma (1246): ficha nueva
+- Amber (3374): ficha nueva
+- Aya (4557): corrección nueva
+- Barque (876): corrección nueva
+- Bayek (3600): ficha nueva
+- Bayek (Agua) (3593): corrección nueva
+- Bayek (Luz) (3596): corrección nueva
+- Berghild (3736): ficha nueva
+- Bolverk (2087): ficha nueva
+- Bombay (3358): ficha nueva
+- Brita (3733): ficha nueva
+- Byungchul (4018): ficha nueva
+- Camilla (1244): ficha nueva
+- Christina (2130): ficha nueva
+- Christine (4892): ficha nueva
+- Ciri (Agua) (4112): ficha nueva
+- Crane (3889): ficha nueva
+- Crawler (3891): ficha nueva
+- Cynthia (4890): ficha nueva
+- Damee and Sapsaree (4050): ficha nueva
+- Deragron (4482): ficha nueva
+- Diana (1672): ficha nueva
+- Dr. Albert (5221): ficha nueva
+- Eivor (Agua) (3628): ficha nueva
+- Eivor (Luz) (3631): ficha nueva
+- Elise (4893): ficha nueva
+- Evan (3692): ficha nueva
+- Feng Yan (1468): ficha nueva
+- Fermion (1031): ficha nueva
+- Fern (5319): ficha nueva
+- Figaro (722): ficha nueva
+- Fuco (766): ficha nueva
+- Fuuki (3097): ficha nueva
+- Gapsoo (4020): ficha nueva
+- Geldnir (2090): ficha nueva
+- Geralt (Luz) (4098): ficha nueva
+- Geralt (Viento) (4097): ficha nueva
+- Giou (3082): ficha nueva
+- Gorgo (2192): ficha nueva
+- Groa (4258): ficha nueva
+- Helena (1671): ficha nueva
+- Henrik (4210): ficha nueva
+- Hilda (4239): corrección nueva
+- Hyllus (4675): ficha nueva
+- Inosuke Hashibira (4638): ficha nueva
+- Iron (3856): ficha nueva
+- Jager (1097): ficha nueva
+- Jeongnam (4016): corrección nueva
+- Jessica (3949): ficha nueva
+- Josephine (1933): ficha nueva
+- Jubelle (3279): ficha nueva
+- Julianne (1018): ficha nueva
+- Kaki (3096): ficha nueva
+- Karnal (2826): corrección nueva
+- Kiki (3146): ficha nueva
+- Lars (4211): ficha nueva
+- Leona (1937): ficha nueva
+- Lorenza (4189): ficha nueva
+- Ludo (1635): ficha nueva
+- Lydia (1217): ficha nueva
+- Megan (3295): corrección nueva
+- Megumi Fushiguro (4406): ficha nueva
+- Mephisto (2298): ficha nueva
+- Mi Ying (1467): ficha nueva
+- Minji and Sapsaree (4046): ficha nueva
+- Misty (1400): ficha nueva
+- Molly (797): ficha nueva
+- Momo (3144): ficha nueva
+- Narsha (2415): ficha nueva
+- Nezuko Kamado (Agua) (4621): ficha nueva
+- Onyx (2316): ficha nueva
+- Orphina (4571): ficha nueva
+- Platy (789): corrección nueva
+- Ragdoll (1098): ficha nueva
+- Rigna (4225): ficha nueva
+- ROBO-R40 (3172): ficha nueva
+- Sath (3025): ficha nueva
+- Shahat (3705): ficha nueva
+- Shun (3339): ficha nueva
+- Suiki (3095): ficha nueva
+- Tesarion (1122): ficha nueva
+- Teshar (1181): ficha nueva
+- Tetsuya (4540): ficha nueva
+- Theomars (1123): ficha nueva
+- Tractor (3887): ficha nueva
+- Trevor (1303): ficha nueva
+- Triss (4145): ficha nueva
+- Valantis (2029): ficha nueva
+- Vermilion Bird Dancer (4705): ficha nueva
+- Vritra (3807): ficha nueva
+- White Tiger Blade Master (Fuego) (4722): ficha nueva
+- Xing Zhe (1138): ficha nueva
+- Yennefer (Oscuridad) (4126): corrección nueva
+- Yennefer (Viento) (4124): corrección nueva
+- Yeonhwa (2713): ficha nueva
+- Zaiross (1075): corrección nueva
+- Zeratu (1068): ficha nueva
