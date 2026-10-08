@@ -1,37 +1,19 @@
 {
- "format": 2,
- "dataVersion": 2,
- "date": "2026-10-07",
- "passives": 90,
+ "format": 3,
+ "dataVersion": 3,
+ "date": "2026-10-09",
+ "passives": 91,
  "fixes": 12,
  "files": {
-  "passives.json": "3e79caddfe8267b18be240ad5440fa2ea1540bd8b42099562057ac3e8aa2ca02",
-  "skill-fixes.json": "cfe9f84578711c64e51bc48be7e16e88b48bd56d45e04d83fbc4eb52b74daa0a"
+  "passives.json": "1482fe6d172a6291c337c2e9a5f9edddbc39ed4daed55f489e543dbad136f24c",
+  "skill-fixes.json": "4e98a4f0d426363310b08e54115acb1f254838d74e7b377083ff009cc2be72f2"
  },
  "changes": [
   {
-   "id": 316,
+   "id": 2299,
    "kind": "passive",
    "change": "new",
-   "monster": "Gangchun"
-  },
-  {
-   "id": 571,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Mina"
-  },
-  {
-   "id": 2360,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Naomi (2.º despertar)"
-  },
-  {
-   "id": 1122,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Tesarion"
+   "monster": "Lucifer"
   }
  ]
 }

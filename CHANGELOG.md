@@ -1,5 +1,11 @@
 # Cambios / Changes
 
+## 3 · 2026-10-09
+
+91 fichas · 12 correcciones
+
+- Lucifer (2299): ficha nueva
+
 ## 2 · 2026-10-07
 
 90 fichas · 12 correcciones

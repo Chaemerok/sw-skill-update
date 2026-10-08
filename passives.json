@@ -1,6 +1,6 @@
 {
- "dataVersion": 2,
- "dataDate": "2026-10-07",
+ "dataVersion": 3,
+ "dataDate": "2026-10-09",
  "curated": {
   "316": {
    "monster": "Gangchun",
@@ -731,6 +731,27 @@
      "if": [],
      "effects": [
       "Shield"
+     ]
+    }
+   ]
+  },
+  "2299": {
+   "monster": "Lucifer",
+   "print": "7b5a9868",
+   "rules": [
+    {
+     "when": "anyDamaged",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": false,
+       "amount": 40,
+       "note": "el daño de los aliados sube hasta un 50 %, poco a poco; sin datos de cuánto daño hace falta, se cuenta un 40 % (usuario)"
+      }
      ]
     }
    ]
