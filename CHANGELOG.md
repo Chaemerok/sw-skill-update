@@ -1,5 +1,18 @@
 # Cambios / Changes
 
+## 4 · 2026-10-10
+
+95 fichas · 16 correcciones
+
+- Alexandra (1709): corrección nueva
+- Diana (1707): corrección nueva
+- Helena (1706): corrección nueva
+- Hwadam (648): ficha nueva
+- Jeogun (2697): corrección nueva
+- Magnum (2110): ficha nueva
+- Odin (2089): ficha nueva
+- Odin (2094): ficha nueva
+
 ## 3 · 2026-10-09
 
 91 fichas · 12 correcciones

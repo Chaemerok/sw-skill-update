@@ -1,6 +1,6 @@
 {
- "dataVersion": 3,
- "dataDate": "2026-10-09",
+ "dataVersion": 4,
+ "dataDate": "2026-10-10",
  "curated": {
   "316": {
    "monster": "Gangchun",
@@ -37,6 +37,28 @@
      ],
      "effects": [
       "Increase Attack Critical Chance"
+     ]
+    }
+   ]
+  },
+  "648": {
+   "monster": "Hwadam",
+   "print": "b9a5e0a7",
+   "rules": [
+    {
+     "when": "anyDeath",
+     "if": [
+      "hpAbove"
+     ],
+     "note": "un aliado recibe un golpe mortal: no muere y recibe el 30 % de la HP máx. de Hwadam; no se activa si Hwadam tiene menos del 30 % de HP",
+     "effects": [],
+     "added": [
+      {
+       "name": "Share MAX HP",
+       "self": false,
+       "amount": 30,
+       "note": "evita la muerte del aliado pasándole el 30 % de la HP máx. de Hwadam (tu explicación del counter, ficha 2 del test de patrones IA)"
+      }
      ]
     }
    ]
@@ -653,6 +675,38 @@
     }
    ]
   },
+  "2089": {
+   "monster": "Odin",
+   "print": "8e968f28",
+   "rules": [
+    {
+     "when": "whenBuffed",
+     "if": [],
+     "note": "1 Conocimiento por cada buff que recibe (máximo 5). El Conocimiento es un estado especial: no se quita con quitar buffs ni lo baja el enemigo; con Will en Odin y Shield en un aliado empieza con 2 (usuario, 2026-10-09)",
+     "effects": [
+      "Knowledge"
+     ]
+    },
+    {
+     "when": "anyDeath",
+     "if": [],
+     "note": "3 Conocimiento cuando muere un enemigo o un aliado",
+     "effects": [
+      "Knowledge"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [
+      "specialState"
+     ],
+     "note": "1 Conocimiento si empieza el turno con 2 o menos",
+     "effects": [
+      "Knowledge"
+     ]
+    }
+   ]
+  },
   "2090": {
    "monster": "Geldnir",
    "print": "81d9b35a",
@@ -669,6 +723,55 @@
      "if": [],
      "effects": [
       "Knowledge"
+     ]
+    }
+   ]
+  },
+  "2094": {
+   "monster": "Odin",
+   "print": "f9e6a46d",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "specialState"
+     ],
+     "note": "ignora un 15 % de DEF por Conocimiento; con 5, toda la DEF y ventaja de elemento",
+     "effects": [
+      "Ignore DEF",
+      "Elemental Advantage"
+     ]
+    },
+    {
+     "when": "ownDeath",
+     "if": [
+      "specialState"
+     ],
+     "note": "revive con un 20 % de HP por Conocimiento gastado",
+     "effects": [
+      "Revive"
+     ]
+    },
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Spend Knowledge"
+     ]
+    }
+   ]
+  },
+  "2110": {
+   "monster": "Magnum",
+   "print": "0ed6f4d2",
+   "rules": [
+    {
+     "when": "enemyBuffed",
+     "if": [],
+     "note": "cada vez que un enemigo recibe un buff de una habilidad: +25 % de barra y ATQ 1 turno",
+     "effects": [
+      "Increase ATB",
+      "Increase ATK"
      ]
     }
    ]

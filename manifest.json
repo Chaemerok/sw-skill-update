@@ -1,19 +1,61 @@
 {
- "format": 3,
- "dataVersion": 3,
- "date": "2026-10-09",
- "passives": 91,
- "fixes": 12,
+ "format": 4,
+ "dataVersion": 4,
+ "date": "2026-10-10",
+ "passives": 95,
+ "fixes": 16,
  "files": {
-  "passives.json": "1482fe6d172a6291c337c2e9a5f9edddbc39ed4daed55f489e543dbad136f24c",
-  "skill-fixes.json": "4e98a4f0d426363310b08e54115acb1f254838d74e7b377083ff009cc2be72f2"
+  "passives.json": "35cc0e177a4aa217858fd70bf334a0b19da2cd0b0abe780b9370e818b527d99e",
+  "skill-fixes.json": "b552f0650450db8a3841e6869e6b976fdb10ff76bd3ec2a2f49ec94a3dd4621e"
  },
  "changes": [
   {
-   "id": 2299,
+   "id": 1709,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Alexandra"
+  },
+  {
+   "id": 1707,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Diana"
+  },
+  {
+   "id": 1706,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Helena"
+  },
+  {
+   "id": 648,
    "kind": "passive",
    "change": "new",
-   "monster": "Lucifer"
+   "monster": "Hwadam"
+  },
+  {
+   "id": 2697,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Jeogun"
+  },
+  {
+   "id": 2110,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Magnum"
+  },
+  {
+   "id": 2089,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Odin"
+  },
+  {
+   "id": 2094,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Odin"
   }
  ]
 }

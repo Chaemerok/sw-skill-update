@@ -1,6 +1,6 @@
 {
- "dataVersion": 3,
- "dataDate": "2026-10-09",
+ "dataVersion": 4,
+ "dataDate": "2026-10-10",
  "fixes": {
   "789": {
    "monster": "Platy",
@@ -31,6 +31,45 @@
     "Increase Damage": {
      "chance": 100,
      "quantity": 50
+    }
+   }
+  },
+  "1706": {
+   "monster": "Helena",
+   "print": "1d51611e",
+   "effects": {
+    "Shield": {
+     "self": false
+    }
+   }
+  },
+  "1707": {
+   "monster": "Diana",
+   "print": "1d51611e",
+   "effects": {
+    "Shield": {
+     "self": false
+    }
+   }
+  },
+  "1709": {
+   "monster": "Alexandra",
+   "print": "1d51611e",
+   "effects": {
+    "Shield": {
+     "self": false
+    }
+   }
+  },
+  "2697": {
+   "monster": "Jeogun",
+   "print": "4eab71dd",
+   "effects": {
+    "Increase ATK": {
+     "self": false
+    },
+    "Increase ATB": {
+     "self": false
     }
    }
   },
