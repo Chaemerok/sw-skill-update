@@ -1,61 +1,73 @@
 {
- "format": 4,
- "dataVersion": 4,
- "date": "2026-10-10",
- "passives": 95,
+ "format": 5,
+ "dataVersion": 5,
+ "date": "2026-10-11",
+ "passives": 104,
  "fixes": 16,
  "files": {
-  "passives.json": "35cc0e177a4aa217858fd70bf334a0b19da2cd0b0abe780b9370e818b527d99e",
-  "skill-fixes.json": "b552f0650450db8a3841e6869e6b976fdb10ff76bd3ec2a2f49ec94a3dd4621e"
+  "passives.json": "d0c9361f500cd65ae5ef4d3bea30f7a57077cbe9d7780521021192ac84c63767",
+  "skill-fixes.json": "5d2fca97e70e5b843f5fb03c540b682f2a607186553305dfb58cbe8d1657f62e"
  },
  "changes": [
   {
-   "id": 1709,
-   "kind": "fix",
+   "id": 4243,
+   "kind": "passive",
    "change": "new",
-   "monster": "Alexandra"
+   "monster": "Arcana"
   },
   {
-   "id": 1707,
-   "kind": "fix",
+   "id": 5318,
+   "kind": "passive",
    "change": "new",
-   "monster": "Diana"
+   "monster": "Fern"
   },
   {
-   "id": 1706,
-   "kind": "fix",
+   "id": 2696,
+   "kind": "passive",
    "change": "new",
-   "monster": "Helena"
+   "monster": "Haegang"
   },
   {
    "id": 648,
    "kind": "passive",
-   "change": "new",
+   "change": "updated",
    "monster": "Hwadam"
   },
   {
-   "id": 2697,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Jeogun"
-  },
-  {
-   "id": 2110,
+   "id": 2030,
    "kind": "passive",
    "change": "new",
-   "monster": "Magnum"
+   "monster": "Pater"
   },
   {
-   "id": 2089,
+   "id": 4241,
    "kind": "passive",
    "change": "new",
-   "monster": "Odin"
+   "monster": "Tarnisha"
   },
   {
-   "id": 2094,
+   "id": 4673,
    "kind": "passive",
    "change": "new",
-   "monster": "Odin"
+   "monster": "Tityus"
+  },
+  {
+   "id": 1651,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Triana"
+  },
+  {
+   "id": 4128,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Yennefer"
+  },
+  {
+   "id": 4130,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Yennefer"
   }
  ]
 }

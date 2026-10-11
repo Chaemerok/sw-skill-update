@@ -1,5 +1,20 @@
 # Cambios / Changes
 
+## 5 · 2026-10-11
+
+104 fichas · 16 correcciones
+
+- Arcana (4243): ficha nueva
+- Fern (5318): ficha nueva
+- Haegang (2696): ficha nueva
+- Hwadam (648): ficha corregida
+- Pater (2030): ficha nueva
+- Tarnisha (4241): ficha nueva
+- Tityus (4673): ficha nueva
+- Triana (1651): ficha nueva
+- Yennefer (4128): ficha nueva
+- Yennefer (4130): ficha nueva
+
 ## 4 · 2026-10-10
 
 95 fichas · 16 correcciones

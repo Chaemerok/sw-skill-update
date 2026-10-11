@@ -1,6 +1,6 @@
 {
- "dataVersion": 4,
- "dataDate": "2026-10-10",
+ "dataVersion": 5,
+ "dataDate": "2026-10-11",
  "curated": {
   "316": {
    "monster": "Gangchun",
@@ -46,7 +46,7 @@
    "print": "b9a5e0a7",
    "rules": [
     {
-     "when": "anyDeath",
+     "when": "allyFatalHit",
      "if": [
       "hpAbove"
      ],
@@ -554,6 +554,20 @@
     }
    ]
   },
+  "1651": {
+   "monster": "Triana",
+   "print": "cb402dde",
+   "rules": [
+    {
+     "when": "allyFatalHit",
+     "if": [],
+     "note": "anula el daño que mataría a un aliado y gana otro turno; solo evita una muerte de un golpe (un multigolpe la supera)",
+     "effects": [
+      "Additional Turn"
+     ]
+    }
+   ]
+  },
   "1671": {
    "monster": "Helena",
    "print": "20af33db",
@@ -656,6 +670,28 @@
      "if": [],
      "effects": [
       "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "2030": {
+   "monster": "Pater",
+   "print": "63f72893",
+   "rules": [
+    {
+     "when": "allyStripped",
+     "if": [],
+     "note": "solo cuando le quitan un buff a él: +20 % de barra propia",
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "note": "solo si está incapacitado al empezar el turno: se quita todos sus debuffs",
+     "effects": [
+      "Cleanse"
      ]
     }
    ]
@@ -941,6 +977,29 @@
      "effects": [
       "Increase ATK SPD#2",
       "Decrease DEF"
+     ]
+    }
+   ]
+  },
+  "2696": {
+   "monster": "Haegang",
+   "print": "a6b36bc1",
+   "rules": [
+    {
+     "when": "enemyAction",
+     "if": [],
+     "note": "cuando un enemigo o un aliado quita debuffs: +20 % de barra a todos los aliados",
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "allyStripped",
+     "if": [],
+     "note": "cuando el enemigo quita un buff a un aliado: ese aliado se quita todos los debuffs y gana un 20 % de barra",
+     "effects": [
+      "Increase ATB#2",
+      "Cleanse"
      ]
     }
    ]
@@ -1821,6 +1880,40 @@
     }
    ]
   },
+  "4128": {
+   "monster": "Yennefer",
+   "print": "182d8197",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "al atacar en su turno: roba 1 buff (se lo queda) y baja la barra un 15 %; además extiende los debuffs del objetivo al enemigo con más barra",
+     "effects": [
+      "Steal Buff",
+      "Decrease ATB",
+      "Transfer Debuff"
+     ]
+    }
+   ]
+  },
+  "4130": {
+   "monster": "Yennefer",
+   "print": "e431afb0",
+   "rules": [
+    {
+     "when": "allyStripped",
+     "if": [],
+     "note": "cuando el enemigo quita un debuff o un buff de un aliado: se quitan también los buffs de ese enemigo; después, 1 debuff menos y +20 % de barra a los 2 aliados con más barra",
+     "effects": [
+      "Remove Buff",
+      "Cleanse",
+      "Cleanse#2",
+      "Increase ATB",
+      "Increase ATB#2"
+     ]
+    }
+   ]
+  },
   "4145": {
    "monster": "Triss",
    "print": "1b0d9d7e",
@@ -2000,6 +2093,40 @@
        "amount": 0,
        "note": "si le ataca un enemigo más lento"
       }
+     ]
+    }
+   ]
+  },
+  "4241": {
+   "monster": "Tarnisha",
+   "print": "182d8197",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "al atacar en su turno: roba 1 buff (se lo queda) y baja la barra un 15 %; además extiende los debuffs del objetivo al enemigo con más barra",
+     "effects": [
+      "Steal Buff",
+      "Decrease ATB",
+      "Transfer Debuff"
+     ]
+    }
+   ]
+  },
+  "4243": {
+   "monster": "Arcana",
+   "print": "e431afb0",
+   "rules": [
+    {
+     "when": "allyStripped",
+     "if": [],
+     "note": "cuando el enemigo quita un debuff o un buff de un aliado: se quitan también los buffs de ese enemigo; después, 1 debuff menos y +20 % de barra a los 2 aliados con más barra",
+     "effects": [
+      "Remove Buff",
+      "Cleanse",
+      "Cleanse#2",
+      "Increase ATB",
+      "Increase ATB#2"
      ]
     }
    ]
@@ -2216,6 +2343,21 @@
     }
    ]
   },
+  "4673": {
+   "monster": "Tityus",
+   "print": "685a12ad",
+   "rules": [
+    {
+     "when": "allyFatalHit",
+     "if": [],
+     "note": "contra ataques que ignoran la DEF, en dos casos: si el golpe mataría a un aliado (o a él), o si le deja la HP al 15 % o menos. Da Aguante 1 turno y recuperación 2 turnos a todos los aliados; una vez por turno",
+     "effects": [
+      "Endure",
+      "Recovery"
+     ]
+    }
+   ]
+  },
   "4675": {
    "monster": "Hyllus",
    "print": "c1f6315f",
@@ -2389,6 +2531,22 @@
      "if": [],
      "effects": [
       "Transfer Debuff"
+     ]
+    }
+   ]
+  },
+  "5318": {
+   "monster": "Fern",
+   "print": "8e8ae608",
+   "rules": [
+    {
+     "when": "allyFatalHit",
+     "if": [],
+     "note": "cuando un aliado (o él) recibe un golpe mortal: anula el daño, le da invencibilidad 1 turno y gana un 50 % de barra",
+     "effects": [
+      "Offset Damage",
+      "Invincible",
+      "Increase ATB"
      ]
     }
    ]
