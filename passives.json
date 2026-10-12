@@ -1,6 +1,6 @@
 {
- "dataVersion": 5,
- "dataDate": "2026-10-11",
+ "dataVersion": 6,
+ "dataDate": "2026-10-12",
  "curated": {
   "316": {
    "monster": "Gangchun",
@@ -1741,9 +1741,17 @@
     {
      "when": "turnStart",
      "if": [],
+     "note": "al recibir turno: quita 1 debuff al aliado con menos vida y le cura un 10 % (SWARFARM lo etiqueta como «Remove Buff»; usuario, 2026-10-12)",
      "effects": [
-      "Heal",
-      "Remove Buff"
+      "Heal"
+     ],
+     "added": [
+      {
+       "name": "Cleanse",
+       "self": false,
+       "amount": 1,
+       "note": "1 debuff, al aliado con menos vida"
+      }
      ]
     }
    ]

@@ -1,6 +1,6 @@
 {
- "dataVersion": 5,
- "dataDate": "2026-10-11",
+ "dataVersion": 6,
+ "dataDate": "2026-10-12",
  "fixes": {
   "789": {
    "monster": "Platy",
@@ -107,6 +107,20 @@
    "effects": {
     "Increase ATB": {
      "self": true
+    }
+   }
+  },
+  "3704": {
+   "monster": "Ashour (Fuego)",
+   "print": "f3878a51",
+   "effects": {
+    "Cleanse": {
+     "self": false
+    },
+    "Self-Heal": {
+     "name": "Heal",
+     "self": false,
+     "quantity": 30
     }
    }
   },

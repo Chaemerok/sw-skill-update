@@ -1,73 +1,25 @@
 {
  "format": 5,
- "dataVersion": 5,
- "date": "2026-10-11",
+ "dataVersion": 6,
+ "date": "2026-10-12",
  "passives": 104,
- "fixes": 16,
+ "fixes": 17,
  "files": {
-  "passives.json": "d0c9361f500cd65ae5ef4d3bea30f7a57077cbe9d7780521021192ac84c63767",
-  "skill-fixes.json": "5d2fca97e70e5b843f5fb03c540b682f2a607186553305dfb58cbe8d1657f62e"
+  "passives.json": "88c6670654f7754796b74b939d16f73c91ee3038503c572329e6add05a7c794e",
+  "skill-fixes.json": "768f99ed2cc3242e8e772ff37357ef168403fe027c6a7bece28b1e4eca08f87e"
  },
  "changes": [
   {
-   "id": 4243,
-   "kind": "passive",
+   "id": 3704,
+   "kind": "fix",
    "change": "new",
-   "monster": "Arcana"
+   "monster": "Ashour (Fuego)"
   },
   {
-   "id": 5318,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Fern"
-  },
-  {
-   "id": 2696,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Haegang"
-  },
-  {
-   "id": 648,
+   "id": 4020,
    "kind": "passive",
    "change": "updated",
-   "monster": "Hwadam"
-  },
-  {
-   "id": 2030,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Pater"
-  },
-  {
-   "id": 4241,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Tarnisha"
-  },
-  {
-   "id": 4673,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Tityus"
-  },
-  {
-   "id": 1651,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Triana"
-  },
-  {
-   "id": 4128,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Yennefer"
-  },
-  {
-   "id": 4130,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Yennefer"
+   "monster": "Gapsoo"
   }
  ]
 }

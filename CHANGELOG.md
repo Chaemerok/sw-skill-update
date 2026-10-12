@@ -1,5 +1,12 @@
 # Cambios / Changes
 
+## 6 · 2026-10-12
+
+104 fichas · 17 correcciones
+
+- Ashour (Fuego) (3704): corrección nueva
+- Gapsoo (4020): ficha corregida
+
 ## 5 · 2026-10-11
 
 104 fichas · 16 correcciones
