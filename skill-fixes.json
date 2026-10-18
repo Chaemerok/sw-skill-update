@@ -1,7 +1,37 @@
 {
- "dataVersion": 6,
- "dataDate": "2026-10-12",
+ "dataVersion": 7,
+ "dataDate": "2026-10-19",
  "fixes": {
+  "717": {
+   "monster": "Joker (viento)",
+   "print": "7b01d2c9",
+   "effects": {
+    "Stun": {
+     "chance": 33
+    },
+    "Increase Glancing Hit Chance": {
+     "chance": 33
+    },
+    "Decrease ATK SPD": {
+     "chance": 33
+    }
+   }
+  },
+  "718": {
+   "monster": "Joker (luz) / Figaro",
+   "print": "7b01d2c9",
+   "effects": {
+    "Stun": {
+     "chance": 33
+    },
+    "Increase Glancing Hit Chance": {
+     "chance": 33
+    },
+    "Decrease ATK SPD": {
+     "chance": 33
+    }
+   }
+  },
   "789": {
    "monster": "Platy",
    "print": "7c96989e",
@@ -31,6 +61,51 @@
     "Increase Damage": {
      "chance": 100,
      "quantity": 50
+    }
+   }
+  },
+  "1630": {
+   "monster": "Dice Magician (fuego) / Ludo",
+   "print": "7a685307",
+   "effects": {
+    "Stun": {
+     "chance": 42
+    },
+    "Decrease ATK SPD": {
+     "chance": 42
+    },
+    "Additional Turn": {
+     "chance": 17
+    }
+   }
+  },
+  "1631": {
+   "monster": "Dice Magician (viento)",
+   "print": "7a685307",
+   "effects": {
+    "Stun": {
+     "chance": 42
+    },
+    "Decrease ATK SPD": {
+     "chance": 42
+    },
+    "Additional Turn": {
+     "chance": 17
+    }
+   }
+  },
+  "1632": {
+   "monster": "Dice Magician (luz) / Tablo",
+   "print": "7a685307",
+   "effects": {
+    "Stun": {
+     "chance": 42
+    },
+    "Decrease ATK SPD": {
+     "chance": 42
+    },
+    "Additional Turn": {
+     "chance": 17
     }
    }
   },

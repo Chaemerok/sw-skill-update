@@ -1,25 +1,43 @@
 {
  "format": 5,
- "dataVersion": 6,
- "date": "2026-10-12",
+ "dataVersion": 7,
+ "date": "2026-10-19",
  "passives": 104,
- "fixes": 17,
+ "fixes": 22,
  "files": {
-  "passives.json": "88c6670654f7754796b74b939d16f73c91ee3038503c572329e6add05a7c794e",
-  "skill-fixes.json": "768f99ed2cc3242e8e772ff37357ef168403fe027c6a7bece28b1e4eca08f87e"
+  "passives.json": "777c23af5c3cc931bb4c843dc9913e3cd3520994e81a61a6698d262416d732e5",
+  "skill-fixes.json": "ab7e693767656ccf044c08bdc3c07844a73521433552bfcd1771e59f1b38e8f7"
  },
  "changes": [
   {
-   "id": 3704,
+   "id": 1630,
    "kind": "fix",
    "change": "new",
-   "monster": "Ashour (Fuego)"
+   "monster": "Dice Magician (fuego) / Ludo"
   },
   {
-   "id": 4020,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Gapsoo"
+   "id": 1632,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Dice Magician (luz) / Tablo"
+  },
+  {
+   "id": 1631,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Dice Magician (viento)"
+  },
+  {
+   "id": 718,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Joker (luz) / Figaro"
+  },
+  {
+   "id": 717,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Joker (viento)"
   }
  ]
 }

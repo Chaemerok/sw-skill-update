@@ -1,5 +1,15 @@
 # Cambios / Changes
 
+## 7 · 2026-10-19
+
+104 fichas · 22 correcciones
+
+- Dice Magician (fuego) / Ludo (1630): corrección nueva
+- Dice Magician (luz) / Tablo (1632): corrección nueva
+- Dice Magician (viento) (1631): corrección nueva
+- Joker (luz) / Figaro (718): corrección nueva
+- Joker (viento) (717): corrección nueva
+
 ## 6 · 2026-10-12
 
 104 fichas · 17 correcciones
