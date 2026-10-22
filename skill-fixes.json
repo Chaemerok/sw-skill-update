@@ -1,7 +1,146 @@
 {
- "dataVersion": 7,
- "dataDate": "2026-10-19",
+ "dataVersion": 8,
+ "dataDate": "2026-10-23",
  "fixes": {
+  "127": {
+   "monster": "Lulu (agua)",
+   "print": "0dd4f55c",
+   "effects": {},
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 20
+    }
+   ]
+  },
+  "187": {
+   "monster": "Lukan (viento)",
+   "print": "51d49128",
+   "effects": {
+    "Continuous DMG": {
+     "aoe": false
+    }
+   }
+  },
+  "317": {
+   "monster": "Suri (viento)",
+   "print": "a41edaed",
+   "effects": {
+    "Remove Buff": {
+     "chance": 90
+    },
+    "Decrease DEF": {
+     "chance": 90
+    },
+    "Increase Glancing Hit Chance": {
+     "chance": 90
+    },
+    "Increase ATB": {
+     "chance": 100,
+     "onCrit": true
+    }
+   }
+  },
+  "389": {
+   "monster": "Michelle (viento)",
+   "print": "010367f8",
+   "effects": {
+    "Recovery": {
+     "revivedOnly": true
+    }
+   }
+  },
+  "414": {
+   "monster": "Spectra (fuego)",
+   "print": "577d5d96",
+   "effects": {
+    "Decrease ATK SPD": {
+     "chance": 50
+    }
+   }
+  },
+  "635": {
+   "monster": "Gunpyeong (fuego)",
+   "print": "202c8d2a",
+   "effects": {
+    "Decrease ATK": {
+     "onCrit": false
+    },
+    "Increase Glancing Hit Chance": {
+     "onCrit": true
+    }
+   }
+  },
+  "662": {
+   "monster": "Eshir (luz)",
+   "print": "3b9de5ab",
+   "effects": {},
+   "added": [
+    {
+     "name": "Remove Buff",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 50,
+     "quantity": 1
+    }
+   ]
+  },
+  "670": {
+   "monster": "Hrungnir (oscuridad)",
+   "print": "39e9a9b0",
+   "effects": {
+    "Stun": {
+     "aoe": false
+    },
+    "Unrecoverable": {
+     "chance": 80
+    }
+   }
+  },
+  "699": {
+   "monster": "Arnold (fuego)",
+   "print": "27fda436",
+   "effects": {
+    "Heal": {
+     "self": false,
+     "aoe": true
+    }
+   }
+  },
+  "700": {
+   "monster": "Briand (viento)",
+   "print": "56b4110f",
+   "effects": {
+    "Heal": {
+     "self": false,
+     "aoe": true
+    }
+   }
+  },
+  "701": {
+   "monster": "Conrad (luz)",
+   "print": "56b4110f",
+   "effects": {
+    "Heal": {
+     "self": false,
+     "aoe": true
+    }
+   }
+  },
+  "704": {
+   "monster": "Arnold (fuego)",
+   "print": "e4297fad",
+   "effects": {
+    "Destroy HP": {
+     "self": false
+    }
+   }
+  },
   "717": {
    "monster": "Joker (viento)",
    "print": "7b01d2c9",
@@ -32,6 +171,33 @@
     }
    }
   },
+  "755": {
+   "monster": "Rigel (agua)",
+   "print": "7722ff87",
+   "effects": {
+    "Decrease DEF": {
+     "name": "Decrease ATK SPD"
+    }
+   }
+  },
+  "756": {
+   "monster": "Fuco (viento)",
+   "print": "7722ff87",
+   "effects": {
+    "Decrease DEF": {
+     "name": "Decrease ATK SPD"
+    }
+   }
+  },
+  "783": {
+   "monster": "Lanett (oscuridad)",
+   "print": "83fcb69f",
+   "effects": {
+    "Oblivion": {
+     "aoe": false
+    }
+   }
+  },
   "789": {
    "monster": "Platy",
    "print": "7c96989e",
@@ -45,12 +211,272 @@
     }
    }
   },
+  "790": {
+   "monster": "Betta (oscuridad)",
+   "print": "fa634b0e",
+   "effects": {
+    "Heal": {
+     "quantity": 40
+    },
+    "Increase ATB": {
+     "quantity": 40
+    }
+   }
+  },
+  "796": {
+   "monster": "Cichlid (viento)",
+   "print": "848a8eb3",
+   "effects": {
+    "Increase Cooltime": {
+     "quantity": 2
+    }
+   }
+  },
+  "824": {
+   "monster": "Han (oscuridad)",
+   "print": "7eb7b422",
+   "effects": {
+    "Stun": {
+     "chance": 50
+    }
+   }
+  },
+  "825": {
+   "monster": "Garo (fuego)",
+   "print": "7eb7b422",
+   "effects": {
+    "Stun": {
+     "chance": 50
+    }
+   }
+  },
+  "831": {
+   "monster": "Gin (luz)",
+   "print": "370e3e1e",
+   "effects": {
+    "Absorb ATB": {
+     "quantity": 50
+    }
+   }
+  },
+  "832": {
+   "monster": "Orochi (viento)",
+   "print": "370e3e1e",
+   "effects": {
+    "Absorb ATB": {
+     "quantity": 50
+    }
+   }
+  },
+  "833": {
+   "monster": "Susano (agua)",
+   "print": "370e3e1e",
+   "effects": {
+    "Absorb ATB": {
+     "quantity": 50
+    }
+   }
+  },
   "876": {
    "monster": "Barque",
    "print": "a51f6cde",
    "effects": {
     "Increase Damage": {
      "chance": 100
+    }
+   }
+  },
+  "890": {
+   "monster": "Su (agua)",
+   "print": "5ae0ef45",
+   "effects": {
+    "Stun": {
+     "onCrit": true
+    },
+    "Reduce Cooltime": {
+     "self": true
+    },
+    "Increase ATB": {
+     "self": true
+    }
+   }
+  },
+  "929": {
+   "monster": "Yeonhong (luz)",
+   "print": "1bc7716b",
+   "effects": {},
+   "added": [
+    {
+     "name": "Increase ATB",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 100
+    },
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 50
+    }
+   ]
+  },
+  "936": {
+   "monster": "Isael (oscuridad)",
+   "print": "65179162",
+   "effects": {
+    "Stun": {
+     "name": "Sleep"
+    }
+   }
+  },
+  "937": {
+   "monster": "Akia (fuego)",
+   "print": "65179162",
+   "effects": {
+    "Stun": {
+     "name": "Sleep"
+    }
+   }
+  },
+  "941": {
+   "monster": "Akia (fuego)",
+   "print": "fe288aa7",
+   "effects": {
+    "Sleep": {
+     "aoe": true
+    }
+   }
+  },
+  "970": {
+   "monster": "Lumirecia (agua)",
+   "print": "5854f6bd",
+   "effects": {},
+   "added": [
+    {
+     "name": "Stun",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 50,
+     "quantity": 1
+    }
+   ]
+  },
+  "972": {
+   "monster": "Mihael (luz)",
+   "print": "8043b476",
+   "effects": {},
+   "added": [
+    {
+     "name": "Stun",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 50,
+     "quantity": 1
+    }
+   ]
+  },
+  "986": {
+   "monster": "Tilasha (oscuridad)",
+   "print": "6e55138d",
+   "effects": {
+    "Increase Glancing Hit Chance#1": {
+     "chance": 50
+    }
+   }
+  },
+  "994": {
+   "monster": "Atenai (fuego)",
+   "print": "65df6c8e",
+   "effects": {
+    "Decrease ATK#1": {
+     "chance": 50
+    }
+   }
+  },
+  "999": {
+   "monster": "Undine (agua) / Mikene",
+   "print": "756fa11b",
+   "effects": {
+    "Immunity": {
+     "revivedOnly": true
+    }
+   }
+  },
+  "1012": {
+   "monster": "Liesel (agua)",
+   "print": "f5ff1d20",
+   "effects": {
+    "Decrease ATK": {
+     "chance": 50
+    },
+    "Decrease ATK SPD": {
+     "chance": 50
+    },
+    "Beneficial Effects Blocked": {
+     "chance": 50
+    }
+   }
+  },
+  "1013": {
+   "monster": "Argen (viento)",
+   "print": "f5ff1d20",
+   "effects": {
+    "Decrease ATK": {
+     "chance": 50
+    },
+    "Decrease ATK SPD": {
+     "chance": 50
+    },
+    "Beneficial Effects Blocked": {
+     "chance": 50
+    }
+   }
+  },
+  "1014": {
+   "monster": "Cadiz (oscuridad)",
+   "print": "f5ff1d20",
+   "effects": {
+    "Decrease ATK": {
+     "chance": 50
+    },
+    "Decrease ATK SPD": {
+     "chance": 50
+    },
+    "Beneficial Effects Blocked": {
+     "chance": 50
+    }
+   }
+  },
+  "1042": {
+   "monster": "Rahul (oscuridad)",
+   "print": "c568c16f",
+   "effects": {
+    "Remove Buff": {
+     "chance": 75,
+     "onCrit": false
+    },
+    "Brand": {
+     "chance": 100
+    }
+   }
+  },
+  "1060": {
+   "monster": "Rakan (fuego)",
+   "print": "4fe7103f",
+   "effects": {
+    "Increase ATK": {
+     "chance": 100,
+     "quantity": 3
+    },
+    "Immunity": {
+     "chance": 100,
+     "quantity": 3
     }
    }
   },
@@ -63,6 +489,216 @@
      "quantity": 50
     }
    }
+  },
+  "1113": {
+   "monster": "Craka / Hell Lady (oscuridad)",
+   "print": "c7e91e4c",
+   "effects": {
+    "Invincible": {
+     "revivedOnly": true
+    },
+    "Reduce Cooltime": {
+     "revivedOnly": true
+    }
+   }
+  },
+  "1137": {
+   "monster": "Shi Hou (agua)",
+   "print": "27764db8",
+   "effects": {
+    "Remove Buff": {
+     "onCrit": false
+    },
+    "Stun": {
+     "onCrit": false
+    }
+   }
+  },
+  "1173": {
+   "monster": "Teshar (viento)",
+   "print": "b0ea2136",
+   "effects": {
+    "Stun": {
+     "chance": 18
+    }
+   }
+  },
+  "1196": {
+   "monster": "Chiwu (fuego)",
+   "print": "d17f01e1",
+   "effects": {
+    "Absorb ATB": {
+     "name": "Decrease ATB",
+     "self": false,
+     "aoe": true
+    }
+   }
+  },
+  "1243": {
+   "monster": "Valkyrja (fuego) / Vanessa",
+   "print": "fba7e582",
+   "effects": {
+    "Increase ATK": {
+     "revivedOnly": true
+    }
+   }
+  },
+  "1275": {
+   "monster": "Olivia (viento)",
+   "print": "f13cf042",
+   "effects": {
+    "Immunity": {
+     "aoe": true
+    }
+   }
+  },
+  "1276": {
+   "monster": "Illianna (luz)",
+   "print": "d9840ecc",
+   "effects": {
+    "Immunity": {
+     "aoe": true
+    }
+   }
+  },
+  "1359": {
+   "monster": "Isis (luz)",
+   "print": "4180929f",
+   "effects": {
+    "Decrease DEF": {
+     "name": "Decrease ATK"
+    }
+   }
+  },
+  "1370": {
+   "monster": "Hathor (viento)",
+   "print": "bd41a550",
+   "effects": {
+    "Oblivion": {
+     "aoe": false
+    }
+   }
+  },
+  "1374": {
+   "monster": "Crane (viento)",
+   "print": "6755ed06",
+   "effects": {
+    "Additional Turn": {
+     "name": "Additional Attack",
+     "self": true
+    }
+   }
+  },
+  "1486": {
+   "monster": "Chacha (oscuridad)",
+   "print": "0dd4f55c",
+   "effects": {},
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 20
+    }
+   ]
+  },
+  "1523": {
+   "monster": "Lala (fuego)",
+   "print": "0dd4f55c",
+   "effects": {},
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 20
+    }
+   ]
+  },
+  "1533": {
+   "monster": "Kaz (agua)",
+   "print": "7fae25a1",
+   "effects": {
+    "Decrease ATB": {
+     "chance": 100
+    }
+   }
+  },
+  "1554": {
+   "monster": "Loren (luz)",
+   "print": "4027642f",
+   "effects": {
+    "Remove Buff": {
+     "chance": 60
+    }
+   }
+  },
+  "1555": {
+   "monster": "Hannah (viento)",
+   "print": "4027642f",
+   "effects": {
+    "Remove Buff": {
+     "chance": 60
+    }
+   }
+  },
+  "1556": {
+   "monster": "Sera (agua)",
+   "print": "3b949467",
+   "effects": {
+    "Continuous DMG": {
+     "chance": 75
+    }
+   }
+  },
+  "1575": {
+   "monster": "Homunculus de ataque (agua)",
+   "print": "f5d8323e",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease DEF",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 50,
+     "quantity": 2
+    }
+   ]
+  },
+  "1588": {
+   "monster": "Homunculus de ataque (fuego)",
+   "print": "f5d8323e",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease DEF",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 50,
+     "quantity": 2
+    }
+   ]
+  },
+  "1605": {
+   "monster": "Homunculus de ataque (viento)",
+   "print": "f5d8323e",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease DEF",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 50,
+     "quantity": 2
+    }
+   ]
   },
   "1630": {
    "monster": "Dice Magician (fuego) / Ludo",
@@ -109,6 +745,27 @@
     }
    }
   },
+  "1644": {
+   "monster": "Sonnet (agua)",
+   "print": "0c315eee",
+   "effects": {
+    "Continuous DMG": {
+     "chance": 60
+    }
+   }
+  },
+  "1647": {
+   "monster": "Celia (luz)",
+   "print": "b80b14db",
+   "effects": {
+    "Sleep": {
+     "aoe": true
+    },
+    "Continuous DMG": {
+     "chance": 60
+    }
+   }
+  },
   "1706": {
    "monster": "Helena",
    "print": "1d51611e",
@@ -136,6 +793,271 @@
     }
    }
   },
+  "1738": {
+   "monster": "Homunculus de apoyo (luz)",
+   "print": "4b87f6b5",
+   "effects": {},
+   "added": [
+    {
+     "name": "Shield",
+     "type": "Buff",
+     "self": false,
+     "aoe": true,
+     "chance": 0,
+     "quantity": 2
+    },
+    {
+     "name": "Increase DEF",
+     "type": "Buff",
+     "self": false,
+     "aoe": true,
+     "chance": 0,
+     "quantity": 2
+    }
+   ]
+  },
+  "1741": {
+   "monster": "Homunculus de apoyo (oscuridad)",
+   "print": "4b87f6b5",
+   "effects": {},
+   "added": [
+    {
+     "name": "Shield",
+     "type": "Buff",
+     "self": false,
+     "aoe": true,
+     "chance": 0,
+     "quantity": 2
+    },
+    {
+     "name": "Increase DEF",
+     "type": "Buff",
+     "self": false,
+     "aoe": true,
+     "chance": 0,
+     "quantity": 2
+    }
+   ]
+  },
+  "1928": {
+   "monster": "Josephine (agua)",
+   "print": "3b08ef67",
+   "effects": {
+    "Provoke#1": {
+     "chance": 75
+    },
+    "Provoke#2": {
+     "self": false,
+     "chance": 75
+    }
+   }
+  },
+  "1932": {
+   "monster": "Leona (oscuridad)",
+   "print": "3b08ef67",
+   "effects": {
+    "Provoke#1": {
+     "chance": 75
+    },
+    "Provoke#2": {
+     "self": false,
+     "chance": 75
+    }
+   }
+  },
+  "1935": {
+   "monster": "Louise (viento)",
+   "print": "ce67a978",
+   "effects": {
+    "Shield": {
+     "self": false,
+     "aoe": true
+    }
+   }
+  },
+  "1939": {
+   "monster": "Ophilia (fuego)",
+   "print": "9d4fb595",
+   "effects": {
+    "Stun": {
+     "chance": 15
+    }
+   }
+  },
+  "1940": {
+   "monster": "Louise (viento)",
+   "print": "e87773ac",
+   "effects": {
+    "Decrease DEF": {
+     "chance": 25,
+     "quantity": 2
+    }
+   }
+  },
+  "2012": {
+   "monster": "Bellenus (fuego)",
+   "print": "76cd53fc",
+   "effects": {},
+   "added": [
+    {
+     "name": "Provoke",
+     "type": "Debuff",
+     "self": false,
+     "aoe": true,
+     "chance": 70,
+     "quantity": 1
+    }
+   ]
+  },
+  "2013": {
+   "monster": "Taranys (viento)",
+   "print": "7a6306f4",
+   "effects": {},
+   "added": [
+    {
+     "name": "Provoke",
+     "type": "Debuff",
+     "self": false,
+     "aoe": true,
+     "chance": 70,
+     "quantity": 1
+    }
+   ]
+  },
+  "2014": {
+   "monster": "Valantis (luz)",
+   "print": "7bc9605d",
+   "effects": {},
+   "added": [
+    {
+     "name": "Provoke",
+     "type": "Debuff",
+     "self": false,
+     "aoe": true,
+     "chance": 70,
+     "quantity": 1
+    }
+   ]
+  },
+  "2015": {
+   "monster": "Pater (oscuridad)",
+   "print": "4f68311a",
+   "effects": {},
+   "added": [
+    {
+     "name": "Provoke",
+     "type": "Debuff",
+     "self": false,
+     "aoe": true,
+     "chance": 70,
+     "quantity": 1
+    }
+   ]
+  },
+  "2126": {
+   "monster": "Scarlett (fuego)",
+   "print": "0a691e0f",
+   "effects": {
+    "Destroy HP": {
+     "remove": true
+    }
+   }
+  },
+  "2128": {
+   "monster": "Emily (luz)",
+   "print": "11905dd5",
+   "effects": {
+    "Stun": {
+     "chance": 50
+    }
+   }
+  },
+  "2170": {
+   "monster": "Pixie 2A (luz) / Cheryl",
+   "print": "60655042",
+   "effects": {
+    "Reduce Cooltime": {
+     "revivedOnly": true
+    }
+   }
+  },
+  "2216": {
+   "monster": "Belladeon (luz)",
+   "print": "01a2a044",
+   "effects": {
+    "Increase ATB": {
+     "self": true
+    }
+   }
+  },
+  "2293": {
+   "monster": "Mephisto (viento)",
+   "print": "ac749a5f",
+   "effects": {
+    "Increase ATB": {
+     "aoe": true
+    }
+   }
+  },
+  "2409": {
+   "monster": "Savannah (viento)",
+   "print": "8a56a638",
+   "effects": {
+    "Remove Buff": {
+     "aoe": false
+    },
+    "Continuous DMG": {
+     "aoe": false
+    }
+   }
+  },
+  "2410": {
+   "monster": "Narsha (luz)",
+   "print": "8a56a638",
+   "effects": {
+    "Remove Buff": {
+     "aoe": false
+    },
+    "Continuous DMG": {
+     "aoe": false
+    }
+   }
+  },
+  "2648": {
+   "monster": "Varus (oscuridad)",
+   "print": "f2bbea7f",
+   "effects": {
+    "Decrease ATB": {
+     "remove": true
+    }
+   },
+   "added": [
+    {
+     "name": "Stun",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 1,
+     "onCrit": true
+    }
+   ]
+  },
+  "2655": {
+   "monster": "Spectra (fuego)",
+   "print": "bdab3184",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease ATK SPD",
+     "type": "Debuff",
+     "self": false,
+     "aoe": true,
+     "chance": 100,
+     "quantity": 2
+    }
+   ]
+  },
   "2697": {
    "monster": "Jeogun",
    "print": "4eab71dd",
@@ -144,6 +1066,42 @@
      "self": false
     },
     "Increase ATB": {
+     "self": false
+    }
+   }
+  },
+  "2759": {
+   "monster": "M. BISON (viento)",
+   "print": "c532eb2d",
+   "effects": {
+    "Decrease ATB": {
+     "aoe": true
+    },
+    "Provoke": {
+     "aoe": true
+    }
+   }
+  },
+  "2775": {
+   "monster": "DHALSIM (viento)",
+   "print": "e8dd30d6",
+   "effects": {
+    "Stun": {
+     "chance": 25
+    },
+    "Continuous DMG": {
+     "chance": 70
+    },
+    "Debuff Bonus Damage": {
+     "quantity": 50
+    }
+   }
+  },
+  "2814": {
+   "monster": "Bernadotte (fuego)",
+   "print": "31f7f81f",
+   "effects": {
+    "Remove Buff": {
      "self": false
     }
    }
@@ -157,6 +1115,236 @@
     }
    }
   },
+  "2858": {
+   "monster": "Jarrett (viento)",
+   "print": "c5abc586",
+   "effects": {
+    "Stun": {
+     "chance": 25
+    },
+    "Continuous DMG": {
+     "chance": 70
+    },
+    "Debuff Bonus Damage": {
+     "quantity": 50
+    }
+   }
+  },
+  "2988": {
+   "monster": "Chacha and Friends (oscuridad)",
+   "print": "64fc6f98",
+   "effects": {
+    "Heal": {
+     "quantity": 15
+    }
+   }
+  },
+  "2989": {
+   "monster": "Lulu and Friends (agua)",
+   "print": "e71c24e7",
+   "effects": {
+    "Heal": {
+     "quantity": 25
+    },
+    "Immunity": {
+     "self": false
+    },
+    "Cleanse": {
+     "self": false
+    }
+   },
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 25
+    }
+   ]
+  },
+  "2990": {
+   "monster": "Lala and Friends (fuego)",
+   "print": "5506af27",
+   "effects": {
+    "Heal": {
+     "quantity": 25
+    },
+    "Cleanse": {
+     "self": false
+    }
+   },
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 25
+    }
+   ]
+  },
+  "2993": {
+   "monster": "Chacha and Friends (oscuridad)",
+   "print": "7e76d454",
+   "effects": {
+    "Heal": {
+     "quantity": 25
+    }
+   },
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 25
+    }
+   ]
+  },
+  "2994": {
+   "monster": "Lulu and Friends (agua)",
+   "print": "3bcd7f54",
+   "effects": {
+    "Cleanse": {
+     "self": false
+    }
+   }
+  },
+  "2995": {
+   "monster": "Lala and Friends (fuego)",
+   "print": "6d7e1e0c",
+   "effects": {
+    "Cleanse": {
+     "self": false
+    }
+   },
+   "added": [
+    {
+     "name": "Additional Attack",
+     "type": "Neutral",
+     "self": true,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 5
+    }
+   ]
+  },
+  "3075": {
+   "monster": "Shizuka (agua)",
+   "print": "29ae8293",
+   "effects": {},
+   "added": [
+    {
+     "name": "Revive",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 30,
+     "quantity": 0
+    },
+    {
+     "name": "Reduce Cooltime",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 1
+    }
+   ]
+  },
+  "3078": {
+   "monster": "Seimei (luz)",
+   "print": "29ae8293",
+   "effects": {},
+   "added": [
+    {
+     "name": "Revive",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 30,
+     "quantity": 0
+    },
+    {
+     "name": "Reduce Cooltime",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 1
+    }
+   ]
+  },
+  "3112": {
+   "monster": "Kahli (fuego)",
+   "print": "032b0e78",
+   "effects": {
+    "Invincible": {
+     "self": true
+    }
+   }
+  },
+  "3143": {
+   "monster": "Coco (fuego)",
+   "print": "8ed27091",
+   "effects": {
+    "Counter": {
+     "self": true
+    }
+   }
+  },
+  "3159": {
+   "monster": "Oliver (viento)",
+   "print": "84ca9ce5",
+   "effects": {
+    "Increase Cooltime": {
+     "chance": 100
+    },
+    "Increase ATB": {
+     "quantity": 90
+    }
+   }
+  },
+  "3168": {
+   "monster": "ROBO-P27 (fuego)",
+   "print": "daa74e13",
+   "effects": {
+    "Absorb ATB": {
+     "quantity": 15
+    }
+   }
+  },
+  "3169": {
+   "monster": "ROBO-G92 (viento)",
+   "print": "daa74e13",
+   "effects": {
+    "Absorb ATB": {
+     "quantity": 15
+    }
+   }
+  },
+  "3171": {
+   "monster": "ROBO-F29 (oscuridad)",
+   "print": "daa74e13",
+   "effects": {
+    "Absorb ATB": {
+     "quantity": 15
+    }
+   }
+  },
+  "3183": {
+   "monster": "Craka / Hell Lady (oscuridad)",
+   "print": "bc27a5e2",
+   "effects": {
+    "Increase ATB": {
+     "self": true
+    }
+   }
+  },
   "3295": {
    "monster": "Megan",
    "print": "2a76cce9",
@@ -164,6 +1352,328 @@
     "Increase ATB": {
      "chance": 100,
      "quantity": 20
+    }
+   }
+  },
+  "3344": {
+   "monster": "Birman (agua)",
+   "print": "5e7462c1",
+   "effects": {
+    "Remove Buff": {
+     "chance": 30
+    }
+   }
+  },
+  "3345": {
+   "monster": "Manx (fuego)",
+   "print": "5e7462c1",
+   "effects": {
+    "Remove Buff": {
+     "chance": 30
+    }
+   }
+  },
+  "3346": {
+   "monster": "Nebelung (viento)",
+   "print": "5e7462c1",
+   "effects": {
+    "Remove Buff": {
+     "chance": 30
+    }
+   }
+  },
+  "3347": {
+   "monster": "Siamese (luz)",
+   "print": "5e7462c1",
+   "effects": {
+    "Remove Buff": {
+     "chance": 30
+    }
+   }
+  },
+  "3348": {
+   "monster": "Bombay (oscuridad)",
+   "print": "5e7462c1",
+   "effects": {
+    "Remove Buff": {
+     "chance": 30
+    }
+   }
+  },
+  "3359": {
+   "monster": "Xiao Lin (agua)",
+   "print": "5c77f8d1",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease ATB",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 80,
+     "quantity": 50
+    },
+    {
+     "name": "Decrease ATK SPD",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 80,
+     "quantity": 2
+    },
+    {
+     "name": "Stun",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 40,
+     "quantity": 1
+    },
+    {
+     "name": "Additional Attack",
+     "type": "Neutral",
+     "self": true,
+     "aoe": false,
+     "chance": 20,
+     "quantity": 0
+    }
+   ]
+  },
+  "3360": {
+   "monster": "Hong Hua (fuego)",
+   "print": "60de1578",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease ATB",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 80,
+     "quantity": 50
+    },
+    {
+     "name": "Decrease ATK SPD",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 80,
+     "quantity": 2
+    },
+    {
+     "name": "Stun",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 40,
+     "quantity": 1
+    },
+    {
+     "name": "Additional Attack",
+     "type": "Neutral",
+     "self": true,
+     "aoe": false,
+     "chance": 20,
+     "quantity": 0
+    }
+   ]
+  },
+  "3362": {
+   "monster": "Liu Mei (luz)",
+   "print": "c8d4c59e",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease ATB",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 80,
+     "quantity": 50
+    },
+    {
+     "name": "Decrease ATK SPD",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 80,
+     "quantity": 2
+    },
+    {
+     "name": "Stun",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 40,
+     "quantity": 1
+    },
+    {
+     "name": "Additional Attack",
+     "type": "Neutral",
+     "self": true,
+     "aoe": false,
+     "chance": 20,
+     "quantity": 0
+    }
+   ]
+  },
+  "3427": {
+   "monster": "Espresso Cookie (oscuridad)",
+   "print": "6f7a6393",
+   "effects": {
+    "Decrease ATB": {
+     "chance": 50,
+     "quantity": 20,
+     "aoe": true
+    },
+    "Redistribute HP": {
+     "remove": true
+    }
+   }
+  },
+  "3435": {
+   "monster": "Madeleine Cookie (viento)",
+   "print": "c81e081a",
+   "effects": {
+    "Stun": {
+     "chance": 70
+    },
+    "Unrecoverable": {
+     "chance": 70
+    }
+   }
+  },
+  "3437": {
+   "monster": "Madeleine Cookie (oscuridad)",
+   "print": "c81e081a",
+   "effects": {
+    "Stun": {
+     "chance": 70
+    },
+    "Unrecoverable": {
+     "chance": 70
+    }
+   }
+  },
+  "3455": {
+   "monster": "Lucia (fuego)",
+   "print": "3939c22b",
+   "effects": {
+    "Heal": {
+     "aoe": true
+    },
+    "Shield": {
+     "aoe": true
+    }
+   }
+  },
+  "3456": {
+   "monster": "Angela (viento)",
+   "print": "3939c22b",
+   "effects": {
+    "Heal": {
+     "aoe": true
+    },
+    "Shield": {
+     "aoe": true
+    }
+   }
+  },
+  "3462": {
+   "monster": "Ariana (luz)",
+   "print": "4a062d0c",
+   "effects": {
+    "Endure": {
+     "aoe": false
+    },
+    "Immunity": {
+     "aoe": false
+    }
+   },
+   "added": [
+    {
+     "name": "Reduce Cooltime",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 0
+    }
+   ]
+  },
+  "3494": {
+   "monster": "Lavender (oscuridad)",
+   "print": "31b6be4d",
+   "effects": {
+    "Redistribute HP": {
+     "remove": true
+    }
+   }
+  },
+  "3502": {
+   "monster": "Praline (viento)",
+   "print": "dd55966e",
+   "effects": {
+    "Stun": {
+     "chance": 70
+    },
+    "Unrecoverable": {
+     "chance": 70
+    }
+   }
+  },
+  "3504": {
+   "monster": "Truffle (oscuridad)",
+   "print": "dd55966e",
+   "effects": {
+    "Stun": {
+     "chance": 70
+    },
+    "Unrecoverable": {
+     "chance": 70
+    }
+   }
+  },
+  "3561": {
+   "monster": "Zima (fuego)",
+   "print": "f888a9a8",
+   "effects": {
+    "Stun": {
+     "chance": 100
+    }
+   }
+  },
+  "3566": {
+   "monster": "Zima (fuego)",
+   "print": "7471c476",
+   "effects": {
+    "Beneficial Effects Blocked": {
+     "name": "Harmful Effect Removal Blocked"
+    },
+    "Silence": {
+     "quantity": 1
+    }
+   },
+   "added": [
+    {
+     "name": "Silence",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 2
+    }
+   ]
+  },
+  "3586": {
+   "monster": "Ezio (luz)",
+   "print": "092ad87b",
+   "effects": {
+    "Oblivion": {
+     "remove": true
+    },
+    "Increase ATB": {
+     "quantity": 100
     }
    }
   },
@@ -185,6 +1695,36 @@
     }
    }
   },
+  "3615": {
+   "monster": "Kassandra (viento)",
+   "print": "a17bcc04",
+   "effects": {
+    "Increase Glancing Hit Chance": {
+     "remove": true
+    }
+   }
+  },
+  "3676": {
+   "monster": "Frederic (luz)",
+   "print": "4f21f38f",
+   "effects": {
+    "Counter": {
+     "self": false
+    }
+   }
+  },
+  "3691": {
+   "monster": "Ian (luz)",
+   "print": "abd353fd",
+   "effects": {
+    "Oblivion": {
+     "remove": true
+    },
+    "Increase ATB": {
+     "quantity": 100
+    }
+   }
+  },
   "3704": {
    "monster": "Ashour (Fuego)",
    "print": "f3878a51",
@@ -199,6 +1739,106 @@
     }
    }
   },
+  "3714": {
+   "monster": "Federica (fuego)",
+   "print": "e506092d",
+   "effects": {
+    "Reduce Cooltime": {
+     "self": true
+    }
+   }
+  },
+  "3715": {
+   "monster": "Eleni (viento)",
+   "print": "e506092d",
+   "effects": {
+    "Reduce Cooltime": {
+     "self": true
+    }
+   }
+  },
+  "3717": {
+   "monster": "Kiara (oscuridad)",
+   "print": "9c61a18b",
+   "effects": {
+    "Reduce Cooltime": {
+     "self": true
+    }
+   }
+  },
+  "3760": {
+   "monster": "Chakra (viento)",
+   "print": "ff455e33",
+   "effects": {
+    "Decrease ATK": {
+     "aoe": true
+    },
+    "Brand": {
+     "aoe": true
+    }
+   }
+  },
+  "3800": {
+   "monster": "Usha (viento)",
+   "print": "4b8badee",
+   "effects": {
+    "Continuous DMG": {
+     "aoe": true
+    }
+   }
+  },
+  "3802": {
+   "monster": "Vritra (oscuridad)",
+   "print": "4b8badee",
+   "effects": {
+    "Continuous DMG": {
+     "aoe": true
+    }
+   }
+  },
+  "3848": {
+   "monster": "Silver (luz)",
+   "print": "808279f5",
+   "effects": {
+    "Stun": {
+     "self": false
+    },
+    "Decrease ATK SPD": {
+     "self": false
+    }
+   }
+  },
+  "3849": {
+   "monster": "Zinc (oscuridad)",
+   "print": "ee387768",
+   "effects": {
+    "Beneficial Effects Blocked": {
+     "self": false
+    },
+    "Decrease ATK SPD": {
+     "self": false
+    }
+   }
+  },
+  "3946": {
+   "monster": "Irène (agua)",
+   "print": "b28840e1",
+   "effects": {
+    "Remove Buff": {
+     "name": "Steal Buff",
+     "self": false
+    }
+   }
+  },
+  "3997": {
+   "monster": "Mihyang (agua)",
+   "print": "1fce8946",
+   "effects": {
+    "Increase ATB": {
+     "aoe": true
+    }
+   }
+  },
   "4016": {
    "monster": "Jeongnam",
    "print": "9b77adad",
@@ -209,6 +1849,24 @@
     "Heal": {
      "chance": 100,
      "quantity": 30
+    }
+   }
+  },
+  "4056": {
+   "monster": "Karuel and Lanoah (fuego)",
+   "print": "4d660411",
+   "effects": {
+    "Increase ATB": {
+     "self": false
+    }
+   }
+  },
+  "4069": {
+   "monster": "Jaduel and Aepiah (oscuridad)",
+   "print": "e64d2a2f",
+   "effects": {
+    "Remove Buff": {
+     "name": "Cleanse"
     }
    }
   },
@@ -230,6 +1888,69 @@
     }
    }
   },
+  "4131": {
+   "monster": "Yennefer (oscuridad)",
+   "print": "f8931587",
+   "effects": {
+    "Silence": {
+     "chance": 70
+    }
+   }
+  },
+  "4135": {
+   "monster": "Triss (luz)",
+   "print": "4f16d236",
+   "effects": {
+    "Remove Buff": {
+     "chance": 20
+    }
+   }
+  },
+  "4164": {
+   "monster": "K1D (agua)",
+   "print": "9d184998",
+   "effects": {
+    "Brand": {
+     "self": false
+    }
+   }
+  },
+  "4165": {
+   "monster": "7R1X (fuego)",
+   "print": "9d184998",
+   "effects": {
+    "Brand": {
+     "self": false
+    }
+   }
+  },
+  "4166": {
+   "monster": "570RM (viento)",
+   "print": "9d184998",
+   "effects": {
+    "Brand": {
+     "self": false
+    }
+   }
+  },
+  "4167": {
+   "monster": "51LV3R (luz)",
+   "print": "9d184998",
+   "effects": {
+    "Brand": {
+     "self": false
+    }
+   }
+  },
+  "4168": {
+   "monster": "N1X (oscuridad)",
+   "print": "9d184998",
+   "effects": {
+    "Brand": {
+     "self": false
+    }
+   }
+  },
   "4239": {
    "monster": "Hilda",
    "print": "abf80058",
@@ -239,12 +1960,215 @@
     }
    }
   },
+  "4244": {
+   "monster": "Hilda (oscuridad)",
+   "print": "482d5b2c",
+   "effects": {
+    "Silence": {
+     "chance": 70
+    }
+   }
+  },
+  "4259": {
+   "monster": "Celestara (oscuridad)",
+   "print": "c97e6768",
+   "effects": {
+    "Increase DEF": {
+     "remove": true
+    }
+   }
+  },
+  "4408": {
+   "monster": "Megumi Fushiguro (luz)",
+   "print": "9e5894c1",
+   "effects": {
+    "Decrease Debuff Duration": {
+     "name": "Decrease Buff Duration"
+    }
+   }
+  },
+  "4443": {
+   "monster": "Seal (viento)",
+   "print": "55dddc8a",
+   "effects": {
+    "Decrease ATB": {
+     "name": "Decrease ATK"
+    }
+   }
+  },
+  "4448": {
+   "monster": "Seal (viento)",
+   "print": "97809bd6",
+   "effects": {
+    "Continuous DMG": {
+     "quantity": 3
+    }
+   }
+  },
   "4557": {
    "monster": "Aya",
    "print": "74f186be",
    "effects": {
     "Heal": {
      "chance": 100
+    }
+   }
+  },
+  "4565": {
+   "monster": "Theodora (fuego)",
+   "print": "338680f5",
+   "effects": {
+    "Stun": {
+     "aoe": true
+    }
+   }
+  },
+  "4566": {
+   "monster": "Orphina (viento)",
+   "print": "338680f5",
+   "effects": {
+    "Stun": {
+     "aoe": true
+    }
+   }
+  },
+  "4567": {
+   "monster": "Mortera (luz)",
+   "print": "338680f5",
+   "effects": {
+    "Stun": {
+     "aoe": true
+    }
+   }
+  },
+  "4622": {
+   "monster": "Nezuko Kamado (fuego)",
+   "print": "e460f9a8",
+   "effects": {
+    "Decrease ATB": {
+     "quantity": 100
+    },
+    "Increase Damage": {
+     "remove": true
+    }
+   }
+  },
+  "4668": {
+   "monster": "Tityus (fuego)",
+   "print": "a2bcd52b",
+   "effects": {
+    "Provoke": {
+     "chance": 50
+    }
+   }
+  },
+  "4669": {
+   "monster": "Elephas (viento)",
+   "print": "d6b621f7",
+   "effects": {
+    "Provoke": {
+     "chance": 50
+    }
+   }
+  },
+  "4670": {
+   "monster": "Hyllus (luz)",
+   "print": "a2bcd52b",
+   "effects": {
+    "Provoke": {
+     "chance": 50
+    }
+   }
+  },
+  "4754": {
+   "monster": "Jin Kazama (agua)",
+   "print": "a579d913",
+   "effects": {
+    "Increase ATB": {
+     "onCrit": true
+    }
+   }
+  },
+  "4758": {
+   "monster": "Jin Kazama (oscuridad)",
+   "print": "a579d913",
+   "effects": {
+    "Increase ATB": {
+     "onCrit": true
+    }
+   }
+  },
+  "4931": {
+   "monster": "Kai (agua)",
+   "print": "23fb3c2e",
+   "effects": {
+    "Increase ATB": {
+     "onCrit": true
+    }
+   },
+   "added": [
+    {
+     "name": "Increase ATK",
+     "type": "Buff",
+     "self": true,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 1
+    }
+   ]
+  },
+  "4935": {
+   "monster": "Kai (oscuridad)",
+   "print": "23fb3c2e",
+   "effects": {
+    "Increase ATB": {
+     "onCrit": true
+    }
+   },
+   "added": [
+    {
+     "name": "Increase ATK",
+     "type": "Buff",
+     "self": true,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 1
+    }
+   ]
+  },
+  "5015": {
+   "monster": "Arella (luz)",
+   "print": "19a8a7b0",
+   "effects": {
+    "Beneficial Effects Blocked": {
+     "name": "Harmful Effect Removal Blocked",
+     "quantity": 1
+    }
+   }
+  },
+  "5172": {
+   "monster": "Purian (agua)",
+   "print": "203bdd36",
+   "effects": {},
+   "added": [
+    {
+     "name": "Stun",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 1,
+     "onCrit": true
+    }
+   ]
+  },
+  "5349": {
+   "monster": "Übel (luz)",
+   "print": "d7628e01",
+   "effects": {
+    "Harmful Effect Removal Blocked": {
+     "chance": 100,
+     "quantity": 1
     }
    }
   }

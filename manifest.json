@@ -1,43 +1,1075 @@
 {
- "format": 5,
- "dataVersion": 7,
- "date": "2026-10-19",
- "passives": 104,
- "fixes": 22,
+ "format": 6,
+ "dataVersion": 8,
+ "date": "2026-10-23",
+ "passives": 123,
+ "fixes": 180,
  "files": {
-  "passives.json": "777c23af5c3cc931bb4c843dc9913e3cd3520994e81a61a6698d262416d732e5",
-  "skill-fixes.json": "ab7e693767656ccf044c08bdc3c07844a73521433552bfcd1771e59f1b38e8f7"
+  "passives.json": "2ad9fad90614ab6dea223d6baf9477ce60ef1d9159fa2efcf756a84146ab700a",
+  "skill-fixes.json": "b4179a74e2b699899f77fbd3cd54eb4397b1289efa2b8b58a39a0340ef97ca1b"
  },
  "changes": [
   {
-   "id": 1630,
+   "id": 4167,
    "kind": "fix",
    "change": "new",
-   "monster": "Dice Magician (fuego) / Ludo"
+   "monster": "51LV3R (luz)"
   },
   {
-   "id": 1632,
+   "id": 4166,
    "kind": "fix",
    "change": "new",
-   "monster": "Dice Magician (luz) / Tablo"
+   "monster": "570RM (viento)"
   },
   {
-   "id": 1631,
+   "id": 4165,
    "kind": "fix",
    "change": "new",
-   "monster": "Dice Magician (viento)"
+   "monster": "7R1X (fuego)"
   },
   {
-   "id": 718,
+   "id": 937,
    "kind": "fix",
    "change": "new",
-   "monster": "Joker (luz) / Figaro"
+   "monster": "Akia (fuego)"
   },
   {
-   "id": 717,
+   "id": 941,
    "kind": "fix",
    "change": "new",
-   "monster": "Joker (viento)"
+   "monster": "Akia (fuego)"
+  },
+  {
+   "id": 3456,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Angela (viento)"
+  },
+  {
+   "id": 5065,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Aragorn (luz)"
+  },
+  {
+   "id": 5015,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Arella (luz)"
+  },
+  {
+   "id": 1013,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Argen (viento)"
+  },
+  {
+   "id": 3462,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Ariana (luz)"
+  },
+  {
+   "id": 699,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Arnold (fuego)"
+  },
+  {
+   "id": 704,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Arnold (fuego)"
+  },
+  {
+   "id": 994,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Atenai (fuego)"
+  },
+  {
+   "id": 2216,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Belladeon (luz)"
+  },
+  {
+   "id": 2012,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Bellenus (fuego)"
+  },
+  {
+   "id": 2814,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Bernadotte (fuego)"
+  },
+  {
+   "id": 790,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Betta (oscuridad)"
+  },
+  {
+   "id": 3344,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Birman (agua)"
+  },
+  {
+   "id": 3348,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Bombay (oscuridad)"
+  },
+  {
+   "id": 700,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Briand (viento)"
+  },
+  {
+   "id": 1014,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Cadiz (oscuridad)"
+  },
+  {
+   "id": 3243,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Carlos (fuego)"
+  },
+  {
+   "id": 4259,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Celestara (oscuridad)"
+  },
+  {
+   "id": 1647,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Celia (luz)"
+  },
+  {
+   "id": 1486,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Chacha (oscuridad)"
+  },
+  {
+   "id": 2988,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Chacha and Friends (oscuridad)"
+  },
+  {
+   "id": 2993,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Chacha and Friends (oscuridad)"
+  },
+  {
+   "id": 3760,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Chakra (viento)"
+  },
+  {
+   "id": 1196,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Chiwu (fuego)"
+  },
+  {
+   "id": 796,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Cichlid (viento)"
+  },
+  {
+   "id": 3143,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Coco (fuego)"
+  },
+  {
+   "id": 701,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Conrad (luz)"
+  },
+  {
+   "id": 1113,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Craka / Hell Lady (oscuridad)"
+  },
+  {
+   "id": 3183,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Craka / Hell Lady (oscuridad)"
+  },
+  {
+   "id": 1374,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Crane (viento)"
+  },
+  {
+   "id": 1956,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Deva (luz)"
+  },
+  {
+   "id": 2775,
+   "kind": "fix",
+   "change": "new",
+   "monster": "DHALSIM (viento)"
+  },
+  {
+   "id": 1673,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Eleanor (luz)"
+  },
+  {
+   "id": 3715,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Eleni (viento)"
+  },
+  {
+   "id": 4669,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Elephas (viento)"
+  },
+  {
+   "id": 2128,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Emily (luz)"
+  },
+  {
+   "id": 662,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Eshir (luz)"
+  },
+  {
+   "id": 3427,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Espresso Cookie (oscuridad)"
+  },
+  {
+   "id": 3584,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Ezio (fuego)"
+  },
+  {
+   "id": 3586,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Ezio (luz)"
+  },
+  {
+   "id": 3719,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Federica (fuego)"
+  },
+  {
+   "id": 3714,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Federica (fuego)"
+  },
+  {
+   "id": 3676,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Frederic (luz)"
+  },
+  {
+   "id": 756,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Fuco (viento)"
+  },
+  {
+   "id": 825,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Garo (fuego)"
+  },
+  {
+   "id": 831,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Gin (luz)"
+  },
+  {
+   "id": 4589,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Gronn (viento)"
+  },
+  {
+   "id": 635,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Gunpyeong (fuego)"
+  },
+  {
+   "id": 2829,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Gurkha (oscuridad)"
+  },
+  {
+   "id": 824,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Han (oscuridad)"
+  },
+  {
+   "id": 1555,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Hannah (viento)"
+  },
+  {
+   "id": 1370,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Hathor (viento)"
+  },
+  {
+   "id": 4244,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Hilda (oscuridad)"
+  },
+  {
+   "id": 3407,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Hollyberry Cookie (agua)"
+  },
+  {
+   "id": 1738,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Homunculus de apoyo (luz)"
+  },
+  {
+   "id": 1741,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Homunculus de apoyo (oscuridad)"
+  },
+  {
+   "id": 1575,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Homunculus de ataque (agua)"
+  },
+  {
+   "id": 1588,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Homunculus de ataque (fuego)"
+  },
+  {
+   "id": 1605,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Homunculus de ataque (viento)"
+  },
+  {
+   "id": 3360,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Hong Hua (fuego)"
+  },
+  {
+   "id": 670,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Hrungnir (oscuridad)"
+  },
+  {
+   "id": 4670,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Hyllus (luz)"
+  },
+  {
+   "id": 3691,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Ian (luz)"
+  },
+  {
+   "id": 1001,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Icasha (luz)"
+  },
+  {
+   "id": 1276,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Illianna (luz)"
+  },
+  {
+   "id": 3946,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Irène (agua)"
+  },
+  {
+   "id": 936,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Isael (oscuridad)"
+  },
+  {
+   "id": 1359,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Isis (luz)"
+  },
+  {
+   "id": 1973,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Jaara (oscuridad)"
+  },
+  {
+   "id": 4069,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Jaduel and Aepiah (oscuridad)"
+  },
+  {
+   "id": 2858,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Jarrett (viento)"
+  },
+  {
+   "id": 4754,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Jin Kazama (agua)"
+  },
+  {
+   "id": 4758,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Jin Kazama (oscuridad)"
+  },
+  {
+   "id": 1928,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Josephine (agua)"
+  },
+  {
+   "id": 216,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Jubelle (oscuridad)"
+  },
+  {
+   "id": 4164,
+   "kind": "fix",
+   "change": "new",
+   "monster": "K1D (agua)"
+  },
+  {
+   "id": 3112,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Kahli (fuego)"
+  },
+  {
+   "id": 4931,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Kai (agua)"
+  },
+  {
+   "id": 4935,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Kai (oscuridad)"
+  },
+  {
+   "id": 4056,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Karuel and Lanoah (fuego)"
+  },
+  {
+   "id": 3615,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Kassandra (viento)"
+  },
+  {
+   "id": 1533,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Kaz (agua)"
+  },
+  {
+   "id": 3717,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Kiara (oscuridad)"
+  },
+  {
+   "id": 1523,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lala (fuego)"
+  },
+  {
+   "id": 2990,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lala and Friends (fuego)"
+  },
+  {
+   "id": 2995,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lala and Friends (fuego)"
+  },
+  {
+   "id": 783,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lanett (oscuridad)"
+  },
+  {
+   "id": 3494,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lavender (oscuridad)"
+  },
+  {
+   "id": 1932,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Leona (oscuridad)"
+  },
+  {
+   "id": 1012,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Liesel (agua)"
+  },
+  {
+   "id": 3362,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Liu Mei (luz)"
+  },
+  {
+   "id": 1554,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Loren (luz)"
+  },
+  {
+   "id": 1935,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Louise (viento)"
+  },
+  {
+   "id": 1940,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Louise (viento)"
+  },
+  {
+   "id": 3455,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lucia (fuego)"
+  },
+  {
+   "id": 187,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lukan (viento)"
+  },
+  {
+   "id": 127,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lulu (agua)"
+  },
+  {
+   "id": 2989,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lulu and Friends (agua)"
+  },
+  {
+   "id": 2994,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lulu and Friends (agua)"
+  },
+  {
+   "id": 970,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lumirecia (agua)"
+  },
+  {
+   "id": 2761,
+   "kind": "passive",
+   "change": "new",
+   "monster": "M. BISON (oscuridad)"
+  },
+  {
+   "id": 2759,
+   "kind": "fix",
+   "change": "new",
+   "monster": "M. BISON (viento)"
+  },
+  {
+   "id": 3437,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Madeleine Cookie (oscuridad)"
+  },
+  {
+   "id": 3435,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Madeleine Cookie (viento)"
+  },
+  {
+   "id": 3474,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Manon (agua)"
+  },
+  {
+   "id": 3345,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Manx (fuego)"
+  },
+  {
+   "id": 4408,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Megumi Fushiguro (luz)"
+  },
+  {
+   "id": 2293,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Mephisto (viento)"
+  },
+  {
+   "id": 389,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Michelle (viento)"
+  },
+  {
+   "id": 972,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Mihael (luz)"
+  },
+  {
+   "id": 3997,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Mihyang (agua)"
+  },
+  {
+   "id": 3157,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Miles (agua)"
+  },
+  {
+   "id": 4567,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Mortera (luz)"
+  },
+  {
+   "id": 4168,
+   "kind": "fix",
+   "change": "new",
+   "monster": "N1X (oscuridad)"
+  },
+  {
+   "id": 2410,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Narsha (luz)"
+  },
+  {
+   "id": 3346,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Nebelung (viento)"
+  },
+  {
+   "id": 4622,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Nezuko Kamado (fuego)"
+  },
+  {
+   "id": 5255,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Night Fang (luz)"
+  },
+  {
+   "id": 3159,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Oliver (viento)"
+  },
+  {
+   "id": 1275,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Olivia (viento)"
+  },
+  {
+   "id": 1939,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Ophilia (fuego)"
+  },
+  {
+   "id": 832,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Orochi (viento)"
+  },
+  {
+   "id": 4566,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Orphina (viento)"
+  },
+  {
+   "id": 2015,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Pater (oscuridad)"
+  },
+  {
+   "id": 2170,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Pixie 2A (luz) / Cheryl"
+  },
+  {
+   "id": 3502,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Praline (viento)"
+  },
+  {
+   "id": 1449,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Psamathe (agua)"
+  },
+  {
+   "id": 5172,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Purian (agua)"
+  },
+  {
+   "id": 1042,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Rahul (oscuridad)"
+  },
+  {
+   "id": 1060,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Rakan (fuego)"
+  },
+  {
+   "id": 755,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Rigel (agua)"
+  },
+  {
+   "id": 3171,
+   "kind": "fix",
+   "change": "new",
+   "monster": "ROBO-F29 (oscuridad)"
+  },
+  {
+   "id": 3169,
+   "kind": "fix",
+   "change": "new",
+   "monster": "ROBO-G92 (viento)"
+  },
+  {
+   "id": 3168,
+   "kind": "fix",
+   "change": "new",
+   "monster": "ROBO-P27 (fuego)"
+  },
+  {
+   "id": 2409,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Savannah (viento)"
+  },
+  {
+   "id": 2126,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Scarlett (fuego)"
+  },
+  {
+   "id": 4443,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Seal (viento)"
+  },
+  {
+   "id": 4448,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Seal (viento)"
+  },
+  {
+   "id": 3078,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Seimei (luz)"
+  },
+  {
+   "id": 1556,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Sera (agua)"
+  },
+  {
+   "id": 1137,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Shi Hou (agua)"
+  },
+  {
+   "id": 3075,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Shizuka (agua)"
+  },
+  {
+   "id": 3347,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Siamese (luz)"
+  },
+  {
+   "id": 3848,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Silver (luz)"
+  },
+  {
+   "id": 1644,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Sonnet (agua)"
+  },
+  {
+   "id": 414,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Spectra (fuego)"
+  },
+  {
+   "id": 2655,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Spectra (fuego)"
+  },
+  {
+   "id": 5333,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Stark (viento)"
+  },
+  {
+   "id": 890,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Su (agua)"
+  },
+  {
+   "id": 317,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Suri (viento)"
+  },
+  {
+   "id": 833,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Susano (agua)"
+  },
+  {
+   "id": 2013,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Taranys (viento)"
+  },
+  {
+   "id": 1173,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Teshar (viento)"
+  },
+  {
+   "id": 4565,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Theodora (fuego)"
+  },
+  {
+   "id": 986,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Tilasha (oscuridad)"
+  },
+  {
+   "id": 4668,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Tityus (fuego)"
+  },
+  {
+   "id": 4135,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Triss (luz)"
+  },
+  {
+   "id": 3504,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Truffle (oscuridad)"
+  },
+  {
+   "id": 5349,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Übel (luz)"
+  },
+  {
+   "id": 999,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Undine (agua) / Mikene"
+  },
+  {
+   "id": 3800,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Usha (viento)"
+  },
+  {
+   "id": 2014,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Valantis (luz)"
+  },
+  {
+   "id": 1243,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Valkyrja (fuego) / Vanessa"
+  },
+  {
+   "id": 2648,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Varus (oscuridad)"
+  },
+  {
+   "id": 1125,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Veromos (oscuridad)"
+  },
+  {
+   "id": 3802,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Vritra (oscuridad)"
+  },
+  {
+   "id": 3359,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Xiao Lin (agua)"
+  },
+  {
+   "id": 4131,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Yennefer (oscuridad)"
+  },
+  {
+   "id": 929,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Yeonhong (luz)"
+  },
+  {
+   "id": 3561,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Zima (fuego)"
+  },
+  {
+   "id": 3566,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Zima (fuego)"
+  },
+  {
+   "id": 3849,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Zinc (oscuridad)"
   }
  ]
 }

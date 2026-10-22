@@ -1,7 +1,42 @@
 {
- "dataVersion": 7,
- "dataDate": "2026-10-19",
+ "dataVersion": 8,
+ "dataDate": "2026-10-23",
  "curated": {
+  "216": {
+   "monster": "Jubelle (oscuridad)",
+   "print": "b2eeb66b",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase CRI Resist",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 50,
+       "note": "−50 % de recibir crítico"
+      }
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Reduce Cooltime",
+       "self": true,
+       "aoe": false,
+       "amount": 1,
+       "note": "su propia habilidad"
+      }
+     ]
+    }
+   ]
+  },
   "316": {
    "monster": "Gangchun",
    "print": "5d075597",
@@ -137,6 +172,32 @@
      "if": [],
      "effects": [
       "Heal"
+     ]
+    }
+   ]
+  },
+  "1001": {
+   "monster": "Icasha (luz)",
+   "print": "a8acf57e",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Invincible"
+     ],
+     "adjust": {
+      "Invincible": {
+       "quantity": 1
+      }
+     },
+     "added": [
+      {
+       "name": "Heal",
+       "self": true,
+       "aoe": false,
+       "amount": 10
+      }
      ]
     }
    ]
@@ -316,6 +377,34 @@
     }
    ]
   },
+  "1125": {
+   "monster": "Veromos (oscuridad)",
+   "print": "1ec21671",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Cleanse",
+      "Heal"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATB",
+       "self": true,
+       "aoe": false,
+       "amount": 15,
+       "note": "por cada debuff que queda en los aliados"
+      }
+     ]
+    }
+   ]
+  },
   "1138": {
    "monster": "Xing Zhe",
    "print": "3fe0756e",
@@ -485,6 +574,26 @@
     }
    ]
   },
+  "1449": {
+   "monster": "Psamathe (agua)",
+   "print": "7c839487",
+   "rules": [
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Revive",
+      "Remove Buff"
+     ],
+     "adjust": {
+      "Remove Buff": {
+       "chance": 50,
+       "quantity": 1
+      }
+     }
+    }
+   ]
+  },
   "1467": {
    "monster": "Mi Ying",
    "print": "8a6d92a9",
@@ -616,6 +725,29 @@
     }
    ]
   },
+  "1673": {
+   "monster": "Eleanor (luz)",
+   "print": "1c7e18b0",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Increase CRI Resist",
+      "Increase Glancing Hit Chance"
+     ],
+     "adjust": {
+      "Increase CRI Resist": {
+       "chance": 0,
+       "quantity": 15
+      },
+      "Increase Glancing Hit Chance": {
+       "quantity": 15
+      }
+     }
+    }
+   ]
+  },
   "1933": {
    "monster": "Josephine",
    "print": "664184de",
@@ -650,6 +782,59 @@
      ],
      "effects": [
       "Increase Damage"
+     ]
+    }
+   ]
+  },
+  "1956": {
+   "monster": "Deva (luz)",
+   "print": "f53d4ad9",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Continuous DMG",
+       "self": false,
+       "aoe": false,
+       "type": "Debuff",
+       "chance": 50,
+       "amount": 1
+      }
+     ]
+    }
+   ]
+  },
+  "1973": {
+   "monster": "Jaara (oscuridad)",
+   "print": "c18f378f",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Brand"
+     ],
+     "added": [
+      {
+       "name": "Decrease DEF",
+       "self": false,
+       "aoe": false,
+       "type": "Debuff",
+       "chance": 50,
+       "amount": 2
+      }
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "strongerThanEnemy"
+     ],
+     "effects": [
+      "Guaranteed Critical Hit"
      ]
     }
    ]
@@ -1019,6 +1204,46 @@
     }
    ]
   },
+  "2761": {
+   "monster": "M. BISON (oscuridad)",
+   "print": "cb1d26e3",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "note": "solo si le ataca un enemigo provocado, en su turno",
+     "effects": [
+      "Increase ATB",
+      "Decrease Damage"
+     ],
+     "adjust": {
+      "Increase ATB": {
+       "quantity": 100
+      }
+     }
+    }
+   ]
+  },
+  "2829": {
+   "monster": "Gurkha (oscuridad)",
+   "print": "cb1d26e3",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "note": "solo si le ataca un enemigo provocado, en su turno",
+     "effects": [
+      "Increase ATB",
+      "Decrease Damage"
+     ],
+     "adjust": {
+      "Increase ATB": {
+       "quantity": 100
+      }
+     }
+    }
+   ]
+  },
   "3025": {
    "monster": "Sath",
    "print": "79866731",
@@ -1233,6 +1458,34 @@
     }
    ]
   },
+  "3157": {
+   "monster": "Miles (agua)",
+   "print": "ec83c9c0",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK SPD",
+       "self": true,
+       "aoe": false,
+       "type": "Buff",
+       "amount": 5,
+       "note": "+5 % por cada buff en el campo, hasta +100 %"
+      }
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Ignore DEF"
+     ]
+    }
+   ]
+  },
   "3172": {
    "monster": "ROBO-R40",
    "print": "845f0e33",
@@ -1254,6 +1507,26 @@
       "Immunity",
       "Self-Heal"
      ]
+    }
+   ]
+  },
+  "3243": {
+   "monster": "Carlos (fuego)",
+   "print": "8a033a73",
+   "rules": [
+    {
+     "when": "anyDeath",
+     "if": [],
+     "effects": [
+      "Accumulate ATK",
+      "Increase ATB",
+      "Remove inability effect"
+     ],
+     "adjust": {
+      "Increase ATB": {
+       "quantity": 100
+      }
+     }
     }
    ]
   },
@@ -1389,6 +1662,77 @@
     }
    ]
   },
+  "3407": {
+   "monster": "Hollyberry Cookie (agua)",
+   "print": "7cf1f80e",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Stun"
+     ],
+     "adjust": {
+      "Stun": {
+       "chance": 15
+      }
+     },
+     "added": [
+      {
+       "name": "Counter",
+       "self": true,
+       "aoe": false,
+       "type": "Buff",
+       "chance": 15,
+       "amount": 0,
+       "note": "anula el daño al aliado y contraataca"
+      }
+     ]
+    }
+   ]
+  },
+  "3474": {
+   "monster": "Manon (agua)",
+   "print": "7cf1f80e",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Stun"
+     ],
+     "adjust": {
+      "Stun": {
+       "chance": 15
+      }
+     },
+     "added": [
+      {
+       "name": "Counter",
+       "self": true,
+       "aoe": false,
+       "type": "Buff",
+       "chance": 15,
+       "amount": 0,
+       "note": "anula el daño al aliado y contraataca"
+      }
+     ]
+    }
+   ]
+  },
+  "3584": {
+   "monster": "Ezio (fuego)",
+   "print": "5dd2ed16",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Ignore DEF"
+     ]
+    }
+   ]
+  },
   "3600": {
    "monster": "Bayek",
    "print": "f39a3043",
@@ -1499,6 +1843,28 @@
      ],
      "effects": [
       "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "3719": {
+   "monster": "Federica (fuego)",
+   "print": "1b2b0e5a",
+   "rules": [
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Invincible",
+      "Vampire"
+     ],
+     "added": [
+      {
+       "name": "Cleanse",
+       "self": true,
+       "aoe": false,
+       "amount": 0
+      }
      ]
     }
    ]
@@ -2278,6 +2644,29 @@
     }
    ]
   },
+  "4589": {
+   "monster": "Gronn (viento)",
+   "print": "d475342d",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Guaranteed Not Glance Hit",
+      "Heal"
+     ],
+     "added": [
+      {
+       "name": "Counter",
+       "self": true,
+       "aoe": false,
+       "type": "Buff",
+       "amount": 0
+      }
+     ]
+    }
+   ]
+  },
   "4621": {
    "monster": "Nezuko Kamado (Agua)",
    "print": "02fed703",
@@ -2522,6 +2911,32 @@
     }
    ]
   },
+  "5065": {
+   "monster": "Aragorn (luz)",
+   "print": "66d9cc2f",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATB",
+       "self": true,
+       "aoe": false,
+       "amount": 10
+      }
+     ]
+    },
+    {
+     "when": "allyDisabled",
+     "if": [],
+     "effects": [
+      "Increase ATB#2"
+     ]
+    }
+   ]
+  },
   "5221": {
    "monster": "Dr. Albert",
    "print": "dd25a92b",
@@ -2539,6 +2954,32 @@
      "if": [],
      "effects": [
       "Transfer Debuff"
+     ]
+    }
+   ]
+  },
+  "5255": {
+   "monster": "Night Fang (luz)",
+   "print": "66d9cc2f",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATB",
+       "self": true,
+       "aoe": false,
+       "amount": 10
+      }
+     ]
+    },
+    {
+     "when": "allyDisabled",
+     "if": [],
+     "effects": [
+      "Increase ATB#2"
      ]
     }
    ]
@@ -2583,6 +3024,32 @@
      "if": [],
      "effects": [
       "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "5333": {
+   "monster": "Stark (viento)",
+   "print": "4d59183a",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATB",
+       "self": true,
+       "aoe": false,
+       "amount": 20
+      }
+     ]
+    },
+    {
+     "when": "anyDeath",
+     "if": [],
+     "effects": [
+      "Increase Damage"
      ]
     }
    ]

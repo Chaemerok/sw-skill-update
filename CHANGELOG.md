@@ -1,5 +1,187 @@
 # Cambios / Changes
 
+## 8 · 2026-10-23
+
+123 fichas · 180 correcciones
+
+- 51LV3R (luz) (4167): corrección nueva
+- 570RM (viento) (4166): corrección nueva
+- 7R1X (fuego) (4165): corrección nueva
+- Akia (fuego) (937): corrección nueva
+- Akia (fuego) (941): corrección nueva
+- Angela (viento) (3456): corrección nueva
+- Aragorn (luz) (5065): ficha nueva
+- Arella (luz) (5015): corrección nueva
+- Argen (viento) (1013): corrección nueva
+- Ariana (luz) (3462): corrección nueva
+- Arnold (fuego) (699): corrección nueva
+- Arnold (fuego) (704): corrección nueva
+- Atenai (fuego) (994): corrección nueva
+- Belladeon (luz) (2216): corrección nueva
+- Bellenus (fuego) (2012): corrección nueva
+- Bernadotte (fuego) (2814): corrección nueva
+- Betta (oscuridad) (790): corrección nueva
+- Birman (agua) (3344): corrección nueva
+- Bombay (oscuridad) (3348): corrección nueva
+- Briand (viento) (700): corrección nueva
+- Cadiz (oscuridad) (1014): corrección nueva
+- Carlos (fuego) (3243): ficha nueva
+- Celestara (oscuridad) (4259): corrección nueva
+- Celia (luz) (1647): corrección nueva
+- Chacha (oscuridad) (1486): corrección nueva
+- Chacha and Friends (oscuridad) (2988): corrección nueva
+- Chacha and Friends (oscuridad) (2993): corrección nueva
+- Chakra (viento) (3760): corrección nueva
+- Chiwu (fuego) (1196): corrección nueva
+- Cichlid (viento) (796): corrección nueva
+- Coco (fuego) (3143): corrección nueva
+- Conrad (luz) (701): corrección nueva
+- Craka / Hell Lady (oscuridad) (1113): corrección nueva
+- Craka / Hell Lady (oscuridad) (3183): corrección nueva
+- Crane (viento) (1374): corrección nueva
+- Deva (luz) (1956): ficha nueva
+- DHALSIM (viento) (2775): corrección nueva
+- Eleanor (luz) (1673): ficha nueva
+- Eleni (viento) (3715): corrección nueva
+- Elephas (viento) (4669): corrección nueva
+- Emily (luz) (2128): corrección nueva
+- Eshir (luz) (662): corrección nueva
+- Espresso Cookie (oscuridad) (3427): corrección nueva
+- Ezio (fuego) (3584): ficha nueva
+- Ezio (luz) (3586): corrección nueva
+- Federica (fuego) (3719): ficha nueva
+- Federica (fuego) (3714): corrección nueva
+- Frederic (luz) (3676): corrección nueva
+- Fuco (viento) (756): corrección nueva
+- Garo (fuego) (825): corrección nueva
+- Gin (luz) (831): corrección nueva
+- Gronn (viento) (4589): ficha nueva
+- Gunpyeong (fuego) (635): corrección nueva
+- Gurkha (oscuridad) (2829): ficha nueva
+- Han (oscuridad) (824): corrección nueva
+- Hannah (viento) (1555): corrección nueva
+- Hathor (viento) (1370): corrección nueva
+- Hilda (oscuridad) (4244): corrección nueva
+- Hollyberry Cookie (agua) (3407): ficha nueva
+- Homunculus de apoyo (luz) (1738): corrección nueva
+- Homunculus de apoyo (oscuridad) (1741): corrección nueva
+- Homunculus de ataque (agua) (1575): corrección nueva
+- Homunculus de ataque (fuego) (1588): corrección nueva
+- Homunculus de ataque (viento) (1605): corrección nueva
+- Hong Hua (fuego) (3360): corrección nueva
+- Hrungnir (oscuridad) (670): corrección nueva
+- Hyllus (luz) (4670): corrección nueva
+- Ian (luz) (3691): corrección nueva
+- Icasha (luz) (1001): ficha nueva
+- Illianna (luz) (1276): corrección nueva
+- Irène (agua) (3946): corrección nueva
+- Isael (oscuridad) (936): corrección nueva
+- Isis (luz) (1359): corrección nueva
+- Jaara (oscuridad) (1973): ficha nueva
+- Jaduel and Aepiah (oscuridad) (4069): corrección nueva
+- Jarrett (viento) (2858): corrección nueva
+- Jin Kazama (agua) (4754): corrección nueva
+- Jin Kazama (oscuridad) (4758): corrección nueva
+- Josephine (agua) (1928): corrección nueva
+- Jubelle (oscuridad) (216): ficha nueva
+- K1D (agua) (4164): corrección nueva
+- Kahli (fuego) (3112): corrección nueva
+- Kai (agua) (4931): corrección nueva
+- Kai (oscuridad) (4935): corrección nueva
+- Karuel and Lanoah (fuego) (4056): corrección nueva
+- Kassandra (viento) (3615): corrección nueva
+- Kaz (agua) (1533): corrección nueva
+- Kiara (oscuridad) (3717): corrección nueva
+- Lala (fuego) (1523): corrección nueva
+- Lala and Friends (fuego) (2990): corrección nueva
+- Lala and Friends (fuego) (2995): corrección nueva
+- Lanett (oscuridad) (783): corrección nueva
+- Lavender (oscuridad) (3494): corrección nueva
+- Leona (oscuridad) (1932): corrección nueva
+- Liesel (agua) (1012): corrección nueva
+- Liu Mei (luz) (3362): corrección nueva
+- Loren (luz) (1554): corrección nueva
+- Louise (viento) (1935): corrección nueva
+- Louise (viento) (1940): corrección nueva
+- Lucia (fuego) (3455): corrección nueva
+- Lukan (viento) (187): corrección nueva
+- Lulu (agua) (127): corrección nueva
+- Lulu and Friends (agua) (2989): corrección nueva
+- Lulu and Friends (agua) (2994): corrección nueva
+- Lumirecia (agua) (970): corrección nueva
+- M. BISON (oscuridad) (2761): ficha nueva
+- M. BISON (viento) (2759): corrección nueva
+- Madeleine Cookie (oscuridad) (3437): corrección nueva
+- Madeleine Cookie (viento) (3435): corrección nueva
+- Manon (agua) (3474): ficha nueva
+- Manx (fuego) (3345): corrección nueva
+- Megumi Fushiguro (luz) (4408): corrección nueva
+- Mephisto (viento) (2293): corrección nueva
+- Michelle (viento) (389): corrección nueva
+- Mihael (luz) (972): corrección nueva
+- Mihyang (agua) (3997): corrección nueva
+- Miles (agua) (3157): ficha nueva
+- Mortera (luz) (4567): corrección nueva
+- N1X (oscuridad) (4168): corrección nueva
+- Narsha (luz) (2410): corrección nueva
+- Nebelung (viento) (3346): corrección nueva
+- Nezuko Kamado (fuego) (4622): corrección nueva
+- Night Fang (luz) (5255): ficha nueva
+- Oliver (viento) (3159): corrección nueva
+- Olivia (viento) (1275): corrección nueva
+- Ophilia (fuego) (1939): corrección nueva
+- Orochi (viento) (832): corrección nueva
+- Orphina (viento) (4566): corrección nueva
+- Pater (oscuridad) (2015): corrección nueva
+- Pixie 2A (luz) / Cheryl (2170): corrección nueva
+- Praline (viento) (3502): corrección nueva
+- Psamathe (agua) (1449): ficha nueva
+- Purian (agua) (5172): corrección nueva
+- Rahul (oscuridad) (1042): corrección nueva
+- Rakan (fuego) (1060): corrección nueva
+- Rigel (agua) (755): corrección nueva
+- ROBO-F29 (oscuridad) (3171): corrección nueva
+- ROBO-G92 (viento) (3169): corrección nueva
+- ROBO-P27 (fuego) (3168): corrección nueva
+- Savannah (viento) (2409): corrección nueva
+- Scarlett (fuego) (2126): corrección nueva
+- Seal (viento) (4443): corrección nueva
+- Seal (viento) (4448): corrección nueva
+- Seimei (luz) (3078): corrección nueva
+- Sera (agua) (1556): corrección nueva
+- Shi Hou (agua) (1137): corrección nueva
+- Shizuka (agua) (3075): corrección nueva
+- Siamese (luz) (3347): corrección nueva
+- Silver (luz) (3848): corrección nueva
+- Sonnet (agua) (1644): corrección nueva
+- Spectra (fuego) (414): corrección nueva
+- Spectra (fuego) (2655): corrección nueva
+- Stark (viento) (5333): ficha nueva
+- Su (agua) (890): corrección nueva
+- Suri (viento) (317): corrección nueva
+- Susano (agua) (833): corrección nueva
+- Taranys (viento) (2013): corrección nueva
+- Teshar (viento) (1173): corrección nueva
+- Theodora (fuego) (4565): corrección nueva
+- Tilasha (oscuridad) (986): corrección nueva
+- Tityus (fuego) (4668): corrección nueva
+- Triss (luz) (4135): corrección nueva
+- Truffle (oscuridad) (3504): corrección nueva
+- Übel (luz) (5349): corrección nueva
+- Undine (agua) / Mikene (999): corrección nueva
+- Usha (viento) (3800): corrección nueva
+- Valantis (luz) (2014): corrección nueva
+- Valkyrja (fuego) / Vanessa (1243): corrección nueva
+- Varus (oscuridad) (2648): corrección nueva
+- Veromos (oscuridad) (1125): ficha nueva
+- Vritra (oscuridad) (3802): corrección nueva
+- Xiao Lin (agua) (3359): corrección nueva
+- Yennefer (oscuridad) (4131): corrección nueva
+- Yeonhong (luz) (929): corrección nueva
+- Zima (fuego) (3561): corrección nueva
+- Zima (fuego) (3566): corrección nueva
+- Zinc (oscuridad) (3849): corrección nueva
+
 ## 7 · 2026-10-19
 
 104 fichas · 22 correcciones
