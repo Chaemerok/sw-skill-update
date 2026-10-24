@@ -1,6 +1,6 @@
 {
- "dataVersion": 8,
- "dataDate": "2026-10-23",
+ "dataVersion": 9,
+ "dataDate": "2026-10-24",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -1695,6 +1695,51 @@
     }
    }
   },
+  "3609": {
+   "monster": "Kassandra (fuego)",
+   "print": "3c411607",
+   "effects": {},
+   "added": [
+    {
+     "name": "Ignore DEF",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 0
+    }
+   ]
+  },
+  "3610": {
+   "monster": "Kassandra (viento)",
+   "print": "3c411607",
+   "effects": {},
+   "added": [
+    {
+     "name": "Ignore DEF",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 0
+    }
+   ]
+  },
+  "3612": {
+   "monster": "Kassandra (oscuridad)",
+   "print": "3c411607",
+   "effects": {},
+   "added": [
+    {
+     "name": "Ignore DEF",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 0
+    }
+   ]
+  },
   "3615": {
    "monster": "Kassandra (viento)",
    "print": "a17bcc04",
@@ -1795,6 +1840,12 @@
      "aoe": true
     }
    }
+  },
+  "3837": {
+   "monster": "Prilea (viento)",
+   "print": "aeed1ffd",
+   "effects": {},
+   "hits": 2
   },
   "3848": {
    "monster": "Silver (luz)",
@@ -2005,6 +2056,12 @@
     }
    }
   },
+  "4528": {
+   "monster": "Rick (oscuridad)",
+   "print": "04b2867d",
+   "effects": {},
+   "hits": 4
+  },
   "4557": {
    "monster": "Aya",
    "print": "74f186be",
@@ -2146,6 +2203,12 @@
     }
    }
   },
+  "5066": {
+   "monster": "Aragorn (oscuridad)",
+   "print": "8f782fe0",
+   "effects": {},
+   "hits": 4
+  },
   "5172": {
    "monster": "Purian (agua)",
    "print": "203bdd36",
@@ -2161,6 +2224,12 @@
      "onCrit": true
     }
    ]
+  },
+  "5256": {
+   "monster": "Night Fang (oscuridad)",
+   "print": "3fccc98f",
+   "effects": {},
+   "hits": 4
   },
   "5349": {
    "monster": "Übel (luz)",

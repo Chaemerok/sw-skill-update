@@ -1,5 +1,17 @@
 # Cambios / Changes
 
+## 9 · 2026-10-24
+
+123 fichas · 187 correcciones
+
+- Aragorn (oscuridad) (5066): corrección nueva
+- Kassandra (fuego) (3609): corrección nueva
+- Kassandra (oscuridad) (3612): corrección nueva
+- Kassandra (viento) (3610): corrección nueva
+- Night Fang (oscuridad) (5256): corrección nueva
+- Prilea (viento) (3837): corrección nueva
+- Rick (oscuridad) (4528): corrección nueva
+
 ## 8 · 2026-10-23
 
 123 fichas · 180 correcciones
