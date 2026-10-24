@@ -1,55 +1,121 @@
 {
  "format": 7,
- "dataVersion": 9,
- "date": "2026-10-24",
- "passives": 123,
- "fixes": 187,
+ "dataVersion": 10,
+ "date": "2026-10-25",
+ "passives": 138,
+ "fixes": 189,
  "files": {
-  "passives.json": "793f3f4973ce2f36907d4edd8144e2ade1cdcccd595c09662d51361a6495033d",
-  "skill-fixes.json": "de15cc8fd0878f55d8f00b1e6e7c314a3af37e330ea7d082e369de9bc3cfba78"
+  "passives.json": "8be03096902b91c29a7ee92734f687391831bd4ffd7d585eedee08785d13ac5d",
+  "skill-fixes.json": "ea8af0a67c590ba5e11c6970664bc6f690969c0e73cdcb6e6050ebe3a5f4063c"
  },
  "changes": [
   {
-   "id": 5066,
-   "kind": "fix",
+   "id": 4192,
+   "kind": "passive",
    "change": "new",
-   "monster": "Aragorn (oscuridad)"
+   "monster": "Alesia (luz)"
   },
   {
-   "id": 3609,
-   "kind": "fix",
+   "id": 55,
+   "kind": "passive",
    "change": "new",
-   "monster": "Kassandra (fuego)"
+   "monster": "Bremis (fuego)"
   },
   {
-   "id": 3612,
+   "id": 4259,
    "kind": "fix",
-   "change": "new",
-   "monster": "Kassandra (oscuridad)"
+   "change": "updated",
+   "monster": "Celestara (oscuridad)"
   },
   {
-   "id": 3610,
-   "kind": "fix",
+   "id": 118,
+   "kind": "passive",
    "change": "new",
-   "monster": "Kassandra (viento)"
+   "monster": "Gamir (viento)"
   },
   {
-   "id": 5256,
-   "kind": "fix",
+   "id": 148,
+   "kind": "passive",
    "change": "new",
-   "monster": "Night Fang (oscuridad)"
+   "monster": "Garok (oscuridad)"
   },
   {
-   "id": 3837,
+   "id": 1574,
    "kind": "fix",
    "change": "new",
-   "monster": "Prilea (viento)"
+   "monster": "Homunculus de Ataque (agua)"
   },
   {
-   "id": 4528,
+   "id": 525,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Iron (fuego)"
+  },
+  {
+   "id": 589,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Kamatau (oscuridad)"
+  },
+  {
+   "id": 3356,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Nebelung (viento)"
+  },
+  {
+   "id": 4590,
    "kind": "fix",
    "change": "new",
-   "monster": "Rick (oscuridad)"
+   "monster": "Ramon (luz)"
+  },
+  {
+   "id": 89,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Rizak (oscuridad)"
+  },
+  {
+   "id": 4364,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Ryomen Sukuna (oscuridad)"
+  },
+  {
+   "id": 661,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Shakan (viento)"
+  },
+  {
+   "id": 2657,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Shamann (luz, 2.º despertar)"
+  },
+  {
+   "id": 121,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Shumar (oscuridad)"
+  },
+  {
+   "id": 2079,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Skogul (viento)"
+  },
+  {
+   "id": 3260,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Susan (agua)"
+  },
+  {
+   "id": 3448,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Thomas (viento)"
   }
  ]
 }

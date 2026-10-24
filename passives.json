@@ -1,7 +1,131 @@
 {
- "dataVersion": 9,
- "dataDate": "2026-10-24",
+ "dataVersion": 10,
+ "dataDate": "2026-10-25",
  "curated": {
+  "55": {
+   "monster": "Bremis (fuego)",
+   "print": "505766bb",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Critical Damage",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 50,
+       "note": "Daño CRI +50 % propio, siempre"
+      }
+     ]
+    }
+   ]
+  },
+  "89": {
+   "monster": "Rizak (oscuridad)",
+   "print": "fdf7b4e3",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Accuracy",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 50,
+       "note": "PRE +50 % propia, siempre"
+      }
+     ]
+    }
+   ]
+  },
+  "118": {
+   "monster": "Gamir (viento)",
+   "print": "43eb46a7",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "hpBelow"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "más ATQ cuanto menos HP (el texto no da la cantidad)"
+      }
+     ]
+    }
+   ]
+  },
+  "121": {
+   "monster": "Shumar (oscuridad)",
+   "print": "39c8e574",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK SPD",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 15,
+       "note": "+15 de VEL (fija, no %)"
+      }
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "hpBelow"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK SPD",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "más VEL cuanto menos HP"
+      }
+     ]
+    }
+   ]
+  },
+  "148": {
+   "monster": "Garok (oscuridad)",
+   "print": "8d1c4411",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "más daño cuanto menos HP tiene el objetivo"
+      }
+     ]
+    }
+   ]
+  },
   "216": {
    "monster": "Jubelle (oscuridad)",
    "print": "b2eeb66b",
@@ -61,6 +185,27 @@
     }
    ]
   },
+  "525": {
+   "monster": "Iron (fuego)",
+   "print": "ae1f4fb5",
+   "rules": [
+    {
+     "when": "battleStart",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Accumulate MAX HP",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "HP máxima extra según la DEF con la que entra al combate"
+      }
+     ]
+    }
+   ]
+  },
   "571": {
    "monster": "Mina",
    "print": "ccd4c064",
@@ -72,6 +217,44 @@
      ],
      "effects": [
       "Increase Attack Critical Chance"
+     ]
+    }
+   ]
+  },
+  "589": {
+   "monster": "Kamatau (oscuridad)",
+   "print": "ce97f06d",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 100,
+       "note": "ATQ +100 % propio, siempre"
+      }
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "hpBelow"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "más ATQ cuanto menos HP"
+      }
      ]
     }
    ]
@@ -93,6 +276,29 @@
        "self": false,
        "amount": 30,
        "note": "evita la muerte del aliado pasándole el 30 % de la HP máx. de Hwadam (tu explicación del counter, ficha 2 del test de patrones IA)"
+      }
+     ]
+    }
+   ]
+  },
+  "661": {
+   "monster": "Shakan (viento)",
+   "print": "918ea819",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [
+      "hpAbove"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "daño extra según su HP máxima si su % de HP es mayor que el del enemigo"
       }
      ]
     }
@@ -881,6 +1087,45 @@
     }
    ]
   },
+  "2079": {
+   "monster": "Skogul (viento)",
+   "print": "5534fd8b",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "specialState"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase DEF",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 50,
+       "note": "DEF +50 % mientras no tiene el arma en la mano"
+      }
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "specialState"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Reduce Cooltime",
+       "self": true,
+       "aoe": false,
+       "amount": 1,
+       "note": "su propio enfriamiento, mientras no tiene el arma"
+      }
+     ]
+    }
+   ]
+  },
   "2087": {
    "monster": "Bolverk",
    "print": "ff4e4235",
@@ -1162,6 +1407,37 @@
      "effects": [
       "Increase ATK SPD#2",
       "Decrease DEF"
+     ]
+    }
+   ]
+  },
+  "2657": {
+   "monster": "Shamann (luz, 2.º despertar)",
+   "print": "8a824efd",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "enemyElement"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Decrease Damage",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 50,
+       "note": "−50 % de daño recibido de Oscuridad"
+      },
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 100,
+       "note": "+100 % de daño a Oscuridad"
+      }
      ]
     }
    ]
@@ -1530,6 +1806,27 @@
     }
    ]
   },
+  "3260": {
+   "monster": "Susan (agua)",
+   "print": "ece83f8d",
+   "rules": [
+    {
+     "when": "enemyAction",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Accuracy",
+       "self": false,
+       "aoe": true,
+       "type": "Neutral",
+       "amount": 20,
+       "note": "PRE +20 % a todos los aliados cada vez que un enemigo resiste un debuff"
+      }
+     ]
+    }
+   ]
+  },
   "3279": {
    "monster": "Jubelle",
    "print": "40400a07",
@@ -1591,6 +1888,30 @@
      "if": [],
      "effects": [
       "Steal Buff"
+     ]
+    }
+   ]
+  },
+  "3356": {
+   "monster": "Nebelung (viento)",
+   "print": "2d2f2c62",
+   "rules": [
+    {
+     "when": "allyFatalHit",
+     "if": [
+      "specialState"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Endure",
+       "self": false,
+       "aoe": true,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "los aliados dormidos no mueren por los ataques enemigos",
+       "chance": 30
+      }
      ]
     }
    ]
@@ -1686,6 +2007,46 @@
        "chance": 15,
        "amount": 0,
        "note": "anula el daño al aliado y contraataca"
+      }
+     ]
+    }
+   ]
+  },
+  "3448": {
+   "monster": "Thomas (viento)",
+   "print": "2b7d1f2c",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "hpAbove"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK SPD",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "más VEL cuanto mejor está su HP"
+      }
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "hpBelow"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "más ATQ cuanto peor está su HP"
       }
      ]
     }
@@ -2383,6 +2744,40 @@
     }
    ]
   },
+  "4192": {
+   "monster": "Alesia (luz)",
+   "print": "9e1c8c75",
+   "rules": [
+    {
+     "when": "whenDebuffed",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "amount": 50,
+       "note": "en vez de bajar el ATQ"
+      },
+      {
+       "name": "Increase DEF",
+       "self": true,
+       "aoe": false,
+       "amount": 70,
+       "note": "en vez de bajar la DEF"
+      },
+      {
+       "name": "Increase ATK SPD",
+       "self": true,
+       "aoe": false,
+       "amount": 30,
+       "note": "en vez de bajar la VEL"
+      }
+     ]
+    }
+   ]
+  },
   "4210": {
    "monster": "Henrik",
    "print": "e7838333",
@@ -2528,6 +2923,28 @@
        "self": false,
        "amount": 50,
        "note": "la mitad del daño continuo que recibe un enemigo, a los demás enemigos; no se acumula; no contra jefes"
+      }
+     ]
+    }
+   ]
+  },
+  "4364": {
+   "monster": "Ryomen Sukuna (oscuridad)",
+   "print": "439851c0",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Self-Heal",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "si perdió menos del 30 % de su HP desde el turno anterior (y no se curó), vuelve a la HP de entonces",
+       "chance": 75
       }
      ]
     }

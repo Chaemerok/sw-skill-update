@@ -1,6 +1,6 @@
 {
- "dataVersion": 9,
- "dataDate": "2026-10-24",
+ "dataVersion": 10,
+ "dataDate": "2026-10-25",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -652,6 +652,18 @@
    "effects": {
     "Continuous DMG": {
      "chance": 75
+    }
+   }
+  },
+  "1574": {
+   "monster": "Homunculus de Ataque (agua)",
+   "print": "cbfce191",
+   "effects": {
+    "Freeze": {
+     "remove": true
+    },
+    "Remove Buff": {
+     "remove": true
     }
    }
   },
@@ -2027,7 +2039,18 @@
     "Increase DEF": {
      "remove": true
     }
-   }
+   },
+   "added": [
+    {
+     "name": "Ignore DEF",
+     "type": "Neutral",
+     "self": false,
+     "aoe": true,
+     "chance": 0,
+     "quantity": 0,
+     "note": "solo contra enemigos con un debuff (la misma S3 pone daño continuo en cada golpe: casi siempre se cumple)"
+    }
+   ]
   },
   "4408": {
    "monster": "Megumi Fushiguro (luz)",
@@ -2097,6 +2120,36 @@
      "aoe": true
     }
    }
+  },
+  "4590": {
+   "monster": "Ramon (luz)",
+   "print": "b8651b7a",
+   "effects": {
+    "Remove Buff": {
+     "aoe": false
+    },
+    "Continuous DMG": {
+     "aoe": false
+    }
+   },
+   "added": [
+    {
+     "name": "Continuous DMG",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 100,
+     "quantity": 3
+    },
+    {
+     "name": "Continuous DMG",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 100,
+     "quantity": 3
+    }
+   ]
   },
   "4622": {
    "monster": "Nezuko Kamado (fuego)",

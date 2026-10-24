@@ -1,5 +1,28 @@
 # Cambios / Changes
 
+## 10 · 2026-10-25
+
+138 fichas · 189 correcciones
+
+- Alesia (luz) (4192): ficha nueva
+- Bremis (fuego) (55): ficha nueva
+- Celestara (oscuridad) (4259): corrección cambiada
+- Gamir (viento) (118): ficha nueva
+- Garok (oscuridad) (148): ficha nueva
+- Homunculus de Ataque (agua) (1574): corrección nueva
+- Iron (fuego) (525): ficha nueva
+- Kamatau (oscuridad) (589): ficha nueva
+- Nebelung (viento) (3356): ficha nueva
+- Ramon (luz) (4590): corrección nueva
+- Rizak (oscuridad) (89): ficha nueva
+- Ryomen Sukuna (oscuridad) (4364): ficha nueva
+- Shakan (viento) (661): ficha nueva
+- Shamann (luz, 2.º despertar) (2657): ficha nueva
+- Shumar (oscuridad) (121): ficha nueva
+- Skogul (viento) (2079): ficha nueva
+- Susan (agua) (3260): ficha nueva
+- Thomas (viento) (3448): ficha nueva
+
 ## 9 · 2026-10-24
 
 123 fichas · 187 correcciones
