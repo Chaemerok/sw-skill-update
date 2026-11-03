@@ -1,6 +1,6 @@
 {
- "dataVersion": 11,
- "dataDate": "2026-11-03",
+ "dataVersion": 12,
+ "dataDate": "2026-11-04",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -404,6 +404,15 @@
     }
    }
   },
+  "988": {
+   "monster": "Icasha (luz)",
+   "print": "b76c9a76",
+   "effects": {
+    "Remove Buff#2": {
+     "remove": true
+    }
+   }
+  },
   "994": {
    "monster": "Atenai (fuego)",
    "print": "65df6c8e",
@@ -585,6 +594,15 @@
     }
    }
   },
+  "1352": {
+   "monster": "Duamutef (fuego)",
+   "print": "cb76f071",
+   "effects": {
+    "Remove Buff": {
+     "chance": 70
+    }
+   }
+  },
   "1359": {
    "monster": "Isis (luz)",
    "print": "4180929f",
@@ -610,6 +628,16 @@
     "Additional Turn": {
      "name": "Additional Attack",
      "self": true
+    }
+   }
+  },
+  "1449": {
+   "monster": "Psamathe (agua)",
+   "print": "7c839487",
+   "effects": {
+    "Remove Buff": {
+     "chance": 50,
+     "quantity": 1
     }
    }
   },
@@ -1106,6 +1134,33 @@
     }
    }
   },
+  "2730": {
+   "monster": "RYU (agua)",
+   "print": "4f5c0507",
+   "effects": {
+    "Remove Buff": {
+     "chance": 20
+    }
+   }
+  },
+  "2733": {
+   "monster": "RYU (luz)",
+   "print": "4f5c0507",
+   "effects": {
+    "Remove Buff": {
+     "chance": 20
+    }
+   }
+  },
+  "2745": {
+   "monster": "KEN (fuego)",
+   "print": "92636467",
+   "effects": {
+    "Remove Buff": {
+     "chance": 20
+    }
+   }
+  },
   "2759": {
    "monster": "M. BISON (viento)",
    "print": "c532eb2d",
@@ -1130,6 +1185,33 @@
     },
     "Debuff Bonus Damage": {
      "quantity": 50
+    }
+   }
+  },
+  "2798": {
+   "monster": "Moore (agua)",
+   "print": "4f5c0507",
+   "effects": {
+    "Remove Buff": {
+     "chance": 20
+    }
+   }
+  },
+  "2801": {
+   "monster": "Talisman (luz)",
+   "print": "4f5c0507",
+   "effects": {
+    "Remove Buff": {
+     "chance": 20
+    }
+   }
+  },
+  "2813": {
+   "monster": "Bernadotte (fuego)",
+   "print": "3cc63818",
+   "effects": {
+    "Remove Buff": {
+     "chance": 20
     }
    }
   },
@@ -1307,6 +1389,15 @@
      "quantity": 1
     }
    ]
+  },
+  "3100": {
+   "monster": "Haegang (agua)",
+   "print": "466f9b45",
+   "effects": {
+    "Remove Buff": {
+     "chance": 75
+    }
+   }
   },
   "3112": {
    "monster": "Kahli (fuego)",
@@ -1796,6 +1887,33 @@
     },
     "Increase ATB": {
      "quantity": 100
+    }
+   }
+  },
+  "3699": {
+   "monster": "Ashour (fuego)",
+   "print": "a76e7e7f",
+   "effects": {
+    "Remove Buff": {
+     "chance": 75
+    }
+   }
+  },
+  "3700": {
+   "monster": "Shahat (viento)",
+   "print": "a76e7e7f",
+   "effects": {
+    "Remove Buff": {
+     "chance": 75
+    }
+   }
+  },
+  "3702": {
+   "monster": "Salah (oscuridad)",
+   "print": "a76e7e7f",
+   "effects": {
+    "Remove Buff": {
+     "chance": 75
     }
    }
   },

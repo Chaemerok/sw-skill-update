@@ -1,5 +1,23 @@
 # Cambios / Changes
 
+## 12 · 2026-11-04
+
+142 fichas · 211 correcciones
+
+- Ashour (fuego) (3699): corrección nueva
+- Bernadotte (fuego) (2813): corrección nueva
+- Duamutef (fuego) (1352): corrección nueva
+- Haegang (agua) (3100): corrección nueva
+- Icasha (luz) (988): corrección nueva
+- KEN (fuego) (2745): corrección nueva
+- Moore (agua) (2798): corrección nueva
+- Psamathe (agua) (1449): corrección nueva
+- RYU (agua) (2730): corrección nueva
+- RYU (luz) (2733): corrección nueva
+- Salah (oscuridad) (3702): corrección nueva
+- Shahat (viento) (3700): corrección nueva
+- Talisman (luz) (2801): corrección nueva
+
 ## 11 · 2026-11-03
 
 142 fichas · 198 correcciones

@@ -1,109 +1,91 @@
 {
  "format": 7,
- "dataVersion": 11,
- "date": "2026-11-03",
+ "dataVersion": 12,
+ "date": "2026-11-04",
  "passives": 142,
- "fixes": 198,
+ "fixes": 211,
  "files": {
-  "passives.json": "443736b241a1f67c2a7e01a5de0a5c2fbf33df98151dc31c26d25dadf4ed5a37",
-  "skill-fixes.json": "bdcff52c6d1be24f0666105ac9337d21349f88a701e139a2a9ca9e1617460bf5"
+  "passives.json": "1aa4cc17ff1058adf923956fb856369a415b422aec94b0161d4e8509e3f40bee",
+  "skill-fixes.json": "d836d35443230ccb3dbaf70b5d16fdfefb30956ab44a98c6b9bd4df238f72f7c"
  },
  "changes": [
   {
-   "id": 4685,
+   "id": 3699,
    "kind": "fix",
    "change": "new",
-   "monster": "Azure Dragon Swordsman (agua)"
+   "monster": "Ashour (fuego)"
   },
   {
-   "id": 4689,
+   "id": 2813,
    "kind": "fix",
    "change": "new",
-   "monster": "Azure Dragon Swordsman (oscuridad)"
+   "monster": "Bernadotte (fuego)"
   },
   {
-   "id": 2088,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Baleygr (fuego)"
-  },
-  {
-   "id": 2131,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Bella (oscuridad)"
-  },
-  {
-   "id": 2087,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Bolverk (agua)"
-  },
-  {
-   "id": 1398,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Chilling (agua)"
-  },
-  {
-   "id": 3801,
+   "id": 1352,
    "kind": "fix",
    "change": "new",
-   "monster": "Danu (luz)"
+   "monster": "Duamutef (fuego)"
   },
   {
-   "id": 4485,
+   "id": 3100,
    "kind": "fix",
    "change": "new",
-   "monster": "Drakar (oscuridad)"
+   "monster": "Haegang (agua)"
   },
   {
-   "id": 5268,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Elder Horn (fuego)"
-  },
-  {
-   "id": 2090,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Geldnir (luz)"
-  },
-  {
-   "id": 2091,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Herteit (oscuridad)"
-  },
-  {
-   "id": 1001,
+   "id": 988,
    "kind": "fix",
    "change": "new",
    "monster": "Icasha (luz)"
   },
   {
-   "id": 5078,
+   "id": 2745,
    "kind": "fix",
    "change": "new",
-   "monster": "Legolas (fuego)"
+   "monster": "KEN (fuego)"
   },
   {
-   "id": 846,
+   "id": 2798,
    "kind": "fix",
    "change": "new",
-   "monster": "Louis (luz)"
+   "monster": "Moore (agua)"
   },
   {
-   "id": 3075,
-   "kind": "fix",
-   "change": "updated",
-   "monster": "Shizuka (agua)"
-  },
-  {
-   "id": 4605,
+   "id": 1449,
    "kind": "fix",
    "change": "new",
-   "monster": "Tanjiro Kamado (oscuridad)"
+   "monster": "Psamathe (agua)"
+  },
+  {
+   "id": 2730,
+   "kind": "fix",
+   "change": "new",
+   "monster": "RYU (agua)"
+  },
+  {
+   "id": 2733,
+   "kind": "fix",
+   "change": "new",
+   "monster": "RYU (luz)"
+  },
+  {
+   "id": 3702,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Salah (oscuridad)"
+  },
+  {
+   "id": 3700,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Shahat (viento)"
+  },
+  {
+   "id": 2801,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Talisman (luz)"
   }
  ]
 }
