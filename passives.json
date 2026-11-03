@@ -1,6 +1,6 @@
 {
- "dataVersion": 10,
- "dataDate": "2026-10-25",
+ "dataVersion": 11,
+ "dataDate": "2026-11-03",
  "curated": {
   "55": {
    "monster": "Bremis (fuego)",
@@ -750,6 +750,30 @@
     }
    ]
   },
+  "1398": {
+   "monster": "Chilling (agua)",
+   "print": "4c5c2332",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "roba un buff al golpear y se cura un 10 % por cada uno, también en el ataque conjunto (usuario, 2026-10-31, estudio de monstruos, tanda 2)",
+     "effects": [
+      "Steal Buff",
+      "Remove Buff",
+      "Self-Heal"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "note": "más VEL según los buffs que tiene",
+     "effects": [
+      "Increase ATK SPD"
+     ]
+    }
+   ]
+  },
   "1400": {
    "monster": "Misty",
    "print": "b7617f4b",
@@ -1127,16 +1151,73 @@
    ]
   },
   "2087": {
-   "monster": "Bolverk",
+   "monster": "Bolverk (agua)",
    "print": "ff4e4235",
    "rules": [
     {
-     "when": "enemyAction",
+     "when": "whenBuffed",
+     "if": [],
+     "note": "1 Conocimiento por cada buff que recibe él (máximo 5)",
+     "effects": [
+      "Knowledge#1"
+     ]
+    },
+    {
+     "when": "enemyBuffed",
+     "if": [],
+     "note": "1 Conocimiento por cada buff que recibe un enemigo",
+     "effects": [
+      "Knowledge#1"
+     ]
+    },
+    {
+     "when": "allyAction",
+     "if": [],
+     "note": "1 Conocimiento por cada buff que recibe un aliado: gana con los buffs de todo el campo (usuario, 2026-10-31, estudio de monstruos, tanda 2; SWARFARM solo dice «él o un enemigo»)",
+     "effects": [
+      "Knowledge#1"
+     ]
+    },
+    {
+     "when": "turnStart",
      "if": [
       "specialState"
      ],
+     "note": "1 Conocimiento si empieza el turno con 2 o menos",
      "effects": [
-      "Knowledge"
+      "Knowledge#2"
+     ]
+    }
+   ]
+  },
+  "2088": {
+   "monster": "Baleygr (fuego)",
+   "print": "54717edd",
+   "rules": [
+    {
+     "when": "whenBuffed",
+     "if": [],
+     "note": "1 Conocimiento por cada buff que recibe (máximo 5), como Odin de viento (estudio de monstruos, tanda 2, usuario 2026-10-31)",
+     "effects": [
+      "Knowledge#1"
+     ]
+    },
+    {
+     "when": "anyDeath",
+     "if": [],
+     "note": "3 Conocimiento cuando muere un enemigo o un aliado",
+     "effects": [
+      "Knowledge#2"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [
+      "specialState"
+     ],
+     "note": "1 Conocimiento si empieza el turno con 2 o menos",
+     "effects": [
+      "Knowledge#3"
      ]
     }
    ]
@@ -1174,12 +1255,21 @@
    ]
   },
   "2090": {
-   "monster": "Geldnir",
+   "monster": "Geldnir (luz)",
    "print": "81d9b35a",
    "rules": [
     {
-     "when": "enemyAction",
+     "when": "whenBuffed",
      "if": [],
+     "note": "1 Conocimiento por cada buff que recibe él (máximo 5)",
+     "effects": [
+      "Knowledge"
+     ]
+    },
+    {
+     "when": "enemyBuffed",
+     "if": [],
+     "note": "1 Conocimiento por cada buff que recibe un enemigo",
      "effects": [
       "Knowledge"
      ]
@@ -1187,8 +1277,58 @@
     {
      "when": "allyAction",
      "if": [],
+     "note": "1 Conocimiento por cada buff que recibe un aliado: gana con los buffs de todo el campo (usuario, 2026-10-31, estudio de monstruos, tanda 2; SWARFARM solo dice «él o un enemigo»)",
      "effects": [
       "Knowledge"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [
+      "specialState"
+     ],
+     "note": "1 Conocimiento si empieza el turno con 2 o menos (SWARFARM lo marca como «Decrease ATB»)",
+     "effects": [],
+     "added": [
+      {
+       "name": "Knowledge",
+       "self": true,
+       "aoe": false,
+       "amount": 1,
+       "type": "Neutral"
+      }
+     ]
+    }
+   ]
+  },
+  "2091": {
+   "monster": "Herteit (oscuridad)",
+   "print": "8e968f28",
+   "rules": [
+    {
+     "when": "whenBuffed",
+     "if": [],
+     "note": "1 Conocimiento por cada buff que recibe (máximo 5), como Odin de viento (estudio de monstruos, tanda 2, usuario 2026-10-31)",
+     "effects": [
+      "Knowledge#1"
+     ]
+    },
+    {
+     "when": "anyDeath",
+     "if": [],
+     "note": "3 Conocimiento cuando muere un enemigo o un aliado",
+     "effects": [
+      "Knowledge#2"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [
+      "specialState"
+     ],
+     "note": "1 Conocimiento si empieza el turno con 2 o menos",
+     "effects": [
+      "Knowledge#3"
      ]
     }
    ]
@@ -1260,6 +1400,20 @@
      ],
      "effects": [
       "Cleanse"
+     ]
+    }
+   ]
+  },
+  "2131": {
+   "monster": "Bella (oscuridad)",
+   "print": "7bd256a9",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "tras atacar en su turno, ataca otra vez con la S1; si el primero muere, a otro enemigo (no es su muerte; usuario, 2026-11-01, estudio de monstruos, tanda 4)",
+     "effects": [
+      "Additional Attack"
      ]
     }
    ]

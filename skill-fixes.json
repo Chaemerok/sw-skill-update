@@ -1,6 +1,6 @@
 {
- "dataVersion": 10,
- "dataDate": "2026-10-25",
+ "dataVersion": 11,
+ "dataDate": "2026-11-03",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -277,6 +277,20 @@
     }
    }
   },
+  "846": {
+   "monster": "Louis (luz)",
+   "print": "e66c6bf2",
+   "_": "S3 (usuario, 2026-10-31, estudio de monstruos, tanda 3): el Invencible también va al aliado; igualar el porcentaje de HP con él cuenta como repartir la HP (curar ×0,5). La Recuperación se queda como propia para no pasar del ×0,5 aprobado.",
+   "effects": {
+    "Invincible": {
+     "self": false
+    },
+    "Heal": {
+     "name": "Redistribute HP",
+     "self": false
+    }
+   }
+  },
   "876": {
    "monster": "Barque",
    "print": "a51f6cde",
@@ -405,6 +419,16 @@
    "effects": {
     "Immunity": {
      "revivedOnly": true
+    }
+   }
+  },
+  "1001": {
+   "monster": "Icasha (luz)",
+   "print": "a8acf57e",
+   "_": "Pasiva (usuario, 2026-10-31, estudio de monstruos, tanda 3): «Cleanse» es su cura propia del 10 % (ya en su ficha), no quita debuffs.",
+   "effects": {
+    "Cleanse": {
+     "remove": true
     }
    }
   },
@@ -1248,16 +1272,9 @@
   "3075": {
    "monster": "Shizuka (agua)",
    "print": "29ae8293",
+   "_": "Sin «Revive» (usuario, 2026-10-31, estudio de monstruos, tanda 2): el aliado muerto usa una habilidad y vuelve a morir; no revive.",
    "effects": {},
    "added": [
-    {
-     "name": "Revive",
-     "type": "Neutral",
-     "self": false,
-     "aoe": false,
-     "chance": 30,
-     "quantity": 0
-    },
     {
      "name": "Reduce Cooltime",
      "type": "Neutral",
@@ -1844,6 +1861,16 @@
     }
    }
   },
+  "3801": {
+   "monster": "Danu (luz)",
+   "print": "efba51c9",
+   "_": "S2 (usuario, 2026-11-01, estudio de monstruos, tanda 4): la barra solo se la sube a sí mismo.",
+   "effects": {
+    "Increase ATB": {
+     "self": true
+    }
+   }
+  },
   "3802": {
    "monster": "Vritra (oscuridad)",
    "print": "4b8badee",
@@ -2079,6 +2106,16 @@
     }
    }
   },
+  "4485": {
+   "monster": "Drakar (oscuridad)",
+   "print": "d8afb97d",
+   "_": "S3 (usuario, 2026-11-03, estudio de monstruos, tanda 5): la inmunidad al control solo vale durante el duelo.",
+   "effects": {
+    "Immune to Inability Effects": {
+     "remove": true
+    }
+   }
+  },
   "4528": {
    "monster": "Rick (oscuridad)",
    "print": "04b2867d",
@@ -2151,6 +2188,16 @@
     }
    ]
   },
+  "4605": {
+   "monster": "Tanjiro Kamado (oscuridad)",
+   "print": "46b22dba",
+   "_": "S2 (usuario, 2026-11-03, estudio de monstruos, tanda 5): alarga los debuffs del enemigo, no los buffs.",
+   "effects": {
+    "Increase Buff Duration": {
+     "name": "Increase Debuff Duration"
+    }
+   }
+  },
   "4622": {
    "monster": "Nezuko Kamado (fuego)",
    "print": "e460f9a8",
@@ -2187,6 +2234,26 @@
    "effects": {
     "Provoke": {
      "chance": 50
+    }
+   }
+  },
+  "4685": {
+   "monster": "Azure Dragon Swordsman (agua)",
+   "print": "46b22dba",
+   "_": "S2 (usuario, 2026-11-03, estudio de monstruos, tanda 5): alarga los debuffs del enemigo, no los buffs.",
+   "effects": {
+    "Increase Buff Duration": {
+     "name": "Increase Debuff Duration"
+    }
+   }
+  },
+  "4689": {
+   "monster": "Azure Dragon Swordsman (oscuridad)",
+   "print": "46b22dba",
+   "_": "S2 (usuario, 2026-11-03, estudio de monstruos, tanda 5): alarga los debuffs del enemigo, no los buffs.",
+   "effects": {
+    "Increase Buff Duration": {
+     "name": "Increase Debuff Duration"
     }
    }
   },
@@ -2262,6 +2329,19 @@
    "effects": {},
    "hits": 4
   },
+  "5078": {
+   "monster": "Legolas (fuego)",
+   "print": "d9a6677a",
+   "_": "Pasiva (usuario, 2026-10-31, estudio de monstruos, tanda 3): absorbe la barra y roba el buff al enemigo al que ataca, también en un ataque conjunto (SWARFARM los marca como propios).",
+   "effects": {
+    "Absorb ATB": {
+     "self": false
+    },
+    "Steal Buff": {
+     "self": false
+    }
+   }
+  },
   "5172": {
    "monster": "Purian (agua)",
    "print": "203bdd36",
@@ -2283,6 +2363,19 @@
    "print": "3fccc98f",
    "effects": {},
    "hits": 4
+  },
+  "5268": {
+   "monster": "Elder Horn (fuego)",
+   "print": "d9a6677a",
+   "_": "La misma pasiva que Legolas de fuego.",
+   "effects": {
+    "Absorb ATB": {
+     "self": false
+    },
+    "Steal Buff": {
+     "self": false
+    }
+   }
   },
   "5349": {
    "monster": "Übel (luz)",

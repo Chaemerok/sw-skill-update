@@ -1,121 +1,109 @@
 {
  "format": 7,
- "dataVersion": 10,
- "date": "2026-10-25",
- "passives": 138,
- "fixes": 189,
+ "dataVersion": 11,
+ "date": "2026-11-03",
+ "passives": 142,
+ "fixes": 198,
  "files": {
-  "passives.json": "8be03096902b91c29a7ee92734f687391831bd4ffd7d585eedee08785d13ac5d",
-  "skill-fixes.json": "ea8af0a67c590ba5e11c6970664bc6f690969c0e73cdcb6e6050ebe3a5f4063c"
+  "passives.json": "443736b241a1f67c2a7e01a5de0a5c2fbf33df98151dc31c26d25dadf4ed5a37",
+  "skill-fixes.json": "bdcff52c6d1be24f0666105ac9337d21349f88a701e139a2a9ca9e1617460bf5"
  },
  "changes": [
   {
-   "id": 4192,
-   "kind": "passive",
+   "id": 4685,
+   "kind": "fix",
    "change": "new",
-   "monster": "Alesia (luz)"
+   "monster": "Azure Dragon Swordsman (agua)"
   },
   {
-   "id": 55,
-   "kind": "passive",
+   "id": 4689,
+   "kind": "fix",
    "change": "new",
-   "monster": "Bremis (fuego)"
+   "monster": "Azure Dragon Swordsman (oscuridad)"
   },
   {
-   "id": 4259,
+   "id": 2088,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Baleygr (fuego)"
+  },
+  {
+   "id": 2131,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Bella (oscuridad)"
+  },
+  {
+   "id": 2087,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Bolverk (agua)"
+  },
+  {
+   "id": 1398,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Chilling (agua)"
+  },
+  {
+   "id": 3801,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Danu (luz)"
+  },
+  {
+   "id": 4485,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Drakar (oscuridad)"
+  },
+  {
+   "id": 5268,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Elder Horn (fuego)"
+  },
+  {
+   "id": 2090,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Geldnir (luz)"
+  },
+  {
+   "id": 2091,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Herteit (oscuridad)"
+  },
+  {
+   "id": 1001,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Icasha (luz)"
+  },
+  {
+   "id": 5078,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Legolas (fuego)"
+  },
+  {
+   "id": 846,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Louis (luz)"
+  },
+  {
+   "id": 3075,
    "kind": "fix",
    "change": "updated",
-   "monster": "Celestara (oscuridad)"
+   "monster": "Shizuka (agua)"
   },
   {
-   "id": 118,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Gamir (viento)"
-  },
-  {
-   "id": 148,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Garok (oscuridad)"
-  },
-  {
-   "id": 1574,
+   "id": 4605,
    "kind": "fix",
    "change": "new",
-   "monster": "Homunculus de Ataque (agua)"
-  },
-  {
-   "id": 525,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Iron (fuego)"
-  },
-  {
-   "id": 589,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Kamatau (oscuridad)"
-  },
-  {
-   "id": 3356,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Nebelung (viento)"
-  },
-  {
-   "id": 4590,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Ramon (luz)"
-  },
-  {
-   "id": 89,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Rizak (oscuridad)"
-  },
-  {
-   "id": 4364,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Ryomen Sukuna (oscuridad)"
-  },
-  {
-   "id": 661,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Shakan (viento)"
-  },
-  {
-   "id": 2657,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Shamann (luz, 2.º despertar)"
-  },
-  {
-   "id": 121,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Shumar (oscuridad)"
-  },
-  {
-   "id": 2079,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Skogul (viento)"
-  },
-  {
-   "id": 3260,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Susan (agua)"
-  },
-  {
-   "id": 3448,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Thomas (viento)"
+   "monster": "Tanjiro Kamado (oscuridad)"
   }
  ]
 }

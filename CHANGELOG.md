@@ -1,5 +1,26 @@
 # Cambios / Changes
 
+## 11 · 2026-11-03
+
+142 fichas · 198 correcciones
+
+- Azure Dragon Swordsman (agua) (4685): corrección nueva
+- Azure Dragon Swordsman (oscuridad) (4689): corrección nueva
+- Baleygr (fuego) (2088): ficha nueva
+- Bella (oscuridad) (2131): ficha nueva
+- Bolverk (agua) (2087): ficha corregida
+- Chilling (agua) (1398): ficha nueva
+- Danu (luz) (3801): corrección nueva
+- Drakar (oscuridad) (4485): corrección nueva
+- Elder Horn (fuego) (5268): corrección nueva
+- Geldnir (luz) (2090): ficha corregida
+- Herteit (oscuridad) (2091): ficha nueva
+- Icasha (luz) (1001): corrección nueva
+- Legolas (fuego) (5078): corrección nueva
+- Louis (luz) (846): corrección nueva
+- Shizuka (agua) (3075): corrección cambiada
+- Tanjiro Kamado (oscuridad) (4605): corrección nueva
+
 ## 10 · 2026-10-25
 
 138 fichas · 189 correcciones
