@@ -1,6 +1,6 @@
 {
- "dataVersion": 12,
- "dataDate": "2026-11-04",
+ "dataVersion": 13,
+ "dataDate": "2026-11-05",
  "curated": {
   "55": {
    "monster": "Bremis (fuego)",
@@ -2137,6 +2137,46 @@
     }
    ]
   },
+  "3381": {
+   "monster": "GingerBrave (viento)",
+   "print": "e37d53df",
+   "rules": [
+    {
+     "when": "always",
+     "if": [
+      "hpAbove"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK SPD",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "más VEL cuanto mejor está su HP"
+      }
+     ]
+    },
+    {
+     "when": "always",
+     "if": [
+      "hpBelow"
+     ],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "más ATQ cuanto peor está su HP"
+      }
+     ]
+    }
+   ]
+  },
   "3407": {
    "monster": "Hollyberry Cookie (agua)",
    "print": "7cf1f80e",
@@ -2245,6 +2285,55 @@
      "effects": [
       "Ignore DEF"
      ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "targetNoBuffs"
+     ],
+     "effects": [
+      "Ignore DEF"
+     ]
+    }
+   ]
+  },
+  "3587": {
+   "monster": "Ezio (oscuridad)",
+   "print": "c365f6a3",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "ataque extra sin contraataque, siempre crítico",
+     "effects": [
+      "Additional Attack"
+     ],
+     "added": [
+      {
+       "name": "Guaranteed Critical Hit",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0
+      }
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "enemyElement"
+     ],
+     "note": "solo contra luz: +100 % de daño en el ataque extra",
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 100
+      }
+     ]
     }
    ]
   },
@@ -2267,6 +2356,28 @@
      ],
      "effects": [
       "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "3614": {
+   "monster": "Kassandra (fuego)",
+   "print": "b50d2b79",
+   "rules": [
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Invincible",
+      "Vampire"
+     ],
+     "added": [
+      {
+       "name": "Cleanse",
+       "self": true,
+       "aoe": false,
+       "amount": 0
+      }
      ]
     }
    ]
@@ -2316,19 +2427,48 @@
     }
    ]
   },
+  "3689": {
+   "monster": "Patrick (fuego)",
+   "print": "a509ee3c",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Ignore DEF"
+     ]
+    },
+    {
+     "when": "onAttack",
+     "if": [
+      "targetNoBuffs"
+     ],
+     "effects": [
+      "Ignore DEF"
+     ]
+    }
+   ]
+  },
   "3692": {
-   "monster": "Evan",
+   "monster": "Evan (oscuridad)",
    "print": "4a47d3b8",
    "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "ataque extra sin contraataque, siempre crítico",
+     "effects": [
+      "Additional Attack",
+      "Guaranteed Critical Hit"
+     ]
+    },
     {
      "when": "onAttack",
      "if": [
       "enemyElement"
      ],
-     "note": "solo contra Luz: ataque extra sin contraataque, siempre crítico y +100 % de daño",
+     "note": "solo contra luz: +100 % de daño en el ataque extra",
      "effects": [
-      "Additional Attack",
-      "Guaranteed Critical Hit",
       "Increase Damage"
      ],
      "adjust": {
@@ -3151,6 +3291,28 @@
     }
    ]
   },
+  "4498": {
+   "monster": "Hayato (oscuridad)",
+   "print": "049d4887",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Self-Heal",
+       "self": true,
+       "aoe": false,
+       "type": "Neutral",
+       "amount": 0,
+       "note": "si perdió menos del 30 % de su HP desde el turno anterior (y no se curó), vuelve a la HP de entonces",
+       "chance": 75
+      }
+     ]
+    }
+   ]
+  },
   "4540": {
    "monster": "Tetsuya",
    "print": "85344a7d",
@@ -3602,6 +3764,76 @@
   "5333": {
    "monster": "Stark (viento)",
    "print": "4d59183a",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATB",
+       "self": true,
+       "aoe": false,
+       "amount": 20
+      }
+     ]
+    },
+    {
+     "when": "anyDeath",
+     "if": [],
+     "effects": [
+      "Increase Damage"
+     ]
+    }
+   ]
+  },
+  "5439": {
+   "monster": "Luen (viento)",
+   "print": "8e8ae608",
+   "rules": [
+    {
+     "when": "allyFatalHit",
+     "if": [],
+     "note": "cuando un aliado (o él) recibe un golpe mortal: anula el daño, le da invencibilidad 1 turno y gana un 50 % de barra",
+     "effects": [
+      "Offset Damage",
+      "Invincible",
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "5440": {
+   "monster": "Luen (luz)",
+   "print": "05e15f2f",
+   "rules": [
+    {
+     "when": "turnStart",
+     "if": [],
+     "note": "a todos los aliados, 1 turno",
+     "effects": [
+      "Reflect Harmful Effect"
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    }
+   ]
+  },
+  "5454": {
+   "monster": "Schporte (viento)",
+   "print": "3572c8f3",
    "rules": [
     {
      "when": "whenAttacked",

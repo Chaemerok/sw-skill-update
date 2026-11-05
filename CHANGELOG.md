@@ -1,5 +1,20 @@
 # Cambios / Changes
 
+## 13 · 2026-11-05
+
+150 fichas · 211 correcciones
+
+- Evan (oscuridad) (3692): ficha corregida
+- Ezio (fuego) (3584): ficha corregida
+- Ezio (oscuridad) (3587): ficha nueva
+- GingerBrave (viento) (3381): ficha nueva
+- Hayato (oscuridad) (4498): ficha nueva
+- Kassandra (fuego) (3614): ficha nueva
+- Luen (luz) (5440): ficha nueva
+- Luen (viento) (5439): ficha nueva
+- Patrick (fuego) (3689): ficha nueva
+- Schporte (viento) (5454): ficha nueva
+
 ## 12 · 2026-11-04
 
 142 fichas · 211 correcciones

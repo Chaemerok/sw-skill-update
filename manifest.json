@@ -1,91 +1,73 @@
 {
  "format": 7,
- "dataVersion": 12,
- "date": "2026-11-04",
- "passives": 142,
+ "dataVersion": 13,
+ "date": "2026-11-05",
+ "passives": 150,
  "fixes": 211,
  "files": {
-  "passives.json": "1aa4cc17ff1058adf923956fb856369a415b422aec94b0161d4e8509e3f40bee",
-  "skill-fixes.json": "d836d35443230ccb3dbaf70b5d16fdfefb30956ab44a98c6b9bd4df238f72f7c"
+  "passives.json": "0aca988891cb7a653c6beb6954eba34d1b9a87439234084b9585d49920752aa2",
+  "skill-fixes.json": "2155a33bbd1ab7fb8df0254a39e3b04f0a5c3a32042b0353bc93d483586bc556"
  },
  "changes": [
   {
-   "id": 3699,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Ashour (fuego)"
+   "id": 3692,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Evan (oscuridad)"
   },
   {
-   "id": 2813,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Bernadotte (fuego)"
+   "id": 3584,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Ezio (fuego)"
   },
   {
-   "id": 1352,
-   "kind": "fix",
+   "id": 3587,
+   "kind": "passive",
    "change": "new",
-   "monster": "Duamutef (fuego)"
+   "monster": "Ezio (oscuridad)"
   },
   {
-   "id": 3100,
-   "kind": "fix",
+   "id": 3381,
+   "kind": "passive",
    "change": "new",
-   "monster": "Haegang (agua)"
+   "monster": "GingerBrave (viento)"
   },
   {
-   "id": 988,
-   "kind": "fix",
+   "id": 4498,
+   "kind": "passive",
    "change": "new",
-   "monster": "Icasha (luz)"
+   "monster": "Hayato (oscuridad)"
   },
   {
-   "id": 2745,
-   "kind": "fix",
+   "id": 3614,
+   "kind": "passive",
    "change": "new",
-   "monster": "KEN (fuego)"
+   "monster": "Kassandra (fuego)"
   },
   {
-   "id": 2798,
-   "kind": "fix",
+   "id": 5440,
+   "kind": "passive",
    "change": "new",
-   "monster": "Moore (agua)"
+   "monster": "Luen (luz)"
   },
   {
-   "id": 1449,
-   "kind": "fix",
+   "id": 5439,
+   "kind": "passive",
    "change": "new",
-   "monster": "Psamathe (agua)"
+   "monster": "Luen (viento)"
   },
   {
-   "id": 2730,
-   "kind": "fix",
+   "id": 3689,
+   "kind": "passive",
    "change": "new",
-   "monster": "RYU (agua)"
+   "monster": "Patrick (fuego)"
   },
   {
-   "id": 2733,
-   "kind": "fix",
+   "id": 5454,
+   "kind": "passive",
    "change": "new",
-   "monster": "RYU (luz)"
-  },
-  {
-   "id": 3702,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Salah (oscuridad)"
-  },
-  {
-   "id": 3700,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Shahat (viento)"
-  },
-  {
-   "id": 2801,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Talisman (luz)"
+   "monster": "Schporte (viento)"
   }
  ]
 }
