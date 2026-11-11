@@ -1,5 +1,11 @@
 # Cambios / Changes
 
+## 14 · 2026-11-11
+
+150 fichas · 212 correcciones
+
+- Tian Lang (luz) (2134): corrección nueva
+
 ## 13 · 2026-11-05
 
 150 fichas · 211 correcciones

@@ -1,73 +1,19 @@
 {
  "format": 7,
- "dataVersion": 13,
- "date": "2026-11-05",
+ "dataVersion": 14,
+ "date": "2026-11-11",
  "passives": 150,
- "fixes": 211,
+ "fixes": 212,
  "files": {
-  "passives.json": "0aca988891cb7a653c6beb6954eba34d1b9a87439234084b9585d49920752aa2",
-  "skill-fixes.json": "2155a33bbd1ab7fb8df0254a39e3b04f0a5c3a32042b0353bc93d483586bc556"
+  "passives.json": "313d6fd6b2e54fa3f02f97a0a329885a13323ddf89636db2812bc456b7cc782c",
+  "skill-fixes.json": "f1fc384c6e5b8eb7729866393aa81cecdb99906e59a41e5c69c0cb9f7566292a"
  },
  "changes": [
   {
-   "id": 3692,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Evan (oscuridad)"
-  },
-  {
-   "id": 3584,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Ezio (fuego)"
-  },
-  {
-   "id": 3587,
-   "kind": "passive",
+   "id": 2134,
+   "kind": "fix",
    "change": "new",
-   "monster": "Ezio (oscuridad)"
-  },
-  {
-   "id": 3381,
-   "kind": "passive",
-   "change": "new",
-   "monster": "GingerBrave (viento)"
-  },
-  {
-   "id": 4498,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Hayato (oscuridad)"
-  },
-  {
-   "id": 3614,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Kassandra (fuego)"
-  },
-  {
-   "id": 5440,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Luen (luz)"
-  },
-  {
-   "id": 5439,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Luen (viento)"
-  },
-  {
-   "id": 3689,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Patrick (fuego)"
-  },
-  {
-   "id": 5454,
-   "kind": "passive",
-   "change": "new",
-   "monster": "Schporte (viento)"
+   "monster": "Tian Lang (luz)"
   }
  ]
 }

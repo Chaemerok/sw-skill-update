@@ -1,6 +1,6 @@
 {
- "dataVersion": 13,
- "dataDate": "2026-11-05",
+ "dataVersion": 14,
+ "dataDate": "2026-11-11",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -1033,6 +1033,18 @@
    "effects": {
     "Stun": {
      "chance": 50
+    }
+   }
+  },
+  "2134": {
+   "monster": "Tian Lang (luz)",
+   "print": "5f5709ea",
+   "effects": {
+    "Remove Buff": {
+     "chance": 100
+    },
+    "Decrease ATB": {
+     "chance": 100
     }
    }
   },
