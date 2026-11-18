@@ -1,6 +1,6 @@
 {
- "dataVersion": 14,
- "dataDate": "2026-11-11",
+ "dataVersion": 15,
+ "dataDate": "2026-11-18",
  "curated": {
   "55": {
    "monster": "Bremis (fuego)",
@@ -2389,11 +2389,42 @@
     {
      "when": "battleStart",
      "if": [
-      "specialState"
+      "statThreshold"
      ],
+     "requires": {
+      "ATK": 628
+     },
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase Damage",
+       "self": true,
+       "aoe": false,
+       "amount": 100
+      }
+     ]
+    },
+    {
+     "when": "battleStart",
+     "if": [
+      "statThreshold"
+     ],
+     "requires": {
+      "DEF": 720
+     },
      "effects": [
-      "Increase ATK",
-      "Decrease Damage",
+      "Decrease Damage"
+     ]
+    },
+    {
+     "when": "battleStart",
+     "if": [
+      "statThreshold"
+     ],
+     "requires": {
+      "SPD": 111
+     },
+     "effects": [
       "Remove Buff"
      ]
     }

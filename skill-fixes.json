@@ -1,6 +1,6 @@
 {
- "dataVersion": 14,
- "dataDate": "2026-11-11",
+ "dataVersion": 15,
+ "dataDate": "2026-11-18",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -45,6 +45,19 @@
     }
    }
   },
+  "343": {
+   "monster": "Aqcus (agua)",
+   "print": "6d74c38c",
+   "_": "S2 (tanda 8c de la simulación, 2026-11-17): SWARFARM no trae los turnos de la bajada de ATQ y de VEL; el texto dice 2.",
+   "effects": {
+    "Decrease ATK": {
+     "quantity": 2
+    },
+    "Decrease ATK SPD": {
+     "quantity": 2
+    }
+   }
+  },
   "389": {
    "monster": "Michelle (viento)",
    "print": "010367f8",
@@ -60,6 +73,26 @@
    "effects": {
     "Decrease ATK SPD": {
      "chance": 50
+    }
+   }
+  },
+  "535": {
+   "monster": "Lizardman / Igmanodon (fuego)",
+   "print": "c5f2c2ed",
+   "_": "S2 (estudio de habilidades, tanda 4, 2026-11-14): bloquear buffs 2 turnos, como dice el texto (SWARFARM, 0).",
+   "effects": {
+    "Beneficial Effects Blocked": {
+     "quantity": 2
+    }
+   }
+  },
+  "536": {
+   "monster": "Glinodon (luz)",
+   "print": "c5f2c2ed",
+   "_": "S2 (tanda 8c de la simulación, 2026-11-17): SWARFARM no trae los turnos de bloquear buffs; el texto dice 2.",
+   "effects": {
+    "Beneficial Effects Blocked": {
+     "quantity": 2
     }
    }
   },
@@ -142,17 +175,19 @@
    }
   },
   "717": {
-   "monster": "Joker (viento)",
+   "monster": "Joker (viento) / Lushen",
    "print": "7b01d2c9",
    "effects": {
     "Stun": {
-     "chance": 33
+     "chance": 33,
+     "quantity": 1
     },
     "Increase Glancing Hit Chance": {
      "chance": 33
     },
     "Decrease ATK SPD": {
-     "chance": 33
+     "chance": 33,
+     "quantity": 3
     }
    }
   },
@@ -161,13 +196,25 @@
    "print": "7b01d2c9",
    "effects": {
     "Stun": {
-     "chance": 33
+     "chance": 33,
+     "quantity": 1
     },
     "Increase Glancing Hit Chance": {
      "chance": 33
     },
     "Decrease ATK SPD": {
-     "chance": 33
+     "chance": 33,
+     "quantity": 3
+    }
+   }
+  },
+  "751": {
+   "monster": "Ling Ling (viento)",
+   "print": "19da8e30",
+   "_": "S3 (estudio de habilidades, tanda 4, 2026-11-14): bloquear buffs 2 turnos, como dice el texto (SWARFARM, 0).",
+   "effects": {
+    "Beneficial Effects Blocked": {
+     "quantity": 2
     }
    }
   },
@@ -186,6 +233,16 @@
    "effects": {
     "Decrease DEF": {
      "name": "Decrease ATK SPD"
+    }
+   }
+  },
+  "762": {
+   "monster": "Lich / Fuco (viento)",
+   "print": "5076782b",
+   "_": "S2 (estudio de habilidades, tanda 4, 2026-11-14): bajar la DEF 2 turnos, como dice el texto (SWARFARM, 0).",
+   "effects": {
+    "Decrease DEF": {
+     "quantity": 2
     }
    }
   },
@@ -395,6 +452,22 @@
     }
    ]
   },
+  "977": {
+   "monster": "Lumirecia (agua)",
+   "print": "87264730",
+   "_": "S3 (tanda 8c de la simulación, 2026-11-17): falta quitar todos los debuffs del aliado objetivo.",
+   "effects": {},
+   "added": [
+    {
+     "name": "Cleanse",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 100,
+     "quantity": 0
+    }
+   ]
+  },
   "986": {
    "monster": "Tilasha (oscuridad)",
    "print": "6e55138d",
@@ -556,6 +629,32 @@
     }
    }
   },
+  "1194": {
+   "monster": "Woosa (agua)",
+   "print": "46c9f77c",
+   "_": "S2 (simulación, estudio de habilidades, tanda 7, 2026-11-17): cura a todos el 15 % del HP máximo de Woosa; el daño (20 % de su HP) ya va en la fórmula.",
+   "effects": {
+    "Heal": {
+     "quantity": 15
+    },
+    "Increase Damage": {
+     "remove": true
+    }
+   }
+  },
+  "1195": {
+   "monster": "Woosa (luz)",
+   "print": "46c9f77c",
+   "_": "S2 (simulación, estudio de habilidades, tanda 7, 2026-11-17): cura a todos el 15 % del HP máximo de Woosa; el daño (20 % de su HP) ya va en la fórmula.",
+   "effects": {
+    "Heal": {
+     "quantity": 15
+    },
+    "Increase Damage": {
+     "remove": true
+    }
+   }
+  },
   "1196": {
    "monster": "Chiwu (fuego)",
    "print": "d17f01e1",
@@ -638,6 +737,22 @@
     "Remove Buff": {
      "chance": 50,
      "quantity": 1
+    }
+   }
+  },
+  "1463": {
+   "monster": "Panda Warrior / Xiong Fei (fuego)",
+   "print": "b09e087f",
+   "_": "S3 (estudio de habilidades, tanda 4, 2026-11-14): los cuatro debuffs duran 2 turnos, como dice el texto (SWARFARM: 1, 1 y 0).",
+   "effects": {
+    "Increase Glancing Hit Chance": {
+     "quantity": 2
+    },
+    "Decrease ATK": {
+     "quantity": 2
+    },
+    "Decrease ATK SPD": {
+     "quantity": 2
     }
    }
   },
@@ -857,6 +972,36 @@
     }
    }
   },
+  "1732": {
+   "monster": "Homunculus de apoyo (Unbalanced Field)",
+   "print": "9faf0643",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease ATK SPD",
+     "type": "Debuff",
+     "self": false,
+     "aoe": true,
+     "chance": 0,
+     "quantity": 2
+    }
+   ]
+  },
+  "1737": {
+   "monster": "Homunculus de apoyo (luz)",
+   "print": "00c43b43",
+   "effects": {},
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 20
+    }
+   ]
+  },
   "1738": {
    "monster": "Homunculus de apoyo (luz)",
    "print": "4b87f6b5",
@@ -877,6 +1022,21 @@
      "aoe": true,
      "chance": 0,
      "quantity": 2
+    }
+   ]
+  },
+  "1740": {
+   "monster": "Homunculus de apoyo (oscuridad)",
+   "print": "00c43b43",
+   "effects": {},
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 20
     }
    ]
   },
@@ -1072,6 +1232,56 @@
    "effects": {
     "Increase ATB": {
      "aoe": true
+    }
+   }
+  },
+  "2402": {
+   "monster": "Beast Rider (agua)",
+   "print": "af549f35",
+   "_": "S1 (tanda 7 de la simulación): la VEL bajada está repetida en SWARFARM (se tiraba dos veces).",
+   "effects": {
+    "Decrease ATK SPD#2": {
+     "remove": true
+    }
+   }
+  },
+  "2403": {
+   "monster": "Beast Rider (fuego)",
+   "print": "af549f35",
+   "_": "S1 (tanda 7 de la simulación): la VEL bajada está repetida en SWARFARM (se tiraba dos veces).",
+   "effects": {
+    "Decrease ATK SPD#2": {
+     "remove": true
+    }
+   }
+  },
+  "2404": {
+   "monster": "Beast Rider (viento): Savannah",
+   "print": "af549f35",
+   "_": "S1 (tanda 7 de la simulación): la VEL bajada está repetida en SWARFARM (se tiraba dos veces).",
+   "effects": {
+    "Decrease ATK SPD#2": {
+     "remove": true
+    }
+   }
+  },
+  "2405": {
+   "monster": "Beast Rider (luz)",
+   "print": "af549f35",
+   "_": "S1 (tanda 7 de la simulación): la VEL bajada está repetida en SWARFARM (se tiraba dos veces).",
+   "effects": {
+    "Decrease ATK SPD#2": {
+     "remove": true
+    }
+   }
+  },
+  "2406": {
+   "monster": "Beast Rider (oscuridad)",
+   "print": "af549f35",
+   "_": "S1 (tanda 7 de la simulación): la VEL bajada está repetida en SWARFARM (se tiraba dos veces).",
+   "effects": {
+    "Decrease ATK SPD#2": {
+     "remove": true
     }
    }
   },
@@ -1360,6 +1570,27 @@
      "aoe": false,
      "chance": 0,
      "quantity": 5
+    }
+   ]
+  },
+  "3028": {
+   "monster": "Thrain (oscuridad, 2.º despertar)",
+   "print": "da6c8cd6",
+   "_": "S3 (tanda 7 de la simulación): aturde solo si el enemigo tiene daño continuo, como la barra.",
+   "effects": {
+    "Stun": {
+     "remove": true
+    }
+   },
+   "added": [
+    {
+     "name": "Stun",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 100,
+     "quantity": 1,
+     "note": "If enemy is under Continuous Damage"
     }
    ]
   },
@@ -1970,6 +2201,38 @@
     }
    }
   },
+  "3729": {
+   "monster": "Solveig (fuego)",
+   "print": "1a60a1b3",
+   "_": "S2 (estudio de habilidades, tanda 4, 2026-11-14): el texto pone la marca 1 turno con el primer golpe (100 %) y SWARFARM no la trae.",
+   "effects": {},
+   "added": [
+    {
+     "name": "Brand",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 100,
+     "quantity": 1
+    }
+   ]
+  },
+  "3731": {
+   "monster": "Berghild (luz)",
+   "print": "2073ece8",
+   "_": "S2 (tanda 8c de la simulación, 2026-11-17): falta la Marca de 1 turno (100 %) del primer golpe.",
+   "effects": {},
+   "added": [
+    {
+     "name": "Brand",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 100,
+     "quantity": 1
+    }
+   ]
+  },
   "3760": {
    "monster": "Chakra (viento)",
    "print": "ff455e33",
@@ -1981,6 +2244,61 @@
      "aoe": true
     }
    }
+  },
+  "3793": {
+   "monster": "Asura (agua)",
+   "print": "1ba5d952",
+   "_": "S1 (tanda 7 de la simulación): marca de 2 turnos (SWARFARM, 0) y 3 golpes; el 4.º, si su ATQ supera el del objetivo (usuario, 2026-11-17), lo pone el motor.",
+   "effects": {
+    "Brand": {
+     "quantity": 2
+    }
+   },
+   "hits": 3
+  },
+  "3794": {
+   "monster": "Asura (fuego)",
+   "print": "1ba5d952",
+   "_": "S1 (tanda 7 de la simulación): marca de 2 turnos (SWARFARM, 0) y 3 golpes; el 4.º, si su ATQ supera el del objetivo (usuario, 2026-11-17), lo pone el motor.",
+   "effects": {
+    "Brand": {
+     "quantity": 2
+    }
+   },
+   "hits": 3
+  },
+  "3795": {
+   "monster": "Asura (viento)",
+   "print": "1ba5d952",
+   "_": "S1 (tanda 7 de la simulación): marca de 2 turnos (SWARFARM, 0) y 3 golpes; el 4.º, si su ATQ supera el del objetivo (usuario, 2026-11-17), lo pone el motor.",
+   "effects": {
+    "Brand": {
+     "quantity": 2
+    }
+   },
+   "hits": 3
+  },
+  "3796": {
+   "monster": "Asura (luz)",
+   "print": "1ba5d952",
+   "_": "S1 (tanda 7 de la simulación): marca de 2 turnos (SWARFARM, 0) y 3 golpes; el 4.º, si su ATQ supera el del objetivo (usuario, 2026-11-17), lo pone el motor.",
+   "effects": {
+    "Brand": {
+     "quantity": 2
+    }
+   },
+   "hits": 3
+  },
+  "3797": {
+   "monster": "Asura (oscuridad): Vritra",
+   "print": "1ba5d952",
+   "_": "S1 (tanda 7 de la simulación): marca de 2 turnos (SWARFARM, 0) y 3 golpes; el 4.º, si su ATQ supera el del objetivo (usuario, 2026-11-17), lo pone el motor.",
+   "effects": {
+    "Brand": {
+     "quantity": 2
+    }
+   },
+   "hits": 3
   },
   "3800": {
    "monster": "Usha (viento)",
@@ -2039,6 +2357,22 @@
      "self": false
     }
    }
+  },
+  "3890": {
+   "monster": "Driller (luz, 2.º despertar)",
+   "print": "81af6d1c",
+   "_": "S3 (tanda 7 de la simulación): cada golpe baja la barra un 20 %.",
+   "effects": {},
+   "added": [
+    {
+     "name": "Decrease ATB",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 20
+    }
+   ]
   },
   "3946": {
    "monster": "Irène (agua)",
@@ -2233,6 +2567,36 @@
    "effects": {
     "Continuous DMG": {
      "quantity": 3
+    }
+   }
+  },
+  "4452": {
+   "monster": "Colleen (fuego, 2.º despertar)",
+   "print": "1706d44b",
+   "_": "S3 (tanda 7 de la simulación): cura al momento el 30 % a todos (SWARFARM la trae como Recuperación de 30 turnos).",
+   "effects": {
+    "Recovery": {
+     "remove": true
+    }
+   },
+   "added": [
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": true,
+     "chance": 0,
+     "quantity": 30
+    }
+   ]
+  },
+  "4477": {
+   "monster": "Deragron (fuego)",
+   "print": "57e39c8a",
+   "_": "S2 (estudio de habilidades, tanda 4, 2026-11-14): «Recovers your HP by 50% of the damage dealt» es robar vida (como la S1 de Sieq), no Recuperación por turnos.",
+   "effects": {
+    "Recovery": {
+     "name": "Self-Heal"
     }
    }
   },
@@ -2471,6 +2835,27 @@
      "self": false
     }
    }
+  },
+  "5138": {
+   "monster": "Sieq (fuego, 2.º despertar)",
+   "print": "a7691b2d",
+   "_": "S1 (tanda 7 de la simulación): baja la VEL 2 turnos y se cura el 30 % del daño hecho (no del HP máximo).",
+   "effects": {
+    "Heal": {
+     "name": "Self-Heal",
+     "chance": 0
+    }
+   },
+   "added": [
+    {
+     "name": "Decrease ATK SPD",
+     "type": "Debuff",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 2
+    }
+   ]
   },
   "5172": {
    "monster": "Purian (agua)",

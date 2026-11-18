@@ -1,19 +1,205 @@
 {
  "format": 7,
- "dataVersion": 14,
- "date": "2026-11-11",
+ "dataVersion": 15,
+ "date": "2026-11-18",
  "passives": 150,
- "fixes": 212,
+ "fixes": 241,
  "files": {
-  "passives.json": "313d6fd6b2e54fa3f02f97a0a329885a13323ddf89636db2812bc456b7cc782c",
-  "skill-fixes.json": "f1fc384c6e5b8eb7729866393aa81cecdb99906e59a41e5c69c0cb9f7566292a"
+  "passives.json": "59c943badd8250b756e3f3d5e3296d34b29615dccc35adb9b660ebec5183851f",
+  "skill-fixes.json": "fa52ce1399abb1a74b97fdb761d99ed31771d35a15a9062e41083f648912ec4b"
  },
  "changes": [
   {
-   "id": 2134,
+   "id": 343,
    "kind": "fix",
    "change": "new",
-   "monster": "Tian Lang (luz)"
+   "monster": "Aqcus (agua)"
+  },
+  {
+   "id": 3793,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Asura (agua)"
+  },
+  {
+   "id": 3794,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Asura (fuego)"
+  },
+  {
+   "id": 3796,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Asura (luz)"
+  },
+  {
+   "id": 3797,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Asura (oscuridad): Vritra"
+  },
+  {
+   "id": 3795,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Asura (viento)"
+  },
+  {
+   "id": 2402,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Beast Rider (agua)"
+  },
+  {
+   "id": 2403,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Beast Rider (fuego)"
+  },
+  {
+   "id": 2405,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Beast Rider (luz)"
+  },
+  {
+   "id": 2406,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Beast Rider (oscuridad)"
+  },
+  {
+   "id": 2404,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Beast Rider (viento): Savannah"
+  },
+  {
+   "id": 3731,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Berghild (luz)"
+  },
+  {
+   "id": 4452,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Colleen (fuego, 2.º despertar)"
+  },
+  {
+   "id": 4477,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Deragron (fuego)"
+  },
+  {
+   "id": 3890,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Driller (luz, 2.º despertar)"
+  },
+  {
+   "id": 3628,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Eivor (Agua)"
+  },
+  {
+   "id": 536,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Glinodon (luz)"
+  },
+  {
+   "id": 1737,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Homunculus de apoyo (luz)"
+  },
+  {
+   "id": 1740,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Homunculus de apoyo (oscuridad)"
+  },
+  {
+   "id": 1732,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Homunculus de apoyo (Unbalanced Field)"
+  },
+  {
+   "id": 718,
+   "kind": "fix",
+   "change": "updated",
+   "monster": "Joker (luz) / Figaro"
+  },
+  {
+   "id": 717,
+   "kind": "fix",
+   "change": "updated",
+   "monster": "Joker (viento) / Lushen"
+  },
+  {
+   "id": 762,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lich / Fuco (viento)"
+  },
+  {
+   "id": 751,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Ling Ling (viento)"
+  },
+  {
+   "id": 535,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lizardman / Igmanodon (fuego)"
+  },
+  {
+   "id": 977,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lumirecia (agua)"
+  },
+  {
+   "id": 1463,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Panda Warrior / Xiong Fei (fuego)"
+  },
+  {
+   "id": 5138,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Sieq (fuego, 2.º despertar)"
+  },
+  {
+   "id": 3729,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Solveig (fuego)"
+  },
+  {
+   "id": 3028,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Thrain (oscuridad, 2.º despertar)"
+  },
+  {
+   "id": 1194,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Woosa (agua)"
+  },
+  {
+   "id": 1195,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Woosa (luz)"
   }
  ]
 }

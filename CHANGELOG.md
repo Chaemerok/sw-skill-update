@@ -1,5 +1,42 @@
 # Cambios / Changes
 
+## 15 · 2026-11-18
+
+150 fichas · 241 correcciones
+
+- Aqcus (agua) (343): corrección nueva
+- Asura (agua) (3793): corrección nueva
+- Asura (fuego) (3794): corrección nueva
+- Asura (luz) (3796): corrección nueva
+- Asura (oscuridad): Vritra (3797): corrección nueva
+- Asura (viento) (3795): corrección nueva
+- Beast Rider (agua) (2402): corrección nueva
+- Beast Rider (fuego) (2403): corrección nueva
+- Beast Rider (luz) (2405): corrección nueva
+- Beast Rider (oscuridad) (2406): corrección nueva
+- Beast Rider (viento): Savannah (2404): corrección nueva
+- Berghild (luz) (3731): corrección nueva
+- Colleen (fuego, 2.º despertar) (4452): corrección nueva
+- Deragron (fuego) (4477): corrección nueva
+- Driller (luz, 2.º despertar) (3890): corrección nueva
+- Eivor (Agua) (3628): ficha corregida
+- Glinodon (luz) (536): corrección nueva
+- Homunculus de apoyo (luz) (1737): corrección nueva
+- Homunculus de apoyo (oscuridad) (1740): corrección nueva
+- Homunculus de apoyo (Unbalanced Field) (1732): corrección nueva
+- Joker (luz) / Figaro (718): corrección cambiada
+- Joker (viento) / Lushen (717): corrección cambiada
+- Lich / Fuco (viento) (762): corrección nueva
+- Ling Ling (viento) (751): corrección nueva
+- Lizardman / Igmanodon (fuego) (535): corrección nueva
+- Lumirecia (agua) (977): corrección nueva
+- Panda Warrior / Xiong Fei (fuego) (1463): corrección nueva
+- Sieq (fuego, 2.º despertar) (5138): corrección nueva
+- Solveig (fuego) (3729): corrección nueva
+- Thrain (oscuridad, 2.º despertar) (3028): corrección nueva
+- Woosa (agua) (1194): corrección nueva
+- Woosa (luz) (1195): corrección nueva
+
 ## 14 · 2026-11-11
 
 150 fichas · 212 correcciones
