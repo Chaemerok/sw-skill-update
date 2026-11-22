@@ -1,6 +1,6 @@
 {
- "dataVersion": 15,
- "dataDate": "2026-11-18",
+ "dataVersion": 16,
+ "dataDate": "2026-11-22",
  "curated": {
   "55": {
    "monster": "Bremis (fuego)",
@@ -300,6 +300,26 @@
        "amount": 0,
        "note": "daño extra según su HP máxima si su % de HP es mayor que el del enemigo"
       }
+     ]
+    }
+   ]
+  },
+  "663": {
+   "monster": "Jultan (1.er despertar)",
+   "print": "629f53cc",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Decrease DEF"
+     ]
+    },
+    {
+     "when": "critReceived",
+     "if": [],
+     "effects": [
+      "Reflect DMG"
      ]
     }
    ]
@@ -1510,6 +1530,27 @@
        "chance": 30
       }
      }
+    }
+   ]
+  },
+  "2332": {
+   "monster": "Jultan (2.º despertar)",
+   "print": "e87d5665",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [
+      "Continuous DMG",
+      "Decrease DEF"
+     ]
+    },
+    {
+     "when": "critReceived",
+     "if": [],
+     "effects": [
+      "Reflect DMG"
+     ]
     }
    ]
   },

@@ -1,205 +1,25 @@
 {
  "format": 7,
- "dataVersion": 15,
- "date": "2026-11-18",
- "passives": 150,
+ "dataVersion": 16,
+ "date": "2026-11-22",
+ "passives": 152,
  "fixes": 241,
  "files": {
-  "passives.json": "59c943badd8250b756e3f3d5e3296d34b29615dccc35adb9b660ebec5183851f",
-  "skill-fixes.json": "fa52ce1399abb1a74b97fdb761d99ed31771d35a15a9062e41083f648912ec4b"
+  "passives.json": "a462252394ff213e53902b5aa3a42b839b2024bb721cb02faf9b49c65c7d7ee1",
+  "skill-fixes.json": "1f0e606e47421054370b723a5535927f3b67c9dc5ab8eb03e290e55057948000"
  },
  "changes": [
   {
-   "id": 343,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Aqcus (agua)"
-  },
-  {
-   "id": 3793,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Asura (agua)"
-  },
-  {
-   "id": 3794,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Asura (fuego)"
-  },
-  {
-   "id": 3796,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Asura (luz)"
-  },
-  {
-   "id": 3797,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Asura (oscuridad): Vritra"
-  },
-  {
-   "id": 3795,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Asura (viento)"
-  },
-  {
-   "id": 2402,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Beast Rider (agua)"
-  },
-  {
-   "id": 2403,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Beast Rider (fuego)"
-  },
-  {
-   "id": 2405,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Beast Rider (luz)"
-  },
-  {
-   "id": 2406,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Beast Rider (oscuridad)"
-  },
-  {
-   "id": 2404,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Beast Rider (viento): Savannah"
-  },
-  {
-   "id": 3731,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Berghild (luz)"
-  },
-  {
-   "id": 4452,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Colleen (fuego, 2.º despertar)"
-  },
-  {
-   "id": 4477,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Deragron (fuego)"
-  },
-  {
-   "id": 3890,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Driller (luz, 2.º despertar)"
-  },
-  {
-   "id": 3628,
+   "id": 663,
    "kind": "passive",
-   "change": "updated",
-   "monster": "Eivor (Agua)"
-  },
-  {
-   "id": 536,
-   "kind": "fix",
    "change": "new",
-   "monster": "Glinodon (luz)"
+   "monster": "Jultan (1.er despertar)"
   },
   {
-   "id": 1737,
-   "kind": "fix",
+   "id": 2332,
+   "kind": "passive",
    "change": "new",
-   "monster": "Homunculus de apoyo (luz)"
-  },
-  {
-   "id": 1740,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Homunculus de apoyo (oscuridad)"
-  },
-  {
-   "id": 1732,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Homunculus de apoyo (Unbalanced Field)"
-  },
-  {
-   "id": 718,
-   "kind": "fix",
-   "change": "updated",
-   "monster": "Joker (luz) / Figaro"
-  },
-  {
-   "id": 717,
-   "kind": "fix",
-   "change": "updated",
-   "monster": "Joker (viento) / Lushen"
-  },
-  {
-   "id": 762,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Lich / Fuco (viento)"
-  },
-  {
-   "id": 751,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Ling Ling (viento)"
-  },
-  {
-   "id": 535,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Lizardman / Igmanodon (fuego)"
-  },
-  {
-   "id": 977,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Lumirecia (agua)"
-  },
-  {
-   "id": 1463,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Panda Warrior / Xiong Fei (fuego)"
-  },
-  {
-   "id": 5138,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Sieq (fuego, 2.º despertar)"
-  },
-  {
-   "id": 3729,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Solveig (fuego)"
-  },
-  {
-   "id": 3028,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Thrain (oscuridad, 2.º despertar)"
-  },
-  {
-   "id": 1194,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Woosa (agua)"
-  },
-  {
-   "id": 1195,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Woosa (luz)"
+   "monster": "Jultan (2.º despertar)"
   }
  ]
 }

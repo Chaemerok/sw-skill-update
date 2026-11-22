@@ -1,5 +1,12 @@
 # Cambios / Changes
 
+## 16 · 2026-11-22
+
+152 fichas · 241 correcciones
+
+- Jultan (1.er despertar) (663): ficha nueva
+- Jultan (2.º despertar) (2332): ficha nueva
+
 ## 15 · 2026-11-18
 
 150 fichas · 241 correcciones
