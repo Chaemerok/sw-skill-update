@@ -1,5 +1,15 @@
 # Cambios / Changes
 
+## 18 · 2026-11-24
+
+161 fichas · 241 correcciones
+
+- Bellenus (fuego, forma de druida) (2027): ficha nueva
+- Dias (oscuridad) (708): ficha nueva
+- Inosuke Hashibira (oscuridad) (4641): ficha nueva
+- Taebaek (luz) (4954): ficha nueva
+- White Tiger Blade Master (oscuridad) (4725): ficha nueva
+
 ## 17 · 2026-11-23
 
 156 fichas · 241 correcciones

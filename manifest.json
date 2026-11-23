@@ -1,49 +1,43 @@
 {
  "format": 7,
- "dataVersion": 17,
- "date": "2026-11-23",
- "passives": 156,
+ "dataVersion": 18,
+ "date": "2026-11-24",
+ "passives": 161,
  "fixes": 241,
  "files": {
-  "passives.json": "1e45c8c4f07973c704ec1e4037a954f1a07553dea4b6b74ed396dd71e192615f",
-  "skill-fixes.json": "7e7b9343839fcae1dbcafd67d10fd1fb0ecf847c85cb0ea49042a6973d65681e"
+  "passives.json": "04ab7ea39537a5779d23ce1b18b69582258c3bdc48caa1bd37b79e96d6b06e80",
+  "skill-fixes.json": "06a0bda3e90bc9bb2c22305c00b4c8eae8031d1b9b40b88059309086d7af0cf6"
  },
  "changes": [
   {
-   "id": 2031,
+   "id": 2027,
    "kind": "passive",
    "change": "new",
-   "monster": "Abellio (agua, forma de bestia)"
+   "monster": "Bellenus (fuego, forma de druida)"
   },
   {
-   "id": 4243,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Arcana"
-  },
-  {
-   "id": 2032,
+   "id": 708,
    "kind": "passive",
    "change": "new",
-   "monster": "Bellenus (fuego, forma de bestia)"
+   "monster": "Dias (oscuridad)"
   },
   {
-   "id": 2033,
+   "id": 4641,
    "kind": "passive",
    "change": "new",
-   "monster": "Taranys (viento, forma de bestia)"
+   "monster": "Inosuke Hashibira (oscuridad)"
   },
   {
-   "id": 2034,
+   "id": 4954,
    "kind": "passive",
    "change": "new",
-   "monster": "Valantis (luz, forma de bestia)"
+   "monster": "Taebaek (luz)"
   },
   {
-   "id": 4130,
+   "id": 4725,
    "kind": "passive",
-   "change": "updated",
-   "monster": "Yennefer"
+   "change": "new",
+   "monster": "White Tiger Blade Master (oscuridad)"
   }
  ]
 }

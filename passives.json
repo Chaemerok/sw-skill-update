@@ -1,6 +1,6 @@
 {
- "dataVersion": 17,
- "dataDate": "2026-11-23",
+ "dataVersion": 18,
+ "dataDate": "2026-11-24",
  "curated": {
   "55": {
    "monster": "Bremis (fuego)",
@@ -320,6 +320,41 @@
      "if": [],
      "effects": [
       "Reflect DMG"
+     ]
+    }
+   ]
+  },
+  "708": {
+   "monster": "Dias (oscuridad)",
+   "print": "cd370332",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase CRI Resist",
+       "self": true,
+       "aoe": false,
+       "amount": 50
+      }
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Decrease Damage#1"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [
+      "enemyElement"
+     ],
+     "effects": [
+      "Decrease Damage#2"
      ]
     }
    ]
@@ -1085,6 +1120,26 @@
      ],
      "effects": [
       "Guaranteed Critical Hit"
+     ]
+    }
+   ]
+  },
+  "2027": {
+   "monster": "Bellenus (fuego, forma de druida)",
+   "print": "2e4ee0e2",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Absorb ATB",
+       "self": false,
+       "aoe": false,
+       "amount": 25,
+       "note": "si su golpe no es rozado"
+      }
      ]
     }
    ]
@@ -3639,6 +3694,34 @@
     }
    ]
   },
+  "4641": {
+   "monster": "Inosuke Hashibira (oscuridad)",
+   "print": "18a1b3f7",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immune to ATB decreasing effects"
+     ],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "amount": 30,
+       "note": "ATQ +30 % propio, siempre"
+      },
+      {
+       "name": "Increase Attack Critical Chance",
+       "self": true,
+       "aoe": false,
+       "amount": 20
+      }
+     ]
+    }
+   ]
+  },
   "4673": {
    "monster": "Tityus",
    "print": "685a12ad",
@@ -3742,6 +3825,34 @@
     }
    ]
   },
+  "4725": {
+   "monster": "White Tiger Blade Master (oscuridad)",
+   "print": "18a1b3f7",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Immune to ATB decreasing effects"
+     ],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "amount": 30,
+       "note": "ATQ +30 % propio, siempre"
+      },
+      {
+       "name": "Increase Attack Critical Chance",
+       "self": true,
+       "aoe": false,
+       "amount": 20
+      }
+     ]
+    }
+   ]
+  },
   "4890": {
    "monster": "Cynthia",
    "print": "2277036a",
@@ -3806,6 +3917,29 @@
      ],
      "effects": [
       "Additional Attack"
+     ]
+    }
+   ]
+  },
+  "4954": {
+   "monster": "Taebaek (luz)",
+   "print": "0fb5293d",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Elemental Advantage"
+     ],
+     "added": [
+      {
+       "name": "Increase ATK SPD",
+       "self": true,
+       "aoe": false,
+       "chance": 100,
+       "amount": 15,
+       "note": "Up to 150%, whenever you are attacked or attacking an enemy"
+      }
      ]
     }
    ]
