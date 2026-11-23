@@ -1,6 +1,6 @@
 {
- "dataVersion": 16,
- "dataDate": "2026-11-22",
+ "dataVersion": 17,
+ "dataDate": "2026-11-23",
  "curated": {
   "55": {
    "monster": "Bremis (fuego)",
@@ -1127,6 +1127,100 @@
      "note": "solo si está incapacitado al empezar el turno: se quita todos sus debuffs",
      "effects": [
       "Cleanse"
+     ]
+    }
+   ]
+  },
+  "2031": {
+   "monster": "Abellio (agua, forma de bestia)",
+   "print": "a96db588",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Increase ATB"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "effects": [
+      "Heal"
+     ]
+    }
+   ]
+  },
+  "2032": {
+   "monster": "Bellenus (fuego, forma de bestia)",
+   "print": "c9c43e91",
+   "rules": [
+    {
+     "when": "always",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Increase ATK",
+       "self": true,
+       "aoe": false,
+       "amount": 100,
+       "note": "ATQ +100 % propio, siempre"
+      }
+     ]
+    },
+    {
+     "when": "always",
+     "if": [],
+     "effects": [
+      "Debuff Bonus Damage"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Counter"
+     ]
+    }
+   ]
+  },
+  "2033": {
+   "monster": "Taranys (viento, forma de bestia)",
+   "print": "71830dbb",
+   "rules": [
+    {
+     "when": "ownDeath",
+     "if": [],
+     "effects": [
+      "Revive"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [],
+     "added": [
+      {
+       "name": "Accumulate DEF",
+       "self": true,
+       "aoe": false,
+       "amount": 10,
+       "note": "DEF +10 % al ser atacado, hasta 5 veces"
+      }
+     ]
+    }
+   ]
+  },
+  "2034": {
+   "monster": "Valantis (luz, forma de bestia)",
+   "print": "6718fa4e",
+   "rules": [
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "effects": [
+      "Counter"
      ]
     }
    ]
@@ -3007,9 +3101,9 @@
      "note": "cuando el enemigo quita un debuff o un buff de un aliado: se quitan también los buffs de ese enemigo; después, 1 debuff menos y +20 % de barra a los 2 aliados con más barra",
      "effects": [
       "Remove Buff",
-      "Cleanse",
+      "Cleanse#1",
       "Cleanse#2",
-      "Increase ATB",
+      "Increase ATB#1",
       "Increase ATB#2"
      ]
     }
@@ -3258,9 +3352,9 @@
      "note": "cuando el enemigo quita un debuff o un buff de un aliado: se quitan también los buffs de ese enemigo; después, 1 debuff menos y +20 % de barra a los 2 aliados con más barra",
      "effects": [
       "Remove Buff",
-      "Cleanse",
+      "Cleanse#1",
       "Cleanse#2",
-      "Increase ATB",
+      "Increase ATB#1",
       "Increase ATB#2"
      ]
     }

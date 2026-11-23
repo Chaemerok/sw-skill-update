@@ -1,25 +1,49 @@
 {
  "format": 7,
- "dataVersion": 16,
- "date": "2026-11-22",
- "passives": 152,
+ "dataVersion": 17,
+ "date": "2026-11-23",
+ "passives": 156,
  "fixes": 241,
  "files": {
-  "passives.json": "a462252394ff213e53902b5aa3a42b839b2024bb721cb02faf9b49c65c7d7ee1",
-  "skill-fixes.json": "1f0e606e47421054370b723a5535927f3b67c9dc5ab8eb03e290e55057948000"
+  "passives.json": "1e45c8c4f07973c704ec1e4037a954f1a07553dea4b6b74ed396dd71e192615f",
+  "skill-fixes.json": "7e7b9343839fcae1dbcafd67d10fd1fb0ecf847c85cb0ea49042a6973d65681e"
  },
  "changes": [
   {
-   "id": 663,
+   "id": 2031,
    "kind": "passive",
    "change": "new",
-   "monster": "Jultan (1.er despertar)"
+   "monster": "Abellio (agua, forma de bestia)"
   },
   {
-   "id": 2332,
+   "id": 4243,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Arcana"
+  },
+  {
+   "id": 2032,
    "kind": "passive",
    "change": "new",
-   "monster": "Jultan (2.º despertar)"
+   "monster": "Bellenus (fuego, forma de bestia)"
+  },
+  {
+   "id": 2033,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Taranys (viento, forma de bestia)"
+  },
+  {
+   "id": 2034,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Valantis (luz, forma de bestia)"
+  },
+  {
+   "id": 4130,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Yennefer"
   }
  ]
 }

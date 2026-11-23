@@ -1,5 +1,16 @@
 # Cambios / Changes
 
+## 17 · 2026-11-23
+
+156 fichas · 241 correcciones
+
+- Abellio (agua, forma de bestia) (2031): ficha nueva
+- Arcana (4243): ficha corregida
+- Bellenus (fuego, forma de bestia) (2032): ficha nueva
+- Taranys (viento, forma de bestia) (2033): ficha nueva
+- Valantis (luz, forma de bestia) (2034): ficha nueva
+- Yennefer (4130): ficha corregida
+
 ## 16 · 2026-11-22
 
 152 fichas · 241 correcciones
