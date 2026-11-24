@@ -1,43 +1,85 @@
 {
  "format": 7,
- "dataVersion": 18,
+ "dataVersion": 19,
  "date": "2026-11-24",
  "passives": 161,
- "fixes": 241,
+ "fixes": 253,
  "files": {
-  "passives.json": "04ab7ea39537a5779d23ce1b18b69582258c3bdc48caa1bd37b79e96d6b06e80",
-  "skill-fixes.json": "06a0bda3e90bc9bb2c22305c00b4c8eae8031d1b9b40b88059309086d7af0cf6"
+  "passives.json": "505133a9cb73b54d56c0914000f0a7860dd090c95d83e23d56cc499a4ba78b90",
+  "skill-fixes.json": "28ff6131142b20cd0a74aafa37a7bae7f7e1a94b46c1bb1ef2e5791e45fcddbe"
  },
  "changes": [
   {
-   "id": 2027,
-   "kind": "passive",
+   "id": 2120,
+   "kind": "fix",
    "change": "new",
-   "monster": "Bellenus (fuego, forma de druida)"
+   "monster": "Abigail (agua)"
   },
   {
-   "id": 708,
-   "kind": "passive",
+   "id": 5269,
+   "kind": "fix",
    "change": "new",
-   "monster": "Dias (oscuridad)"
+   "monster": "Elder Horn (viento)"
   },
   {
-   "id": 4641,
-   "kind": "passive",
+   "id": 3579,
+   "kind": "fix",
    "change": "new",
-   "monster": "Inosuke Hashibira (oscuridad)"
+   "monster": "Ezio (fuego)"
   },
   {
-   "id": 4954,
-   "kind": "passive",
+   "id": 3582,
+   "kind": "fix",
    "change": "new",
-   "monster": "Taebaek (luz)"
+   "monster": "Ezio (oscuridad)"
   },
   {
-   "id": 4725,
-   "kind": "passive",
+   "id": 3580,
+   "kind": "fix",
    "change": "new",
-   "monster": "White Tiger Blade Master (oscuridad)"
+   "monster": "Ezio (viento)"
+  },
+  {
+   "id": 3014,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Hemos (agua)"
+  },
+  {
+   "id": 3409,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Hollyberry Cookie (viento)"
+  },
+  {
+   "id": 4763,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Jin Kazama (oscuridad)"
+  },
+  {
+   "id": 5079,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Legolas (viento)"
+  },
+  {
+   "id": 3020,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Sath (fuego)"
+  },
+  {
+   "id": 1637,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Tablo (luz)"
+  },
+  {
+   "id": 4123,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Yennefer (fuego)"
   }
  ]
 }

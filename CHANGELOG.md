@@ -1,5 +1,22 @@
 # Cambios / Changes
 
+## 19 · 2026-11-24
+
+161 fichas · 253 correcciones
+
+- Abigail (agua) (2120): corrección nueva
+- Elder Horn (viento) (5269): corrección nueva
+- Ezio (fuego) (3579): corrección nueva
+- Ezio (oscuridad) (3582): corrección nueva
+- Ezio (viento) (3580): corrección nueva
+- Hemos (agua) (3014): corrección nueva
+- Hollyberry Cookie (viento) (3409): corrección nueva
+- Jin Kazama (oscuridad) (4763): corrección nueva
+- Legolas (viento) (5079): corrección nueva
+- Sath (fuego) (3020): corrección nueva
+- Tablo (luz) (1637): corrección nueva
+- Yennefer (fuego) (4123): corrección nueva
+
 ## 18 · 2026-11-24
 
 161 fichas · 241 correcciones

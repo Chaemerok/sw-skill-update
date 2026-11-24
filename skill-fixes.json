@@ -1,5 +1,5 @@
 {
- "dataVersion": 18,
+ "dataVersion": 19,
  "dataDate": "2026-11-24",
  "fixes": {
   "127": {
@@ -924,6 +924,15 @@
     }
    }
   },
+  "1637": {
+   "monster": "Tablo (luz)",
+   "print": "57ff918e",
+   "effects": {
+    "Increase ATK SPD": {
+     "quantity": 1
+    }
+   }
+  },
   "1644": {
    "monster": "Sonnet (agua)",
    "print": "0c315eee",
@@ -1177,6 +1186,15 @@
      "quantity": 1
     }
    ]
+  },
+  "2120": {
+   "monster": "Abigail (agua)",
+   "print": "eca08cd4",
+   "effects": {
+    "Decrease DEF": {
+     "quantity": 2
+    }
+   }
   },
   "2126": {
    "monster": "Scarlett (fuego)",
@@ -1573,6 +1591,24 @@
     }
    ]
   },
+  "3014": {
+   "monster": "Hemos (agua)",
+   "print": "5640d8b6",
+   "effects": {
+    "Continuous DMG": {
+     "quantity": 2
+    }
+   }
+  },
+  "3020": {
+   "monster": "Sath (fuego)",
+   "print": "6662b45a",
+   "effects": {
+    "Continuous DMG": {
+     "quantity": 2
+    }
+   }
+  },
   "3028": {
    "monster": "Thrain (oscuridad, 2.º despertar)",
    "print": "da6c8cd6",
@@ -1880,6 +1916,15 @@
     }
    ]
   },
+  "3409": {
+   "monster": "Hollyberry Cookie (viento)",
+   "print": "1ace7245",
+   "effects": {
+    "Increase DEF": {
+     "quantity": 3
+    }
+   }
+  },
   "3427": {
    "monster": "Espresso Cookie (oscuridad)",
    "print": "6f7a6393",
@@ -2027,6 +2072,33 @@
      "quantity": 2
     }
    ]
+  },
+  "3579": {
+   "monster": "Ezio (fuego)",
+   "print": "97b5d006",
+   "effects": {
+    "Decrease DEF": {
+     "quantity": 2
+    }
+   }
+  },
+  "3580": {
+   "monster": "Ezio (viento)",
+   "print": "97b5d006",
+   "effects": {
+    "Decrease DEF": {
+     "quantity": 2
+    }
+   }
+  },
+  "3582": {
+   "monster": "Ezio (oscuridad)",
+   "print": "97b5d006",
+   "effects": {
+    "Decrease DEF": {
+     "quantity": 2
+    }
+   }
   },
   "3586": {
    "monster": "Ezio (luz)",
@@ -2424,6 +2496,15 @@
     }
    }
   },
+  "4123": {
+   "monster": "Yennefer (fuego)",
+   "print": "6166aeee",
+   "effects": {
+    "Oblivion": {
+     "quantity": 2
+    }
+   }
+  },
   "4124": {
    "monster": "Yennefer (Viento)",
    "print": "abf80058",
@@ -2769,6 +2850,15 @@
     }
    }
   },
+  "4763": {
+   "monster": "Jin Kazama (oscuridad)",
+   "print": "936bf16a",
+   "effects": {
+    "Immunity": {
+     "quantity": 1
+    }
+   }
+  },
   "4931": {
    "monster": "Kai (agua)",
    "print": "23fb3c2e",
@@ -2836,6 +2926,15 @@
     }
    }
   },
+  "5079": {
+   "monster": "Legolas (viento)",
+   "print": "4b6ca70e",
+   "effects": {
+    "Stun": {
+     "quantity": 1
+    }
+   }
+  },
   "5138": {
    "monster": "Sieq (fuego, 2.º despertar)",
    "print": "a7691b2d",
@@ -2889,6 +2988,15 @@
     },
     "Steal Buff": {
      "self": false
+    }
+   }
+  },
+  "5269": {
+   "monster": "Elder Horn (viento)",
+   "print": "4b6ca70e",
+   "effects": {
+    "Stun": {
+     "quantity": 1
     }
    }
   },
