@@ -1,5 +1,23 @@
 # Cambios / Changes
 
+## 20 · 2026-11-25
+
+161 fichas · 245 correcciones
+
+- 51LV3R (luz) (4167): corrección retirada
+- 570RM (viento) (4166): corrección retirada
+- 7R1X (fuego) (4165): corrección retirada
+- Arella (luz) (5015): corrección retirada
+- Fern (5318): ficha corregida
+- Hwadam (648): ficha corregida
+- K1D (agua) (4164): corrección retirada
+- Luen (viento) (5439): ficha corregida
+- N1X (oscuridad) (4168): corrección retirada
+- Narsha (luz) (2410): corrección retirada
+- Oliver (viento) (3159): corrección cambiada
+- Savannah (viento) (2409): corrección retirada
+- Shun (3339): ficha corregida
+
 ## 19 · 2026-11-24
 
 161 fichas · 253 correcciones

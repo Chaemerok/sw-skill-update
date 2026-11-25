@@ -1,6 +1,6 @@
 {
- "dataVersion": 19,
- "dataDate": "2026-11-24",
+ "dataVersion": 20,
+ "dataDate": "2026-11-25",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -1303,30 +1303,6 @@
     }
    }
   },
-  "2409": {
-   "monster": "Savannah (viento)",
-   "print": "8a56a638",
-   "effects": {
-    "Remove Buff": {
-     "aoe": false
-    },
-    "Continuous DMG": {
-     "aoe": false
-    }
-   }
-  },
-  "2410": {
-   "monster": "Narsha (luz)",
-   "print": "8a56a638",
-   "effects": {
-    "Remove Buff": {
-     "aoe": false
-    },
-    "Continuous DMG": {
-     "aoe": false
-    }
-   }
-  },
   "2648": {
    "monster": "Varus (oscuridad)",
    "print": "f2bbea7f",
@@ -1705,6 +1681,18 @@
     },
     "Increase ATB": {
      "quantity": 90
+    }
+   },
+   "afterPatch": {
+    "_": "Notas del parche de balance (2026-11-25): la barra que quita pasa del 90 % al 80 %, y la que gana con ella",
+    "match": "attack bar by 80%",
+    "effects": {
+     "Increase Cooltime": {
+      "chance": 100
+     },
+     "Increase ATB": {
+      "quantity": 80
+     }
     }
    }
   },
@@ -2541,51 +2529,6 @@
     }
    }
   },
-  "4164": {
-   "monster": "K1D (agua)",
-   "print": "9d184998",
-   "effects": {
-    "Brand": {
-     "self": false
-    }
-   }
-  },
-  "4165": {
-   "monster": "7R1X (fuego)",
-   "print": "9d184998",
-   "effects": {
-    "Brand": {
-     "self": false
-    }
-   }
-  },
-  "4166": {
-   "monster": "570RM (viento)",
-   "print": "9d184998",
-   "effects": {
-    "Brand": {
-     "self": false
-    }
-   }
-  },
-  "4167": {
-   "monster": "51LV3R (luz)",
-   "print": "9d184998",
-   "effects": {
-    "Brand": {
-     "self": false
-    }
-   }
-  },
-  "4168": {
-   "monster": "N1X (oscuridad)",
-   "print": "9d184998",
-   "effects": {
-    "Brand": {
-     "self": false
-    }
-   }
-  },
   "4239": {
    "monster": "Hilda",
    "print": "abf80058",
@@ -2896,16 +2839,6 @@
      "quantity": 1
     }
    ]
-  },
-  "5015": {
-   "monster": "Arella (luz)",
-   "print": "19a8a7b0",
-   "effects": {
-    "Beneficial Effects Blocked": {
-     "name": "Harmful Effect Removal Blocked",
-     "quantity": 1
-    }
-   }
   },
   "5066": {
    "monster": "Aragorn (oscuridad)",

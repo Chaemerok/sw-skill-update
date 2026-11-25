@@ -1,85 +1,91 @@
 {
  "format": 7,
- "dataVersion": 19,
- "date": "2026-11-24",
+ "dataVersion": 20,
+ "date": "2026-11-25",
  "passives": 161,
- "fixes": 253,
+ "fixes": 245,
  "files": {
-  "passives.json": "505133a9cb73b54d56c0914000f0a7860dd090c95d83e23d56cc499a4ba78b90",
-  "skill-fixes.json": "28ff6131142b20cd0a74aafa37a7bae7f7e1a94b46c1bb1ef2e5791e45fcddbe"
+  "passives.json": "5c2d91edd97da71d2b5c1be920cb27c7d6a6dca78972060262baafd840fd9245",
+  "skill-fixes.json": "9d2eef1111a3dfa32b44ebd42df0cb6a224dc6dfd4826dd3b567963b64134ae9"
  },
  "changes": [
   {
-   "id": 2120,
+   "id": 4167,
    "kind": "fix",
-   "change": "new",
-   "monster": "Abigail (agua)"
+   "change": "removed",
+   "monster": "51LV3R (luz)"
   },
   {
-   "id": 5269,
+   "id": 4166,
    "kind": "fix",
-   "change": "new",
-   "monster": "Elder Horn (viento)"
+   "change": "removed",
+   "monster": "570RM (viento)"
   },
   {
-   "id": 3579,
+   "id": 4165,
    "kind": "fix",
-   "change": "new",
-   "monster": "Ezio (fuego)"
+   "change": "removed",
+   "monster": "7R1X (fuego)"
   },
   {
-   "id": 3582,
+   "id": 5015,
    "kind": "fix",
-   "change": "new",
-   "monster": "Ezio (oscuridad)"
+   "change": "removed",
+   "monster": "Arella (luz)"
   },
   {
-   "id": 3580,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Ezio (viento)"
+   "id": 5318,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Fern"
   },
   {
-   "id": 3014,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Hemos (agua)"
+   "id": 648,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Hwadam"
   },
   {
-   "id": 3409,
+   "id": 4164,
    "kind": "fix",
-   "change": "new",
-   "monster": "Hollyberry Cookie (viento)"
+   "change": "removed",
+   "monster": "K1D (agua)"
   },
   {
-   "id": 4763,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Jin Kazama (oscuridad)"
+   "id": 5439,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Luen (viento)"
   },
   {
-   "id": 5079,
+   "id": 4168,
    "kind": "fix",
-   "change": "new",
-   "monster": "Legolas (viento)"
+   "change": "removed",
+   "monster": "N1X (oscuridad)"
   },
   {
-   "id": 3020,
+   "id": 2410,
    "kind": "fix",
-   "change": "new",
-   "monster": "Sath (fuego)"
+   "change": "removed",
+   "monster": "Narsha (luz)"
   },
   {
-   "id": 1637,
+   "id": 3159,
    "kind": "fix",
-   "change": "new",
-   "monster": "Tablo (luz)"
+   "change": "updated",
+   "monster": "Oliver (viento)"
   },
   {
-   "id": 4123,
+   "id": 2409,
    "kind": "fix",
-   "change": "new",
-   "monster": "Yennefer (fuego)"
+   "change": "removed",
+   "monster": "Savannah (viento)"
+  },
+  {
+   "id": 3339,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Shun"
   }
  ]
 }

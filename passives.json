@@ -1,6 +1,6 @@
 {
- "dataVersion": 19,
- "dataDate": "2026-11-24",
+ "dataVersion": 20,
+ "dataDate": "2026-11-25",
  "curated": {
   "55": {
    "monster": "Bremis (fuego)",
@@ -279,7 +279,29 @@
       }
      ]
     }
-   ]
+   ],
+   "afterPatch": {
+    "_": "Notas del parche de balance (2026-11-25): 30 % → 20 % de su HP máx. y no salta con un 20 % de HP o menos",
+    "match": "20% of your MAX HP",
+    "rules": [
+     {
+      "when": "allyFatalHit",
+      "if": [
+       "hpAbove"
+      ],
+      "note": "un aliado recibe un golpe mortal: no muere y recibe el 20 % de la HP máx. de Hwadam; no se activa si Hwadam tiene un 20 % de HP o menos",
+      "effects": [],
+      "added": [
+       {
+        "name": "Share MAX HP",
+        "self": false,
+        "amount": 20,
+        "note": "evita la muerte del aliado pasándole el 20 % de la HP máx. de Hwadam (notas del parche de balance, 2026-11-25)"
+       }
+      ]
+     }
+    ]
+   }
   },
   "661": {
    "monster": "Shakan (viento)",
@@ -2234,7 +2256,39 @@
       "Steal Buff"
      ]
     }
-   ]
+   ],
+   "afterPatch": {
+    "_": "Notas del parche de balance (2026-11-25): la reducción del 30 % del daño del atado pasa a +50 % de Prob. CRI al atacarlo",
+    "match": "critical rate",
+    "rules": [
+     {
+      "when": "onAttack",
+      "if": [
+       "specialState"
+      ],
+      "effects": [
+       "Ignore DEF"
+      ],
+      "added": [
+       {
+        "name": "Increase CRI Rate",
+        "self": true,
+        "aoe": false,
+        "type": "Neutral",
+        "amount": 50,
+        "note": "+50 % de Prob. CRI al atacar al objetivo atado por la sombra (notas del parche)"
+       }
+      ]
+     },
+     {
+      "when": "onAttack",
+      "if": [],
+      "effects": [
+       "Steal Buff"
+      ]
+     }
+    ]
+   }
   },
   "3356": {
    "monster": "Nebelung (viento)",
@@ -4031,7 +4085,33 @@
       "Increase ATB"
      ]
     }
-   ]
+   ],
+   "afterPatch": {
+    "_": "Notas del parche de balance (2026-11-25): además, sube su VEL 2 turnos",
+    "match": "attack speed",
+    "rules": [
+     {
+      "when": "allyFatalHit",
+      "if": [],
+      "note": "cuando un aliado (o él) recibe un golpe mortal: anula el daño, le da invencibilidad 1 turno, gana un 50 % de barra y sube su VEL 2 turnos",
+      "effects": [
+       "Offset Damage",
+       "Invincible",
+       "Increase ATB"
+      ],
+      "added": [
+       {
+        "name": "Increase ATK SPD",
+        "self": true,
+        "aoe": false,
+        "type": "Buff",
+        "amount": 2,
+        "note": "VEL 2 turnos (notas del parche)"
+       }
+      ]
+     }
+    ]
+   }
   },
   "5319": {
    "monster": "Fern",
@@ -4101,7 +4181,33 @@
       "Increase ATB"
      ]
     }
-   ]
+   ],
+   "afterPatch": {
+    "_": "Notas del parche de balance (2026-11-25): además, sube su VEL 2 turnos",
+    "match": "attack speed",
+    "rules": [
+     {
+      "when": "allyFatalHit",
+      "if": [],
+      "note": "cuando un aliado (o él) recibe un golpe mortal: anula el daño, le da invencibilidad 1 turno, gana un 50 % de barra y sube su VEL 2 turnos",
+      "effects": [
+       "Offset Damage",
+       "Invincible",
+       "Increase ATB"
+      ],
+      "added": [
+       {
+        "name": "Increase ATK SPD",
+        "self": true,
+        "aoe": false,
+        "type": "Buff",
+        "amount": 2,
+        "note": "VEL 2 turnos (notas del parche)"
+       }
+      ]
+     }
+    ]
+   }
   },
   "5440": {
    "monster": "Luen (luz)",
