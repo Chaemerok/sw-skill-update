@@ -1,6 +1,6 @@
 {
- "dataVersion": 20,
- "dataDate": "2026-11-25",
+ "dataVersion": 21,
+ "dataDate": "2026-11-26",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -730,6 +730,15 @@
     }
    }
   },
+  "1437": {
+   "monster": "Kroa (oscuridad)",
+   "print": "eef09e61",
+   "effects": {
+    "Increase ATK SPD": {
+     "quantity": 3
+    }
+   }
+  },
   "1449": {
    "monster": "Psamathe (agua)",
    "print": "7c839487",
@@ -1235,6 +1244,15 @@
     }
    }
   },
+  "2185": {
+   "monster": "Ramagos (viento, 2.º despertar)",
+   "print": "37b3dd6d",
+   "effects": {
+    "Increase DEF": {
+     "quantity": 3
+    }
+   }
+  },
   "2216": {
    "monster": "Belladeon (luz)",
    "print": "01a2a044",
@@ -1644,6 +1662,15 @@
      "quantity": 1
     }
    ]
+  },
+  "3084": {
+   "monster": "Douman (oscuridad)",
+   "print": "3334a750",
+   "effects": {
+    "Curse of Death": {
+     "quantity": 4
+    }
+   }
   },
   "3100": {
    "monster": "Haegang (agua)",
@@ -2935,6 +2962,16 @@
   },
   "5349": {
    "monster": "Übel (luz)",
+   "print": "d7628e01",
+   "effects": {
+    "Harmful Effect Removal Blocked": {
+     "chance": 100,
+     "quantity": 1
+    }
+   }
+  },
+  "5470": {
+   "monster": "Wieb (luz)",
    "print": "d7628e01",
    "effects": {
     "Harmful Effect Removal Blocked": {

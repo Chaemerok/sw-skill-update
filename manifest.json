@@ -1,91 +1,37 @@
 {
  "format": 7,
- "dataVersion": 20,
- "date": "2026-11-25",
+ "dataVersion": 21,
+ "date": "2026-11-26",
  "passives": 161,
- "fixes": 245,
+ "fixes": 249,
  "files": {
-  "passives.json": "5c2d91edd97da71d2b5c1be920cb27c7d6a6dca78972060262baafd840fd9245",
-  "skill-fixes.json": "9d2eef1111a3dfa32b44ebd42df0cb6a224dc6dfd4826dd3b567963b64134ae9"
+  "passives.json": "14b1668d5e3de124c961777a01fefe155f5730df90e8bd61c8c1ab691a024be5",
+  "skill-fixes.json": "0bc9b08b7c502b6fc20bf4f683344785431eba0d7711e6d05cc7782bc401dd17"
  },
  "changes": [
   {
-   "id": 4167,
+   "id": 3084,
    "kind": "fix",
-   "change": "removed",
-   "monster": "51LV3R (luz)"
+   "change": "new",
+   "monster": "Douman (oscuridad)"
   },
   {
-   "id": 4166,
+   "id": 1437,
    "kind": "fix",
-   "change": "removed",
-   "monster": "570RM (viento)"
+   "change": "new",
+   "monster": "Kroa (oscuridad)"
   },
   {
-   "id": 4165,
+   "id": 2185,
    "kind": "fix",
-   "change": "removed",
-   "monster": "7R1X (fuego)"
+   "change": "new",
+   "monster": "Ramagos (viento, 2.º despertar)"
   },
   {
-   "id": 5015,
+   "id": 5470,
    "kind": "fix",
-   "change": "removed",
-   "monster": "Arella (luz)"
-  },
-  {
-   "id": 5318,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Fern"
-  },
-  {
-   "id": 648,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Hwadam"
-  },
-  {
-   "id": 4164,
-   "kind": "fix",
-   "change": "removed",
-   "monster": "K1D (agua)"
-  },
-  {
-   "id": 5439,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Luen (viento)"
-  },
-  {
-   "id": 4168,
-   "kind": "fix",
-   "change": "removed",
-   "monster": "N1X (oscuridad)"
-  },
-  {
-   "id": 2410,
-   "kind": "fix",
-   "change": "removed",
-   "monster": "Narsha (luz)"
-  },
-  {
-   "id": 3159,
-   "kind": "fix",
-   "change": "updated",
-   "monster": "Oliver (viento)"
-  },
-  {
-   "id": 2409,
-   "kind": "fix",
-   "change": "removed",
-   "monster": "Savannah (viento)"
-  },
-  {
-   "id": 3339,
-   "kind": "passive",
-   "change": "updated",
-   "monster": "Shun"
+   "change": "new",
+   "monster": "Wieb (luz)"
   }
  ]
 }

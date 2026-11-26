@@ -1,5 +1,14 @@
 # Cambios / Changes
 
+## 21 · 2026-11-26
+
+161 fichas · 249 correcciones
+
+- Douman (oscuridad) (3084): corrección nueva
+- Kroa (oscuridad) (1437): corrección nueva
+- Ramagos (viento, 2.º despertar) (2185): corrección nueva
+- Wieb (luz) (5470): corrección nueva
+
 ## 20 · 2026-11-25
 
 161 fichas · 245 correcciones
