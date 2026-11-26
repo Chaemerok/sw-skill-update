@@ -1,5 +1,13 @@
 # Cambios / Changes
 
+## 22 · 2026-11-26
+
+161 fichas · 251 correcciones
+
+- Chakra (viento, Tronador) (3785): corrección nueva
+- Chakra (viento) (3765): corrección nueva
+- Ragdoll (1098): ficha corregida
+
 ## 21 · 2026-11-26
 
 161 fichas · 249 correcciones

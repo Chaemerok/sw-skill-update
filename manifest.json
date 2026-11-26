@@ -1,37 +1,31 @@
 {
  "format": 7,
- "dataVersion": 21,
+ "dataVersion": 22,
  "date": "2026-11-26",
  "passives": 161,
- "fixes": 249,
+ "fixes": 251,
  "files": {
-  "passives.json": "14b1668d5e3de124c961777a01fefe155f5730df90e8bd61c8c1ab691a024be5",
-  "skill-fixes.json": "0bc9b08b7c502b6fc20bf4f683344785431eba0d7711e6d05cc7782bc401dd17"
+  "passives.json": "1b4a87b2b12d5fdb659fece52e0f79f0262f01a02e300946c27abe32a3c38f0f",
+  "skill-fixes.json": "4ae176a574994da393dbb1a6ec80cf3cf7fceb4743c5f14e4ba3d72663676439"
  },
  "changes": [
   {
-   "id": 3084,
+   "id": 3785,
    "kind": "fix",
    "change": "new",
-   "monster": "Douman (oscuridad)"
+   "monster": "Chakra (viento, Tronador)"
   },
   {
-   "id": 1437,
+   "id": 3765,
    "kind": "fix",
    "change": "new",
-   "monster": "Kroa (oscuridad)"
+   "monster": "Chakra (viento)"
   },
   {
-   "id": 2185,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Ramagos (viento, 2.º despertar)"
-  },
-  {
-   "id": 5470,
-   "kind": "fix",
-   "change": "new",
-   "monster": "Wieb (luz)"
+   "id": 1098,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Ragdoll"
   }
  ]
 }

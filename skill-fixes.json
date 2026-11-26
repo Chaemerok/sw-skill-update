@@ -1,5 +1,5 @@
 {
- "dataVersion": 21,
+ "dataVersion": 22,
  "dataDate": "2026-11-26",
  "fixes": {
   "127": {
@@ -2329,6 +2329,24 @@
     },
     "Brand": {
      "aoe": true
+    }
+   }
+  },
+  "3765": {
+   "monster": "Chakra (viento)",
+   "print": "f33a828e",
+   "effects": {
+    "Reduce Cooltime": {
+     "remove": true
+    }
+   }
+  },
+  "3785": {
+   "monster": "Chakra (viento, Tronador)",
+   "print": "f33a828e",
+   "effects": {
+    "Reduce Cooltime": {
+     "remove": true
     }
    }
   },

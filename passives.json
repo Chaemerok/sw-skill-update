@@ -1,5 +1,5 @@
 {
- "dataVersion": 21,
+ "dataVersion": 22,
  "dataDate": "2026-11-26",
  "curated": {
   "55": {
@@ -595,6 +595,19 @@
      "when": "allyAttacked",
      "if": [],
      "note": "si el aliado recibe un crítico",
+     "effects": [
+      "Increase ATB"
+     ],
+     "adjust": {
+      "Increase ATB": {
+       "quantity": 10
+      }
+     }
+    },
+    {
+     "when": "critReceived",
+     "if": [],
+     "note": "también si el crítico lo recibe él (usuario, 2026-11-26)",
      "effects": [
       "Increase ATB"
      ],
