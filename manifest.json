@@ -1,31 +1,187 @@
 {
  "format": 7,
- "dataVersion": 22,
- "date": "2026-11-26",
- "passives": 161,
- "fixes": 251,
+ "dataVersion": 23,
+ "date": "2026-11-28",
+ "passives": 163,
+ "fixes": 263,
  "files": {
-  "passives.json": "1b4a87b2b12d5fdb659fece52e0f79f0262f01a02e300946c27abe32a3c38f0f",
-  "skill-fixes.json": "4ae176a574994da393dbb1a6ec80cf3cf7fceb4743c5f14e4ba3d72663676439"
+  "passives.json": "520fadf218bd6c94363444cc01d0f8cd53e84f1a87b09023d05dbd880d468be6",
+  "skill-fixes.json": "5581ac57d52487e9e9c42e3dc3cd49713db9d35e06c913479f641d6f71fa9551"
  },
  "changes": [
   {
-   "id": 3785,
+   "id": 3704,
    "kind": "fix",
-   "change": "new",
-   "monster": "Chakra (viento, Tronador)"
+   "change": "updated",
+   "monster": "Ashour (Fuego)"
   },
   {
-   "id": 3765,
+   "id": 2769,
    "kind": "fix",
    "change": "new",
-   "monster": "Chakra (viento)"
+   "monster": "DHALSIM (fuego)"
   },
   {
-   "id": 1098,
+   "id": 5318,
    "kind": "passive",
    "change": "updated",
-   "monster": "Ragdoll"
+   "monster": "Fern (viento)"
+  },
+  {
+   "id": 5422,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Freuen (agua)"
+  },
+  {
+   "id": 5289,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Himmel (agua)"
+  },
+  {
+   "id": 670,
+   "kind": "fix",
+   "change": "updated",
+   "monster": "Hrungnir (oscuridad)"
+  },
+  {
+   "id": 648,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Hwadam (luz)"
+  },
+  {
+   "id": 4637,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Inosuke Hashibira (agua)"
+  },
+  {
+   "id": 5470,
+   "kind": "fix",
+   "change": "updated",
+   "monster": "Irren (luz)"
+  },
+  {
+   "id": 5411,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Kiel (agua)"
+  },
+  {
+   "id": 5410,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Kiel (agua)"
+  },
+  {
+   "id": 759,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lich / Antares (fuego)"
+  },
+  {
+   "id": 762,
+   "kind": "fix",
+   "change": "updated",
+   "monster": "Lich / Fuco (viento)"
+  },
+  {
+   "id": 761,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lich / Grego (oscuridad)"
+  },
+  {
+   "id": 760,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lich / Halphas (luz)"
+  },
+  {
+   "id": 763,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Lich / Rigel (agua)"
+  },
+  {
+   "id": 1467,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Mi Ying (oscuridad)"
+  },
+  {
+   "id": 5240,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Old Wood (oscuridad)"
+  },
+  {
+   "id": 3159,
+   "kind": "fix",
+   "change": "updated",
+   "monster": "Oliver (viento)"
+  },
+  {
+   "id": 859,
+   "kind": "fix",
+   "change": "new",
+   "monster": "Pierrette / Clara (fuego)"
+  },
+  {
+   "id": 5454,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Robust (viento)"
+  },
+  {
+   "id": 5440,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Ruhe (luz)"
+  },
+  {
+   "id": 5439,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Ruhe (viento)"
+  },
+  {
+   "id": 1137,
+   "kind": "fix",
+   "change": "updated",
+   "monster": "Shi Hou (agua)"
+  },
+  {
+   "id": 3339,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Shun (luz)"
+  },
+  {
+   "id": 5333,
+   "kind": "passive",
+   "change": "updated",
+   "monster": "Stark (viento)"
+  },
+  {
+   "id": 829,
+   "kind": "passive",
+   "change": "new",
+   "monster": "Susano (agua)"
+  },
+  {
+   "id": 1243,
+   "kind": "fix",
+   "change": "updated",
+   "monster": "Valkyrja (fuego) / Vanessa"
+  },
+  {
+   "id": 4721,
+   "kind": "fix",
+   "change": "new",
+   "monster": "White Tiger Blade Master (agua)"
   }
  ]
 }

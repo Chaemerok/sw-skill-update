@@ -1,6 +1,6 @@
 {
- "dataVersion": 22,
- "dataDate": "2026-11-26",
+ "dataVersion": 23,
+ "dataDate": "2026-11-28",
  "fixes": {
   "127": {
    "monster": "Lulu (agua)",
@@ -125,7 +125,7 @@
   },
   "670": {
    "monster": "Hrungnir (oscuridad)",
-   "print": "39e9a9b0",
+   "print": "2504dc47",
    "effects": {
     "Stun": {
      "aoe": false
@@ -236,13 +236,55 @@
     }
    }
   },
-  "762": {
-   "monster": "Lich / Fuco (viento)",
-   "print": "5076782b",
-   "_": "S2 (estudio de habilidades, tanda 4, 2026-11-14): bajar la DEF 2 turnos, como dice el texto (SWARFARM, 0).",
+  "759": {
+   "monster": "Lich / Antares (fuego)",
+   "print": "b49461e7",
+   "effects": {
+    "Absorb ATB": {
+     "chance": 35,
+     "quantity": 25
+    }
+   }
+  },
+  "760": {
+   "monster": "Lich / Halphas (luz)",
+   "print": "b49461e7",
+   "effects": {
+    "Absorb ATB": {
+     "chance": 35,
+     "quantity": 25
+    }
+   }
+  },
+  "761": {
+   "monster": "Lich / Grego (oscuridad)",
+   "print": "c8e7ef3e",
+   "_": "Parche de balance (usuario, 2026-11-27): el texto nuevo ya no dice «with each attack», pero las notas solo cambian el aturdir: la DEF rota sigue tirándose en cada golpe. Los 2 turnos ya los trae SWARFARM (van para que la corrección valga en las versiones ya instaladas).",
    "effects": {
     "Decrease DEF": {
-     "quantity": 2
+     "quantity": 2,
+     "perHit": true
+    }
+   }
+  },
+  "762": {
+   "monster": "Lich / Fuco (viento)",
+   "print": "6a160bac",
+   "effects": {
+    "Decrease DEF": {
+     "quantity": 2,
+     "perHit": true
+    }
+   }
+  },
+  "763": {
+   "monster": "Lich / Rigel (agua)",
+   "print": "5ea29452",
+   "_": "Parche de balance (usuario, 2026-11-27): el texto nuevo ya no dice «with each attack», pero las notas solo cambian el aturdir: la DEF rota sigue tirándose en cada golpe. Los 2 turnos ya los trae SWARFARM (van para que la corrección valga en las versiones ya instaladas).",
+   "effects": {
+    "Decrease DEF": {
+     "quantity": 2,
+     "perHit": true
     }
    }
   },
@@ -347,6 +389,13 @@
      "self": false
     }
    }
+  },
+  "859": {
+   "monster": "Pierrette / Clara (fuego)",
+   "print": "8a8d1104",
+   "effects": {},
+   "hits": 4,
+   "formula": "1.05*{ATK}"
   },
   "876": {
    "monster": "Barque",
@@ -610,7 +659,7 @@
   },
   "1137": {
    "monster": "Shi Hou (agua)",
-   "print": "27764db8",
+   "print": "77a34f56",
    "effects": {
     "Remove Buff": {
      "onCrit": false
@@ -668,7 +717,7 @@
   },
   "1243": {
    "monster": "Valkyrja (fuego) / Vanessa",
-   "print": "fba7e582",
+   "print": "52419eec",
    "effects": {
     "Increase ATK": {
      "revivedOnly": true
@@ -1407,6 +1456,16 @@
     }
    }
   },
+  "2769": {
+   "monster": "DHALSIM (fuego)",
+   "print": "a8317d66",
+   "_": "Parche de balance (usuario, 2026-11-27): «inflicts 2 Continuous Damage for 2 turns with a 75% chance»; SWARFARM pone el segundo al 70 % (en las de viento y luz, y en Poison Master, al 75 %).",
+   "effects": {
+    "Continuous DMG#2": {
+     "chance": 75
+    }
+   }
+  },
   "2775": {
    "monster": "DHALSIM (viento)",
    "print": "e8dd30d6",
@@ -1701,25 +1760,13 @@
   },
   "3159": {
    "monster": "Oliver (viento)",
-   "print": "84ca9ce5",
+   "print": "057da43d",
    "effects": {
     "Increase Cooltime": {
      "chance": 100
     },
     "Increase ATB": {
-     "quantity": 90
-    }
-   },
-   "afterPatch": {
-    "_": "Notas del parche de balance (2026-11-25): la barra que quita pasa del 90 % al 80 %, y la que gana con ella",
-    "match": "attack bar by 80%",
-    "effects": {
-     "Increase Cooltime": {
-      "chance": 100
-     },
-     "Increase ATB": {
-      "quantity": 80
-     }
+     "quantity": 80
     }
    }
   },
@@ -2251,15 +2298,29 @@
    "monster": "Ashour (Fuego)",
    "print": "f3878a51",
    "effects": {
-    "Cleanse": {
-     "self": false
-    },
     "Self-Heal": {
      "name": "Heal",
-     "self": false,
      "quantity": 30
     }
-   }
+   },
+   "added": [
+    {
+     "name": "Cleanse",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 0
+    },
+    {
+     "name": "Heal",
+     "type": "Neutral",
+     "self": false,
+     "aoe": false,
+     "chance": 0,
+     "quantity": 30
+    }
+   ]
   },
   "3714": {
    "monster": "Federica (fuego)",
@@ -2773,6 +2834,16 @@
     }
    }
   },
+  "4637": {
+   "monster": "Inosuke Hashibira (agua)",
+   "print": "adbe6550",
+   "_": "Revisión completa (usuario, 2026-11-27): «decreases the Attack Bar of the enemy target by 25%»: solo al objetivo (SWARFARM, a todos; quitar buffs sí va a todos).",
+   "effects": {
+    "Decrease ATB": {
+     "aoe": false
+    }
+   }
+  },
   "4668": {
    "monster": "Tityus (fuego)",
    "print": "a2bcd52b",
@@ -2817,6 +2888,16 @@
    "effects": {
     "Increase Buff Duration": {
      "name": "Increase Debuff Duration"
+    }
+   }
+  },
+  "4721": {
+   "monster": "White Tiger Blade Master (agua)",
+   "print": "adbe6550",
+   "_": "Revisión completa (usuario, 2026-11-27): «decreases the Attack Bar of the enemy target by 25%»: solo al objetivo (SWARFARM, a todos; quitar buffs sí va a todos).",
+   "effects": {
+    "Decrease ATB": {
+     "aoe": false
     }
    }
   },
@@ -2950,6 +3031,21 @@
     }
    ]
   },
+  "5240": {
+   "monster": "Old Wood (oscuridad)",
+   "print": "1f823e45",
+   "effects": {
+    "Ignores Resist Death": {
+     "name": "Decrease ATB",
+     "quantity": 20
+    },
+    "Ignores Resist Death#2": {
+     "name": "Decrease ATB",
+     "quantity": 20,
+     "aoe": true
+    }
+   }
+  },
   "5256": {
    "monster": "Night Fang (oscuridad)",
    "print": "3fccc98f",
@@ -2978,6 +3074,16 @@
     }
    }
   },
+  "5289": {
+   "monster": "Himmel (agua)",
+   "print": "36bf3a60",
+   "_": "Revisión completa (usuario, 2026-11-27): «attacks the enemy to decrease its Attack Power»: solo al atacado (SWARFARM, a todos).",
+   "effects": {
+    "Decrease ATK": {
+     "aoe": false
+    }
+   }
+  },
   "5349": {
    "monster": "Übel (luz)",
    "print": "d7628e01",
@@ -2988,8 +3094,28 @@
     }
    }
   },
+  "5410": {
+   "monster": "Kiel (agua)",
+   "print": "36bf3a60",
+   "_": "Revisión completa (usuario, 2026-11-27): «attacks the enemy to decrease its Attack Power»: solo al atacado (SWARFARM, a todos).",
+   "effects": {
+    "Decrease ATK": {
+     "aoe": false
+    }
+   }
+  },
+  "5422": {
+   "monster": "Freuen (agua)",
+   "print": "c95bf882",
+   "_": "Revisión completa (usuario, 2026-11-27): «Grants Endure on yourself for 1 turn if the enemy is defeated by this attack» no da probabilidad; SWARFARM pone un 1 %.",
+   "effects": {
+    "Endure": {
+     "chance": 100
+    }
+   }
+  },
   "5470": {
-   "monster": "Wieb (luz)",
+   "monster": "Irren (luz)",
    "print": "d7628e01",
    "effects": {
     "Harmful Effect Removal Blocked": {

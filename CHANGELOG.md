@@ -1,5 +1,39 @@
 # Cambios / Changes
 
+## 23 · 2026-11-28
+
+163 fichas · 263 correcciones
+
+- Ashour (Fuego) (3704): corrección cambiada
+- DHALSIM (fuego) (2769): corrección nueva
+- Fern (viento) (5318): ficha corregida
+- Freuen (agua) (5422): corrección nueva
+- Himmel (agua) (5289): corrección nueva
+- Hrungnir (oscuridad) (670): corrección cambiada
+- Hwadam (luz) (648): ficha corregida
+- Inosuke Hashibira (agua) (4637): corrección nueva
+- Irren (luz) (5470): corrección cambiada
+- Kiel (agua) (5411): ficha nueva
+- Kiel (agua) (5410): corrección nueva
+- Lich / Antares (fuego) (759): corrección nueva
+- Lich / Fuco (viento) (762): corrección cambiada
+- Lich / Grego (oscuridad) (761): corrección nueva
+- Lich / Halphas (luz) (760): corrección nueva
+- Lich / Rigel (agua) (763): corrección nueva
+- Mi Ying (oscuridad) (1467): ficha corregida
+- Old Wood (oscuridad) (5240): corrección nueva
+- Oliver (viento) (3159): corrección cambiada
+- Pierrette / Clara (fuego) (859): corrección nueva
+- Robust (viento) (5454): ficha corregida
+- Ruhe (luz) (5440): ficha corregida
+- Ruhe (viento) (5439): ficha corregida
+- Shi Hou (agua) (1137): corrección cambiada
+- Shun (luz) (3339): ficha corregida
+- Stark (viento) (5333): ficha corregida
+- Susano (agua) (829): ficha nueva
+- Valkyrja (fuego) / Vanessa (1243): corrección cambiada
+- White Tiger Blade Master (agua) (4721): corrección nueva
+
 ## 22 · 2026-11-26
 
 161 fichas · 251 correcciones
