@@ -1,5 +1,5 @@
 {
- "dataVersion": 23,
+ "dataVersion": 24,
  "dataDate": "2026-11-28",
  "curated": {
   "55": {
@@ -2171,6 +2171,28 @@
     }
    ]
   },
+  "3215": {
+   "monster": "Nora (fuego)",
+   "print": "17dd6d4e",
+   "rules": [
+    {
+     "when": "onAttack",
+     "if": [],
+     "note": "al atacar en su turno: daño continuo 2 turnos",
+     "effects": [
+      "Continuous DMG"
+     ]
+    },
+    {
+     "when": "whenAttacked",
+     "if": [],
+     "note": "al recibir un ataque en el turno del enemigo: daño continuo 2 turnos al atacante",
+     "effects": [
+      "Continuous DMG"
+     ]
+    }
+   ]
+  },
   "3243": {
    "monster": "Carlos (fuego)",
    "print": "8a033a73",
@@ -2409,6 +2431,29 @@
     }
    ]
   },
+  "3394": {
+   "monster": "Pure Vanilla Cookie (viento)",
+   "print": "d0a62635",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "note": "cuando atacan a un aliado con escudo: devuelve parte del daño al escudo",
+     "effects": [
+      "Reflect DMG"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "note": "al empezar su turno: quita 2 debuffs al aliado con peor vida y le pone un escudo del 15 % de su HP máxima 2 turnos",
+     "effects": [
+      "Cleanse",
+      "Shield"
+     ]
+    }
+   ]
+  },
   "3407": {
    "monster": "Hollyberry Cookie (agua)",
    "print": "7cf1f80e",
@@ -2474,6 +2519,29 @@
        "amount": 0,
        "note": "más ATQ cuanto peor está su HP"
       }
+     ]
+    }
+   ]
+  },
+  "3461": {
+   "monster": "Angela (viento)",
+   "print": "b5c7628d",
+   "rules": [
+    {
+     "when": "allyAttacked",
+     "if": [],
+     "note": "cuando atacan a un aliado con escudo: devuelve parte del daño al escudo",
+     "effects": [
+      "Reflect DMG"
+     ]
+    },
+    {
+     "when": "turnStart",
+     "if": [],
+     "note": "al empezar su turno: quita 2 debuffs al aliado con peor vida y le pone un escudo del 15 % de su HP máxima 2 turnos",
+     "effects": [
+      "Cleanse",
+      "Shield"
      ]
     }
    ]

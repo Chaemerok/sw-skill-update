@@ -1,5 +1,13 @@
 # Cambios / Changes
 
+## 24 · 2026-11-28
+
+166 fichas · 263 correcciones
+
+- Angela (viento) (3461): ficha nueva
+- Nora (fuego) (3215): ficha nueva
+- Pure Vanilla Cookie (viento) (3394): ficha nueva
+
 ## 23 · 2026-11-28
 
 163 fichas · 263 correcciones
